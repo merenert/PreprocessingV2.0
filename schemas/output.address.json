@@ -3,23 +3,97 @@
   "title": "NormalizedAddressOutput",
   "type": "object",
   "properties": {
-    "country": { "type": "string" },
-    "city": { "type": "string" },
-    "district": { "type": "string" },
-    "neighborhood": { "type": "string" },
-    "street": { "type": "string" },
-    "building": { "type": "string" },
-    "block": { "type": "string" },
-    "number": { "type": "string" },
-    "entrance": { "type": "string" },
-    "floor": { "type": "string" },
-    "apartment": { "type": "string" },
-    "postcode": { "type": "string" },
-    "explanation_raw": { "type": "string" },
-    "explanation_parsed": { "type": "string" },
-    "normalized_address": { "type": "string" }
+    "country": {
+      "type": ["string", "null"],
+      "pattern": "^[A-Z]{2}$",
+      "description": "ISO 3166-1 alpha-2 country code"
+    },
+    "city": {
+      "type": ["string", "null"],
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "district": {
+      "type": ["string", "null"],
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "neighborhood": {
+      "type": ["string", "null"],
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "street": {
+      "type": ["string", "null"],
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "building": {
+      "type": ["string", "null"],
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "block": {
+      "type": ["string", "null"],
+      "pattern": "^[A-Za-z0-9]+$"
+    },
+    "number": {
+      "type": ["string", "null"],
+      "pattern": "^[0-9A-Za-z/-]+$"
+    },
+    "entrance": {
+      "type": ["string", "null"],
+      "pattern": "^[A-Za-z0-9]+$"
+    },
+    "floor": {
+      "type": ["string", "null"],
+      "pattern": "^[0-9-]+$"
+    },
+    "apartment": {
+      "type": ["string", "null"],
+      "pattern": "^[0-9A-Za-z]+$"
+    },
+    "postcode": {
+      "type": ["string", "null"],
+      "pattern": "^[0-9]{5}$",
+      "description": "5-digit postal code"
+    },
+    "relation": {
+      "type": ["string", "null"],
+      "enum": ["karsisi", "yani", "arkasi", "ustu", "alti", "ici", "yaninda", null],
+      "description": "Spatial relation to reference point"
+    },
+    "explanation_raw": {
+      "type": "string",
+      "description": "Original raw address input"
+    },
+    "explanation_parsed": {
+      "type": "object",
+      "properties": {
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "method": {
+          "type": "string",
+          "enum": ["ml", "pattern", "fallback"]
+        },
+        "warnings": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["confidence", "method"]
+    },
+    "normalized_address": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Formatted normalized address string"
+    }
   },
   "required": [
-    "country", "city", "district", "neighborhood", "street", "building", "block", "number", "entrance", "floor", "apartment", "postcode", "explanation_raw", "explanation_parsed", "normalized_address"
-  ]
+    "explanation_raw", "explanation_parsed", "normalized_address"
+  ],
+  "additionalProperties": false
 }

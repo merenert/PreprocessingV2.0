@@ -1,0 +1,92 @@
+# Turkish Address Abbreviations Dictionary
+# Common abbreviations used in Turkish addresses
+
+# Administrative divisions
+"mh": "mahalle"
+"mah": "mahalle"
+"mahalle": "mahalle"
+"mhl": "mahalle"
+
+# Streets and roads
+"cd": "cadde"
+"cad": "cadde"
+"cadde": "cadde"
+"sk": "sokak"
+"sok": "sokak"
+"sokak": "sokak"
+"blv": "bulvar"
+"bulv": "bulvar"
+"bulvar": "bulvar"
+"ykl": "yokuş"
+"yks": "yokuş"
+"yokuş": "yokuş"
+
+# Numbers and positioning
+"no": "numara"
+"n:": "numara"
+"N:": "numara"
+"num": "numara"
+"numara": "numara"
+"d": "daire"
+"d:": "daire"
+"D:": "daire"
+"dr": "daire"
+"daire": "daire"
+"dt": "daire"
+"kat": "kat"
+"k": "kat"
+
+# Buildings and structures
+"apt": "apartman"
+"apart": "apartman"
+"apartman": "apartman"
+"ap": "apartman"
+"sit": "site"
+"site": "site"
+"blk": "blok"
+"blok": "blok"
+"plaza": "plaza"
+"is": "iş"
+"mrk": "merkez"
+"merkez": "merkez"
+
+# Directions and locations
+"krs": "karşısı"
+"karşısı": "karşısı"
+"karsisi": "karşısı"
+"yon": "yönü"
+"yonu": "yönü"
+"arka": "arkası"
+"arkasi": "arkası"
+"yan": "yanı"
+"yani": "yanı"
+"alt": "altı"
+"alti": "altı"
+"ust": "üstü"
+"ustu": "üstü"
+
+# Entrance and access
+"grs": "giriş"
+"giris": "giriş"
+"giriş": "giriş"
+"cks": "çıkış"
+"cikis": "çıkış"
+"çıkış": "çıkış"
+"kapi": "kapı"
+"kapı": "kapı"
+
+# Geographic features
+"mevki": "mevki"
+"mevkii": "mevki"
+"kvk": "kavak"
+"çk": "çeşme"
+"cesme": "çeşme"
+"çeşme": "çeşme"
+
+# Common prepositions in addresses
+"ic": "iç"
+"ici": "iç"
+"iç": "iç"
+"dis": "dış"
+"disi": "dış"
+"dış": "dış"

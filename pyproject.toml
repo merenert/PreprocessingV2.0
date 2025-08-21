@@ -16,7 +16,10 @@ dependencies = [
     "pytest",
     "jsonschema",
     "fastapi",
-    "uvicorn[standard]"
+    "uvicorn[standard]",
+    "pydantic",
+    "pyyaml",
+    "unicodedata2"
 ]
 
 [tool.setuptools.packages.find]
@@ -27,16 +30,25 @@ line-length = 88
 
 [tool.ruff]
 line-length = 88
+
+[tool.ruff.lint]
 select = ["E", "F", "W", "I", "N"]
 
 [tool.mypy]
 disallow_untyped_defs = true
 ignore_missing_imports = true
+explicit_package_bases = true
+mypy_path = "src"
+warn_return_any = false
+warn_unused_ignores = false
 
 [tool.pytest.ini_options]
 minversion = "6.0"
 addopts = "--cov=src/addrnorm --cov-fail-under=85"
 testpaths = ["tests"]
+
+[project.scripts]
+addrnorm-preprocess = "addrnorm.preprocess.cli:main"
 
 [project.urls]
 Homepage = "https://github.com/yourname/address-normalizer"
