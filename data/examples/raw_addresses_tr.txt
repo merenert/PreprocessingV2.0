@@ -1,0 +1,10 @@
+İstanbul, Kadıköy, Moda Mah., Bahariye Cad. No:12 D:5
+Ankara, Çankaya, Kızılay Mah., Atatürk Bulvarı No:100
+İzmir, Konak, Alsancak Mah., Kıbrıs Şehitleri Cad. No:45
+Bursa, Nilüfer, Görükle Mah., Üniversite Cad. No:1
+Adana, Seyhan, Cemalpaşa Mah., Ziyapaşa Bulvarı No:23
+Antalya, Muratpaşa, Lara Mah., Şirinyalı Cad. No:8
+Gaziantep, Şahinbey, Karataş Mah., İpekyolu Cad. No:77
+Konya, Selçuklu, Sancak Mah., Yeni İstanbul Cad. No:34
+Samsun, Atakum, Cumhuriyet Mah., Atatürk Bulvarı No:56
+Eskişehir, Tepebaşı, Batıkent Mah., Çamlıca Cad. No:19

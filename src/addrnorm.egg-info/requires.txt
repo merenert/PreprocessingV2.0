@@ -1,0 +1,4 @@
+pytest
+jsonschema
+fastapi
+uvicorn[standard]

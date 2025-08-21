@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NormalizedAddressOutput",
+  "type": "object",
+  "properties": {
+    "country": { "type": "string" },
+    "city": { "type": "string" },
+    "district": { "type": "string" },
+    "neighborhood": { "type": "string" },
+    "street": { "type": "string" },
+    "building": { "type": "string" },
+    "block": { "type": "string" },
+    "number": { "type": "string" },
+    "entrance": { "type": "string" },
+    "floor": { "type": "string" },
+    "apartment": { "type": "string" },
+    "postcode": { "type": "string" },
+    "explanation_raw": { "type": "string" },
+    "explanation_parsed": { "type": "string" },
+    "normalized_address": { "type": "string" }
+  },
+  "required": [
+    "country", "city", "district", "neighborhood", "street", "building", "block", "number", "entrance", "floor", "apartment", "postcode", "explanation_raw", "explanation_parsed", "normalized_address"
+  ]
+}
