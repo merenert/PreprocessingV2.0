@@ -75,6 +75,10 @@ class AddressOut(BaseModel):
         """Serialize to JSON string."""
         return self.model_dump_json(**kwargs)
 
+    def to_dict(self) -> dict:
+        """Serialize to dictionary."""
+        return self.model_dump()
+
     def to_csv_row(self) -> List[str]:
         """Serialize to CSV row (list of strings)."""
         warnings_json = json.dumps(self.explanation_parsed.warnings, ensure_ascii=False)

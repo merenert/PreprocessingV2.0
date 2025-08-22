@@ -2,3 +2,10 @@ pytest
 jsonschema
 fastapi
 uvicorn[standard]
+pydantic
+pyyaml
+unicodedata2
+spacy>=3.4.0
+scikit-learn>=1.0.0
+numpy>=1.21.0
+tqdm>=4.64.0

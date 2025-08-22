@@ -216,6 +216,28 @@ def tokenize(text: str) -> List[str]:
     return tokens
 
 
+def clean_address(text: str) -> str:
+    """
+    Clean and standardize address text.
+
+    Args:
+        text: Raw address text
+
+    Returns:
+        Cleaned address text
+    """
+    if not text:
+        return ""
+
+    # Remove extra whitespace
+    text = re.sub(r"\s+", " ", text.strip())
+
+    # Basic cleaning
+    result = preprocess(text)
+
+    return result["text"]
+
+
 def preprocess(text: str, **kwargs) -> Dict[str, any]:
     """
     Complete preprocessing pipeline for Turkish address text.

@@ -19,7 +19,11 @@ dependencies = [
     "uvicorn[standard]",
     "pydantic",
     "pyyaml",
-    "unicodedata2"
+    "unicodedata2",
+    "spacy>=3.4.0",
+    "scikit-learn>=1.0.0",
+    "numpy>=1.21.0",
+    "tqdm>=4.64.0"
 ]
 
 [tool.setuptools.packages.find]
@@ -30,9 +34,16 @@ line-length = 88
 
 [tool.ruff]
 line-length = 88
+target-version = "py38"
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "I", "N"]
+ignore = [
+    "E402",  # Module level import not at top of file (needed for path manipulation)
+]
+
+[tool.ruff.lint.isort]
+force-single-line = false
 
 [tool.mypy]
 disallow_untyped_defs = true

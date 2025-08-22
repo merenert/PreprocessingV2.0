@@ -1,0 +1,790 @@
+{"text": "242 sokak numara 10 2", "entities": [[0, 9, "SOKAK"], [17, 19, "NO"], [20, 21, "NO"]]}
+{"text": "beçin mahalle üniversite cadde akkuş apartman numara 31 18 milas muğla akkus apartman milas muğla", "entities": [[53, 55, "NO"], [56, 58, "NO"], [65, 70, "IL"], [92, 97, "IL"]]}
+{"text": "karamanlı mahalle malazgirt sokak gül apartman numara 24 soma manisa karamanli soma manisa", "entities": [[54, 56, "NO"], [62, 68, "IL"], [84, 90, "IL"]]}
+{"text": "tersane mahalle tersane 1674 1 sokak 1 b 35600 karşıyaka izmir türkiye numara 1 daire 4 kat 2 karşıyaka izmir", "entities": [[24, 28, "NO"], [29, 36, "SOKAK"], [37, 38, "NO"], [41, 46, "NO"], [47, 56, "ILCE"], [57, 62, "IL"], [78, 79, "NO"], [86, 87, "NO"], [92, 93, "NO"], [94, 103, "ILCE"], [104, 109, "IL"]]}
+{"text": "anadolu caddesi ege deniz askeri lojmanlar kilimli numara 162 daire 5 bayraklı turan izmir kilimli apartman", "entities": [[0, 15, "CADDE"], [58, 61, "NO"], [68, 69, "NO"], [70, 78, "ILCE"], [85, 90, "IL"]]}
+{"text": "esenlik mahalle zaim ağa cadde filiz apartman numara 15 kat 1 daire1 yeşilyurt karabağlar izmir", "entities": [[53, 55, "NO"], [60, 61, "NO"], [67, 68, "DAIRE"], [79, 89, "ILCE"], [90, 95, "IL"]]}
+{"text": "9 eylül mahalle 8 cadde kalmira evleri sitesi b3 blok numara 11 4 daire 10 kat 4 ululent posta 35663", "entities": [[0, 1, "NO"], [16, 17, "NO"], [61, 63, "NO"], [64, 65, "NO"], [72, 74, "NO"], [79, 80, "NO"], [95, 100, "NO"]]}
+{"text": "efeler mahalle 1410 sokak numara 6 kat 1 daire 2 didim aydin", "entities": [[0, 6, "ILCE"], [15, 25, "SOKAK"], [33, 34, "NO"], [39, 40, "NO"], [47, 48, "NO"]]}
+{"text": "pelitlibağ mahalle 1097 1 sokak numara 7 kat 3 numara 7 kat 3", "entities": [[19, 23, "NO"], [24, 31, "SOKAK"], [39, 40, "NO"], [45, 46, "NO"], [54, 55, "NO"], [60, 61, "NO"]]}
+{"text": "denizyıldızı sitesi a blok kat 4 faire 7 kadınlar denizi", "entities": [[31, 32, "NO"], [39, 40, "NO"]]}
+{"text": "yenişafak mahallesi 1178 sokak cetinkent sitesi kat 4 daire 13 denizli", "entities": [[0, 19, "MAH"], [20, 30, "SOKAK"], [52, 53, "NO"], [60, 62, "NO"], [63, 70, "IL"]]}
+{"text": "aydın adnan menderes üniversite hastanesi fizik tedavi polikliniği fizyoterapistler odası oda numara 8 efeler aydın", "entities": [[0, 5, "IL"], [101, 102, "NO"], [103, 109, "ILCE"], [110, 115, "IL"]]}
+{"text": "küçük çiğli mahalle anadolu cadde numara 114949", "entities": [[6, 11, "ILCE"], [41, 47, "NO"]]}
+{"text": "10027 sokak numara 1 rero print matbaacilik atatürk osb çiğli izmir", "entities": [[0, 11, "SOKAK"], [19, 20, "NO"], [56, 61, "ILCE"], [62, 67, "IL"]]}
+{"text": "ismet inönü mahallesi 2001 sokak numara 2 çeşme belediyesi çeşme", "entities": [[0, 21, "MAH"], [22, 32, "SOKAK"], [40, 41, "NO"], [42, 47, "IL"], [59, 64, "IL"]]}
+{"text": "14 mayıs mahallesi 4044 sokak numara 10 kat 1 selçuk", "entities": [[0, 18, "MAH"], [19, 29, "SOKAK"], [37, 39, "NO"], [44, 45, "NO"]]}
+{"text": "turgutlu selvilitepe tuba sokak numara 30 kat 1 selvilitepe mahalle turgutlu", "entities": [[39, 41, "NO"], [46, 47, "NO"]]}
+{"text": "özdere gertur sitesi numara 111", "entities": [[28, 31, "NO"]]}
+{"text": "izmir gaz genel müdürlüğü numara 3 1561 sokak çınarlı konak izmir", "entities": [[0, 5, "IL"], [33, 34, "NO"], [35, 45, "SOKAK"], [54, 59, "ILCE"], [60, 65, "IL"]]}
+{"text": "bestekar sadi hosses sokak sevim apartman numara 44 daire 4 kat 2", "entities": [[49, 51, "NO"], [58, 59, "NO"], [64, 65, "NO"]]}
+{"text": "emrez mahalle 179 sokak numara 6 gaziemir izmir emrez gaziemir izmir", "entities": [[14, 23, "SOKAK"], [31, 32, "NO"], [33, 41, "ILCE"], [42, 47, "IL"], [54, 62, "ILCE"], [63, 68, "IL"]]}
+{"text": "764 sokak numara 33 inönü mahallesi numara 1 kat 1 daire 1 bornova izmir tr", "entities": [[0, 35, "MAH"], [43, 44, "NO"], [49, 50, "NO"], [57, 58, "NO"], [59, 66, "ILCE"], [67, 72, "IL"]]}
+{"text": "mustafa kemal mahallesi 694 10 sokak numara 10 mustafa kemal mahalle buca", "entities": [[0, 23, "MAH"], [24, 27, "NO"], [28, 36, "SOKAK"], [44, 46, "NO"], [69, 73, "ILCE"]]}
+{"text": "yalı mahalle 6524 sokak emlak konut evleri d2 blok kat 9 daire 69 karşiyaka izmir", "entities": [[13, 23, "SOKAK"], [44, 45, "DAIRE"], [55, 56, "NO"], [63, 65, "NO"], [76, 81, "IL"]]}
+{"text": "yunus emre sokak numara 8 rüzgar oto demircilik bayindir izmir", "entities": [[24, 25, "NO"], [57, 62, "IL"]]}
+{"text": "1024 sokak 49 blok yağmur apartmanı 16 b evka 4 bornova izmir bahçedeki dukkan", "entities": [[0, 10, "SOKAK"], [11, 13, "NO"], [36, 38, "NO"], [46, 47, "NO"], [48, 55, "ILCE"], [56, 61, "IL"]]}
+{"text": "şemikler mahalle 6221 9 sokak numara 5 daire 4 karşıyaka izmir", "entities": [[17, 21, "NO"], [22, 29, "SOKAK"], [37, 38, "NO"], [45, 46, "NO"], [47, 56, "ILCE"], [57, 62, "IL"]]}
+{"text": "siteler mahallesı 200 sokak numara 12 kat 3 daire 7 mugla marmaris", "entities": [[0, 17, "MAH"], [18, 27, "SOKAK"], [35, 37, "NO"], [42, 43, "NO"], [50, 51, "NO"], [58, 66, "IL"]]}
+{"text": "hacı isa mahallesi cami sokak no50 daire3 urla izmir hacı isa mahallesi cami sokak no50 daire3 urla izmir urla izmir tr", "entities": [[0, 71, "MAH"], [85, 87, "NO"], [93, 94, "DAIRE"], [100, 105, "IL"], [111, 116, "IL"]]}
+{"text": "682 9 numara 18 a göksu buca izmir", "entities": [[0, 3, "NO"], [4, 5, "NO"], [13, 15, "NO"], [24, 28, "ILCE"], [29, 34, "IL"]]}
+{"text": "gaybi mahalle adnan menderes cadde numara 5 a", "entities": [[42, 43, "NO"]]}
+{"text": "293 26 sokak numara 10 çamlıpınar buca izmir buca", "entities": [[0, 3, "NO"], [4, 12, "SOKAK"], [20, 22, "NO"], [34, 38, "ILCE"], [39, 44, "IL"], [45, 49, "ILCE"]]}
+{"text": "karaçulha mahallesi eşref börekçi caddesi 53 sokak numara 1 1", "entities": [[0, 19, "MAH"], [42, 50, "SOKAK"], [58, 59, "NO"], [60, 61, "NO"]]}
+{"text": "7663 sokak numara 17 kat 3 daire 3 bayraklı izmir", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"], [25, 26, "NO"], [33, 34, "NO"], [35, 43, "ILCE"], [44, 49, "IL"]]}
+{"text": "29 ekim mahallesi atatürk caddesi numara 69 a b yazıbaşı torbalı izmir", "entities": [[0, 17, "MAH"], [41, 43, "NO"], [65, 70, "IL"]]}
+{"text": "aşık veysel sokak özbel sitesi fulya adası 72 1 iskele datça muğla", "entities": [[43, 45, "NO"], [46, 47, "NO"], [61, 66, "IL"]]}
+{"text": "cumhuriyet mahalle cumhuriyet salihleraltı mahalle kolej sitesi 3 sokak numara 24 dikili izmir", "entities": [[64, 71, "SOKAK"], [79, 81, "NO"], [82, 88, "IL"], [89, 94, "IL"]]}
+{"text": "soğucak mahalle 1448 sokak mavi özbirlik site 9 7a kuşadası", "entities": [[16, 26, "SOKAK"], [46, 47, "NO"]]}
+{"text": "atatürk mahalle çiğdem sokak numara 18a söke aydin kat 1 ev", "entities": [[36, 39, "NO"], [55, 56, "NO"]]}
+{"text": "cumhuriyet caddesi 29 sokak numara 2 daire 2 turunç mahalle marmaris muğla turunç marmaris muğla", "entities": [[0, 18, "CADDE"], [19, 27, "SOKAK"], [35, 36, "NO"], [43, 44, "NO"], [60, 68, "IL"], [69, 74, "IL"], [82, 90, "IL"], [91, 96, "IL"]]}
+{"text": "bozyaka 5714 6 numara 33 kat 4", "entities": [[8, 12, "NO"], [13, 14, "NO"], [22, 24, "NO"], [29, 30, "NO"]]}
+{"text": "düğerek mahalle çayır mevki lotus park evl eri 81k daire 1", "entities": [[57, 58, "NO"]]}
+{"text": "güzeltepe mahalle 8425 sokak numara 30 kat 2", "entities": [[18, 28, "SOKAK"], [36, 38, "NO"], [43, 44, "NO"]]}
+{"text": "sağlık mahallesi 181 sokak no14 kat3", "entities": [[0, 16, "MAH"], [17, 26, "SOKAK"], [29, 31, "NO"], [35, 36, "KAT"]]}
+{"text": "hürriyet bulvar efeler sahika sitesi a blok daire 5", "entities": [[0, 15, "BULVAR"], [16, 22, "ILCE"], [50, 51, "NO"]]}
+{"text": "hürriyet mahalle general nahit tunaşar sokak numara 13 d3 tamer apartman d3", "entities": [[52, 54, "NO"], [56, 57, "DAIRE"], [74, 75, "DAIRE"]]}
+{"text": "esentepe mahalle 8809 39 sokak açelya apartman dış kapı numara 10 iç kapı numara 10 merkez çiğli izmir esentepe çiğli izmir", "entities": [[17, 21, "NO"], [22, 30, "SOKAK"], [63, 65, "NO"], [81, 83, "NO"], [91, 96, "ILCE"], [97, 102, "IL"], [112, 117, "ILCE"], [118, 123, "IL"]]}
+{"text": "milas 18 nolu asm ismetpaşa mahalle halil bey bul sanayi laviağı", "entities": [[0, 49, "BULVAR"]]}
+{"text": "cumhuriyet vatan cadde numara 17 1 garaj üstü saruhanlı manisa tr", "entities": [[30, 32, "NO"], [33, 34, "NO"], [56, 62, "IL"]]}
+{"text": "dalyan mahalle remzi avcı caddesi numara 44 dalyan ortaca daire 1", "entities": [[0, 33, "CADDE"], [41, 43, "NO"], [64, 65, "NO"]]}
+{"text": "gurleyik mahalesi 606sokak no9 gamateks", "entities": [[18, 26, "SOKAK"], [29, 30, "NO"]]}
+{"text": "bahçelievler mahalle 7002 sokak numara 1 şahin pastanesi yanı turgutreis bodrum", "entities": [[21, 31, "SOKAK"], [39, 40, "NO"], [73, 79, "IL"]]}
+{"text": "gölköy mahalle kaleyıkığı mahalle 64 sokak numara 4 bodrum gölt ürkbükü bodrum muğla gölköy mahalle bodrum muğla türkiye", "entities": [[34, 42, "SOKAK"], [50, 51, "NO"], [52, 58, "IL"], [72, 78, "IL"], [79, 84, "IL"], [100, 106, "IL"], [107, 112, "IL"]]}
+{"text": "profesör yusuf vardar sokak numara 21 6 karşiyaka izmir tr", "entities": [[35, 37, "NO"], [38, 39, "NO"], [50, 55, "IL"]]}
+{"text": "5216sok numara 47 a barbaros mahalle çamdibi kerem market", "entities": [[0, 7, "SOKAK"], [15, 17, "NO"]]}
+{"text": "turgutalp mahallesi bergama caddesi numara 225soma devlet hastanesi", "entities": [[0, 19, "MAH"]]}
+{"text": "adalet mahallesi 1643 11 sokak numara 15 daire 18 ciritoğlu kaan sitesi eda apartmanı bayraklı izmir adalet bayrakli izmir", "entities": [[0, 16, "MAH"], [17, 21, "NO"], [22, 30, "SOKAK"], [38, 40, "NO"], [47, 49, "NO"], [86, 94, "ILCE"], [95, 100, "IL"], [117, 122, "IL"]]}
+{"text": "ufuk mahallesi 914 sokak no45 b iç kapı numara 2 buca izmir", "entities": [[0, 14, "MAH"], [15, 24, "SOKAK"], [27, 29, "NO"], [47, 48, "NO"], [49, 53, "ILCE"], [54, 59, "IL"]]}
+{"text": "salihler altı cadde 7 3 salihler dikili izmir", "entities": [[20, 21, "NO"], [22, 23, "NO"], [33, 39, "IL"], [40, 45, "IL"]]}
+{"text": "muğla fethiye karaculha mahallesi 212taksim1sokakno1", "entities": [[0, 33, "MAH"]]}
+{"text": "yazlık siteler sokak ayder evleri no32 42 boğaziçi milas muğla", "entities": [[36, 38, "NO"], [39, 41, "NO"], [57, 62, "IL"]]}
+{"text": "6500 1 sokak modern 3 sitesi yalı mallesi c3 d8", "entities": [[0, 4, "NO"], [5, 12, "SOKAK"], [20, 21, "NO"], [46, 47, "DAIRE"]]}
+{"text": "gültepe uzun yaşam konutları 2 4838 sokak numara 3 a blok kat 4 daire 11", "entities": [[29, 30, "NO"], [31, 41, "SOKAK"], [49, 50, "NO"], [62, 63, "NO"], [70, 72, "NO"]]}
+{"text": "hacı isa mahallesi yeni otopark sokak numara 3 bostancıoğlu apartmanı kat 3", "entities": [[0, 18, "MAH"], [45, 46, "NO"], [74, 75, "NO"]]}
+{"text": "atatürk bulvarı karaçulha mahahallesi numara 68 mobilya salonu", "entities": [[0, 15, "BULVAR"], [45, 47, "NO"]]}
+{"text": "efeler mahalle bergama cadde numara 18 daire9 efeler efeler aydın", "entities": [[0, 6, "ILCE"], [36, 38, "NO"], [44, 45, "DAIRE"], [46, 52, "ILCE"], [53, 59, "ILCE"], [60, 65, "IL"]]}
+{"text": "özinci tekstil fabeteks tekstil 2242sok numara 60 birsöz gida karşısı", "entities": [[32, 39, "SOKAK"], [47, 49, "NO"]]}
+{"text": "1771 sokak numara 5 daire5 kaçuna apartman bostanlı karsıyaka karşiyaka izmir", "entities": [[0, 10, "SOKAK"], [18, 19, "NO"], [25, 26, "DAIRE"], [72, 77, "IL"]]}
+{"text": "yalıkavak mahallesi kayacık caddesi numara 50 asmalı çardak kahvaltı evi 50", "entities": [[0, 19, "MAH"], [43, 45, "NO"], [73, 75, "NO"]]}
+{"text": "tepe mahallesi numara 42 sokak numara 43 1 iç kapıno 4 marmaris mugla iş yeri marmaris muğla türkiye", "entities": [[0, 14, "MAH"], [22, 30, "SOKAK"], [38, 40, "NO"], [41, 42, "NO"], [53, 54, "NO"], [55, 63, "IL"], [78, 86, "IL"], [87, 92, "IL"]]}
+{"text": "yenicami mahalle yenicami mahallesi osman islekel sokak manolya apartmani no5 daire5 soke aydin", "entities": [[0, 35, "MAH"], [76, 77, "NO"], [83, 84, "DAIRE"]]}
+{"text": "başkarcı mahalle hanönü cadde numara 26 merkezefendi denizli", "entities": [[37, 39, "NO"], [53, 60, "IL"]]}
+{"text": "inönü mahalle inönü mahallesi 1005 sokak numara 5 daire1 kat 1 bornova izmir", "entities": [[0, 29, "MAH"], [30, 40, "SOKAK"], [48, 49, "NO"], [55, 56, "DAIRE"], [61, 62, "NO"], [63, 70, "ILCE"], [71, 76, "IL"]]}
+{"text": "128 2 şok numara 8 kat 1 daire 1 aşaği çivril denizli", "entities": [[0, 3, "NO"], [4, 5, "NO"], [17, 18, "NO"], [23, 24, "NO"], [31, 32, "NO"], [46, 53, "IL"]]}
+{"text": "muradiye mahallesi 201 sokak numara 5 3 manisa", "entities": [[0, 18, "MAH"], [19, 28, "SOKAK"], [36, 37, "NO"], [38, 39, "NO"], [40, 46, "IL"]]}
+{"text": "güzelhisar mahallesi adnan menderes bulvarı 59 sokak numara 1 kat 1 uçar apartmanı zens güzellik salonu", "entities": [[0, 20, "MAH"], [44, 52, "SOKAK"], [60, 61, "NO"], [66, 67, "NO"]]}
+{"text": "zeytinköy mahallesi zeytin caddesi numara 24 daire 3 modelist erkek kuaförü üstü pamukkale denizli", "entities": [[0, 19, "MAH"], [42, 44, "NO"], [51, 52, "NO"], [91, 98, "IL"]]}
+{"text": "konak mahallesi 852 sokak numara 1 e konak izmir nirvana spor", "entities": [[0, 15, "MAH"], [16, 25, "SOKAK"], [33, 34, "NO"], [37, 42, "ILCE"], [43, 48, "IL"]]}
+{"text": "adnan menderes mahallesi kızılırmak caddesi numara 6 bahçeşehir sitesi a blok kat2 daire3", "entities": [[0, 24, "MAH"], [51, 52, "NO"], [81, 82, "KAT"], [88, 89, "DAIRE"]]}
+{"text": "3124 so tol görgün sitesi numara 30 1 daire 30 1 çeşme izmir tr", "entities": [[0, 4, "NO"], [33, 35, "NO"], [36, 37, "NO"], [44, 46, "NO"], [47, 48, "NO"], [49, 54, "IL"], [55, 60, "IL"]]}
+{"text": "340 sokak rukiye hanım apartmanı numara 72 daire 2 atatürk akhisar manisa", "entities": [[0, 9, "SOKAK"], [40, 42, "NO"], [49, 50, "NO"], [67, 73, "IL"]]}
+{"text": "helvacı fatih mahalle 2406 sokak numara 34 aliağa izmir", "entities": [[8, 13, "ILCE"], [22, 32, "SOKAK"], [40, 42, "NO"], [50, 55, "IL"]]}
+{"text": "vatan mahallesi 9105 sokak 67 1 utku apartmanı kat 2 daire 3 karabağlar izmir", "entities": [[0, 15, "MAH"], [16, 26, "SOKAK"], [27, 29, "NO"], [30, 31, "NO"], [51, 52, "NO"], [59, 60, "NO"], [61, 71, "ILCE"], [72, 77, "IL"]]}
+{"text": "bayrakli ekrem akurgal sokak numara 68 daire 17 b blok sabır 2 apartmanı bayraklı izmir izmir bayrakli", "entities": [[36, 38, "NO"], [45, 47, "NO"], [61, 62, "NO"], [73, 81, "ILCE"], [82, 87, "IL"], [88, 93, "IL"]]}
+{"text": "ege mahalle ege mahallesi 1305 sokak no13e4 şehzadeler manisa", "entities": [[0, 25, "MAH"], [26, 36, "SOKAK"], [55, 61, "IL"]]}
+{"text": "zafertepe mahallesi 553 sokak yıldız apartmanı numara 4 4 daire 5 eşrefpaşa konak izmir yıldız apartmanı daire 5 izmir konak", "entities": [[0, 19, "MAH"], [20, 29, "SOKAK"], [54, 55, "NO"], [56, 57, "NO"], [64, 65, "NO"], [76, 81, "ILCE"], [82, 87, "IL"], [111, 112, "NO"], [113, 118, "IL"], [119, 124, "ILCE"]]}
+{"text": "cumhuriye mahalle hükümet cadde sivriler işhanı numara 3 fethiye muğla foto kandiye muğla fethiye", "entities": [[55, 56, "NO"], [57, 64, "IL"], [65, 70, "IL"], [84, 89, "IL"], [90, 97, "IL"]]}
+{"text": "4104 sokak numara 25 azim çelik inş daire 5 seyrek gazi mustafa kemal menemen izmir", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"], [42, 43, "NO"], [78, 83, "IL"]]}
+{"text": "çankaya mahallesi bahattin tatiş sokak numara 22 daire görevli manzara apartmani", "entities": [[0, 17, "MAH"], [46, 48, "NO"]]}
+{"text": "barbaros mahalle 5202 sokak numara 12 kat 2 barbaros bornova izmir bornova bornova", "entities": [[17, 27, "SOKAK"], [35, 37, "NO"], [42, 43, "NO"], [53, 60, "ILCE"], [61, 66, "IL"], [67, 74, "ILCE"], [75, 82, "ILCE"]]}
+{"text": "karaçulha mahallesi cumhuriyet bulvarı numara 237 c sunagro tarım muğla fethiye 237 c", "entities": [[0, 19, "MAH"], [46, 49, "NO"], [66, 71, "IL"], [72, 79, "IL"], [80, 83, "NO"]]}
+{"text": "286 sokak gültekinler iş markezi no35 a blok kat2 daire5 bayraklı izmir mansuroğlu bayrakli izmir", "entities": [[0, 9, "SOKAK"], [35, 37, "NO"], [48, 49, "KAT"], [55, 56, "DAIRE"], [57, 65, "ILCE"], [66, 71, "IL"], [92, 97, "IL"]]}
+{"text": "203 28 sokak numara 16 18 kat 3 daire 36 kuruçeşme buca izmir", "entities": [[0, 3, "NO"], [4, 12, "SOKAK"], [20, 22, "NO"], [23, 25, "NO"], [30, 31, "NO"], [38, 40, "NO"], [51, 55, "ILCE"], [56, 61, "IL"]]}
+{"text": "akarca mahalle adnan menderes cadde 864 sokak numara 15 daire 1 kat 2", "entities": [[36, 45, "SOKAK"], [53, 55, "NO"], [62, 63, "NO"], [68, 69, "NO"]]}
+{"text": "altay altay mahalle yedi eylül yolu numara 35 kat 2 bozku r işhani smmm ayşe sunal altay turgutlu manisa altay turgutlu manisa türkiye", "entities": [[43, 45, "NO"], [50, 51, "NO"], [98, 104, "IL"], [120, 126, "IL"]]}
+{"text": "i tarık sarı caddesi numara 12 3 yali güzelbahçe izmir", "entities": [[0, 20, "CADDE"], [28, 30, "NO"], [31, 32, "NO"], [38, 48, "ILCE"], [49, 54, "IL"]]}
+{"text": "162 sokak numara 26 kat 3 basin sitesi karabağlar izmir", "entities": [[0, 9, "SOKAK"], [17, 19, "NO"], [24, 25, "NO"], [39, 49, "ILCE"], [50, 55, "IL"]]}
+{"text": "8712 sokak numara 53 daire 12 kat çiğli mahalle çigli izmir", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"], [27, 29, "NO"], [34, 39, "ILCE"], [54, 59, "IL"]]}
+{"text": "282 sokak numara 5 1 ünçam apartmanı ulu camii akhisar manisa", "entities": [[0, 9, "SOKAK"], [17, 18, "NO"], [19, 20, "NO"], [55, 61, "IL"]]}
+{"text": "uğur mumcu mahalle 1295 sokak park apartman numara 15 1", "entities": [[19, 29, "SOKAK"], [51, 53, "NO"], [54, 55, "NO"]]}
+{"text": "barbaros mahallesi 5301sk numara 1 kat 2 daire 204 bina 1 kat 2 daire 204 bornova izmir", "entities": [[0, 18, "MAH"], [33, 34, "NO"], [39, 40, "NO"], [47, 50, "NO"], [56, 57, "NO"], [62, 63, "NO"], [70, 73, "NO"], [74, 81, "ILCE"], [82, 87, "IL"]]}
+{"text": "pamukkale üniversitesi kınıklı kampüsü iktisadi ve idari bilimler fakültesi a blok kat 3 uluslararası ticaret ve finansman bölüm sekreterliği", "entities": [[87, 88, "NO"]]}
+{"text": "aykan şeker sokak numara 7 2 gökova ula muğla", "entities": [[25, 26, "NO"], [27, 28, "NO"], [40, 45, "IL"]]}
+{"text": "163 sokak numara 5 kemalpaşa mahalle izmir menderes", "entities": [[0, 9, "SOKAK"], [17, 18, "NO"], [37, 42, "IL"]]}
+{"text": "istiklal cadde numara 79 devsu apartman daire 22 istiklal caddesi tarım kredi kooperatifleri üstü", "entities": [[0, 65, "CADDE"]]}
+{"text": "muğla bodrum 4068 sokak numara 13 2 turgutreis mahalle", "entities": [[0, 5, "IL"], [6, 12, "IL"], [13, 23, "SOKAK"], [31, 33, "NO"], [34, 35, "NO"]]}
+{"text": "mevlana mahalle mevlana mahallesi 1751 1 sokak adliye lojmanları a1 blokno 3 bornova", "entities": [[0, 33, "MAH"], [34, 38, "NO"], [39, 46, "SOKAK"], [75, 76, "NO"], [77, 84, "ILCE"]]}
+{"text": "küçükçiğli mahalle 8755 sokak numara 4 daire 2 çiğli izmir küçük çiğli mahalle", "entities": [[19, 29, "SOKAK"], [37, 38, "NO"], [45, 46, "NO"], [47, 52, "ILCE"], [53, 58, "IL"], [65, 70, "ILCE"]]}
+{"text": "kazımdirik nah sanayi cadde galata rezidans a blok 709 numara lu daire", "entities": [[51, 54, "NO"]]}
+{"text": "322 sokak 24 1 kat 4 daire 7", "entities": [[0, 9, "SOKAK"], [10, 12, "NO"], [13, 14, "NO"], [19, 20, "NO"], [27, 28, "NO"]]}
+{"text": "306 2 sokak numara 22 daire12 kat 3 şirinyer buca izmir efeler buca izmir", "entities": [[0, 3, "NO"], [4, 11, "SOKAK"], [19, 21, "NO"], [27, 29, "DAIRE"], [34, 35, "NO"], [45, 49, "ILCE"], [50, 55, "IL"], [56, 62, "ILCE"], [63, 67, "ILCE"], [68, 73, "IL"]]}
+{"text": "1056 sokak numara 12 1", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"], [21, 22, "NO"]]}
+{"text": "vali rahmi bey mahallesi 127 sokak numara 25 daire 2 kat 1 buca izmir vali rahmibey buca izmir buca izmir tr", "entities": [[0, 24, "MAH"], [25, 34, "SOKAK"], [42, 44, "NO"], [51, 52, "NO"], [57, 58, "NO"], [59, 63, "ILCE"], [64, 69, "IL"], [84, 88, "ILCE"], [89, 94, "IL"], [95, 99, "ILCE"], [100, 105, "IL"]]}
+{"text": "523 sokak numara 6 daire 3 45200", "entities": [[0, 9, "SOKAK"], [17, 18, "NO"], [25, 26, "NO"], [27, 32, "NO"]]}
+{"text": "foça sigorta cumhuriyet mahalle 166 sokak numara 3 c", "entities": [[32, 41, "SOKAK"], [49, 50, "NO"]]}
+{"text": "çamlikule mahalle 220 38 sokak numara 12 c blok kat 2 daire 5 gümüşkentsitesi çamlıkule mahalle buca izmir", "entities": [[18, 21, "NO"], [22, 30, "SOKAK"], [38, 40, "NO"], [52, 53, "NO"], [60, 61, "NO"], [96, 100, "ILCE"], [101, 106, "IL"]]}
+{"text": "konacık mahalles gazderesi caddesi no21 9 bodrum muğla 21 9", "entities": [[0, 34, "CADDE"], [37, 39, "NO"], [40, 41, "NO"], [42, 48, "IL"], [49, 54, "IL"], [55, 57, "NO"], [58, 59, "NO"]]}
+{"text": "mehmetçik mahallesi 1296 sokak numara 38 kabakoglu apartmani kat 3 6", "entities": [[0, 19, "MAH"], [20, 30, "SOKAK"], [38, 40, "NO"], [65, 66, "NO"], [67, 68, "NO"]]}
+{"text": "kabakum mahalle sahil yolu cadde elit yar sitesi 15 21", "entities": [[49, 51, "NO"], [52, 54, "NO"]]}
+{"text": "1185 1 sokak numara 2 2 gaziemir", "entities": [[0, 4, "NO"], [5, 12, "SOKAK"], [20, 21, "NO"], [22, 23, "NO"], [24, 32, "ILCE"]]}
+{"text": "anadolu caddesi numara 886 küçük çiğli çiğli izmir", "entities": [[0, 15, "CADDE"], [23, 26, "NO"], [33, 38, "ILCE"], [39, 44, "ILCE"], [45, 50, "IL"]]}
+{"text": "rasulzade bulvarı şehri muazzam konakları 18 b blok kat 5 daire 15", "entities": [[0, 17, "BULVAR"], [42, 44, "NO"], [56, 57, "NO"], [64, 66, "NO"]]}
+{"text": "mithatpaşa caddesi numara 1096 a", "entities": [[0, 18, "CADDE"], [26, 30, "NO"]]}
+{"text": "ovaeymir mahallesi ismet sezgin bulvarı 3209 sokak numara 1 by makas erkek kuaförü ⁠efeler aydın türkiye", "entities": [[0, 18, "MAH"], [40, 50, "SOKAK"], [58, 59, "NO"], [91, 96, "IL"]]}
+{"text": "koyunbaba mahalle zakkum sokak 30 26 gumuşluk koyunbaba 48000", "entities": [[31, 33, "NO"], [34, 36, "NO"], [56, 61, "NO"]]}
+{"text": "armutalan mahallesi yıldırım beyazıt caddesi seren apartmanı numara 8 daire 3 armutalan marmaris muğla", "entities": [[0, 19, "MAH"], [68, 69, "NO"], [76, 77, "NO"], [88, 96, "IL"], [97, 102, "IL"]]}
+{"text": "izmir buca şirinyer efeler mahallesi 334sokak no25 daire4 efeler buca izmir", "entities": [[0, 36, "MAH"], [37, 45, "SOKAK"], [48, 50, "NO"], [56, 57, "DAIRE"], [58, 64, "ILCE"], [65, 69, "ILCE"], [70, 75, "IL"]]}
+{"text": "sevgi mahalle 4632 sokak ismail soyak stesi ablok 6 5 ismail soyak sitesi a blok 6 5", "entities": [[14, 24, "SOKAK"], [50, 51, "NO"], [52, 53, "NO"], [81, 82, "NO"], [83, 84, "NO"]]}
+{"text": "cumhuriyet mahallesi sarol sokak numara 7 ortaca muğla", "entities": [[0, 20, "MAH"], [40, 41, "NO"], [49, 54, "IL"]]}
+{"text": "kervansaray mahalle barbaros bulvar numara 249 c sarraflar sitesi c blok daire3 pamukkale denizli 20160 pamukkale denizli türkiye", "entities": [[0, 35, "BULVAR"], [43, 46, "NO"], [78, 79, "DAIRE"], [90, 97, "IL"], [98, 103, "NO"], [114, 121, "IL"]]}
+{"text": "atatürk osb 10016 sokak numara 62 a o s b atatürk os b çiğli izmir atatürk osb çiğli izmir türkiye", "entities": [[12, 23, "SOKAK"], [31, 33, "NO"], [55, 60, "ILCE"], [61, 66, "IL"], [79, 84, "ILCE"], [85, 90, "IL"]]}
+{"text": "atatürk mahalle 7eylül cadde eker sokak numara 1 smmm hüseyin çelik bürosu saruhanlı", "entities": [[47, 48, "NO"]]}
+{"text": "kültür mahalle kültür mahallesi atatürk cadd esi 66c martım eczanesi aliağa izmir iş", "entities": [[0, 31, "MAH"], [76, 81, "IL"]]}
+{"text": "kayalık cadde 15 mayıs mahalle şerifeeskicioğlu apartman numara 18 kat 5 daire 27 28 özeren hukuk bürosu pamukkale denizli", "entities": [[14, 16, "NO"], [64, 66, "NO"], [71, 72, "NO"], [79, 81, "NO"], [82, 84, "NO"], [115, 122, "IL"]]}
+{"text": "güzelçamlı mahalle kurtuluş cadde göltur sitesi numara 2 iç kapı numara 21 kuşadasi aydın güzelçamli kuşadasi aydın", "entities": [[55, 56, "NO"], [72, 74, "NO"], [84, 89, "IL"], [110, 115, "IL"]]}
+{"text": "4174 1 no21 kat2 yeşilova mahalle bornova izmir", "entities": [[0, 4, "NO"], [5, 6, "NO"], [9, 11, "NO"], [15, 16, "KAT"], [34, 41, "ILCE"], [42, 47, "IL"]]}
+{"text": "armutalan mahalle m f çakmak cadde numara 30 a marmaris", "entities": [[42, 44, "NO"], [47, 55, "IL"]]}
+{"text": "basin sitesi mahalle 168 sokak numara 60 2basın sitesi mahallesi bora karasukişisel gelişim kursu", "entities": [[0, 64, "MAH"]]}
+{"text": "geriş mahalle devecisalih cadde 42 sokak numara 6 geriş bodrum muğla", "entities": [[32, 40, "SOKAK"], [48, 49, "NO"], [56, 62, "IL"], [63, 68, "IL"]]}
+{"text": "bostanli mahalle mavisehir caher duduyev bulvari koçtas avm 7 201 macfit 35590 çigli karsiyaka", "entities": [[0, 48, "BULVAR"], [60, 61, "NO"], [62, 65, "NO"], [73, 78, "NO"]]}
+{"text": "yenikum sahil sitesi no17ra sahil pazari karşısı kanal altı güzelçamli kuşadasi aydın", "entities": [[80, 85, "IL"]]}
+{"text": "dikili güzelbelde sitesi müsellim altı numara 51 kabakum dikili izmir kabakum dikili izmir", "entities": [[0, 6, "IL"], [46, 48, "NO"], [57, 63, "IL"], [64, 69, "IL"], [78, 84, "IL"], [85, 90, "IL"]]}
+{"text": "laleli mahallesi onat caddesi numara 95 a şirinyer buca izmir", "entities": [[0, 16, "MAH"], [37, 39, "NO"], [51, 55, "ILCE"], [56, 61, "IL"]]}
+{"text": "dedebaşı mahalle 6116 1 sokak 13 5 güneş apartman kat 3 dedebaşı mahalle 6116 1 sokak", "entities": [[17, 21, "NO"], [22, 29, "SOKAK"], [30, 32, "NO"], [33, 34, "NO"], [54, 55, "NO"], [73, 77, "NO"], [78, 85, "SOKAK"]]}
+{"text": "75 yıl cumhuriyet caddesi hazar apartmanı kat85 2 numara 6 urla izmir", "entities": [[0, 25, "CADDE"], [45, 47, "KAT"], [48, 49, "NO"], [57, 58, "NO"], [64, 69, "IL"]]}
+{"text": "dedebaşı mahallesi 6100 sokak numara 10 kat 7 daire 25", "entities": [[0, 18, "MAH"], [19, 29, "SOKAK"], [37, 39, "NO"], [44, 45, "NO"], [52, 54, "NO"]]}
+{"text": "güvendik mahalle güvendik mahalle mavi plaj cadde 204 sokak numara 15 çeşmealtı", "entities": [[50, 59, "SOKAK"], [67, 69, "NO"]]}
+{"text": "muğla bodrum çarşı mahalle 1013sokak no1", "entities": [[0, 5, "IL"], [6, 12, "IL"], [27, 36, "SOKAK"], [39, 40, "NO"]]}
+{"text": "ege mahalle 438 sokak modakent sitesi numara 12 j blok daire 4", "entities": [[12, 21, "SOKAK"], [45, 47, "NO"], [61, 62, "NO"]]}
+{"text": "akyarlar mahalle barış manço cadde 9 1", "entities": [[35, 36, "NO"], [37, 38, "NO"]]}
+{"text": "günaltay mahallesi 4095 sokak numara 155 kat 2 daire 5 karabağlar izmir", "entities": [[0, 18, "MAH"], [19, 29, "SOKAK"], [37, 40, "NO"], [45, 46, "NO"], [53, 54, "NO"], [55, 65, "ILCE"], [66, 71, "IL"]]}
+{"text": "camikebir mahalle 85 sokak numara 11 daire 4 kat 1 nazar apartmanı izmir seferihisar camikebir seferihisar izmir", "entities": [[18, 26, "SOKAK"], [34, 36, "NO"], [43, 44, "NO"], [49, 50, "NO"], [67, 72, "IL"], [107, 112, "IL"]]}
+{"text": "turgutalp mahalle sert cadde numara 1 5 kat 3", "entities": [[36, 37, "NO"], [38, 39, "NO"], [44, 45, "NO"]]}
+{"text": "50 yıl mahallesi 6126 sokak numara 6 daire 4 yunusemre manisa", "entities": [[0, 16, "MAH"], [17, 27, "SOKAK"], [35, 36, "NO"], [43, 44, "NO"], [55, 61, "IL"]]}
+{"text": "şirintepe mahallesi dere caddesi numara 6 kamil koç izmir çiğli", "entities": [[0, 19, "MAH"], [40, 41, "NO"], [52, 57, "IL"], [58, 63, "ILCE"]]}
+{"text": "yenı mahalle çağatay sokak numara 25 daire 3", "entities": [[34, 36, "NO"], [43, 44, "NO"]]}
+{"text": "alaçatı mahalle 14025 sokak numara 2 4 gemak evleri 4 ev alaçatı çeşme izmir çeşme izmir", "entities": [[16, 27, "SOKAK"], [35, 36, "NO"], [37, 38, "NO"], [52, 53, "NO"], [65, 70, "IL"], [71, 76, "IL"], [77, 82, "IL"], [83, 88, "IL"]]}
+{"text": "bostanlı mahalle 6352 sokak selin apartman numara 5 4 karşıyaka izmir", "entities": [[17, 27, "SOKAK"], [50, 51, "NO"], [52, 53, "NO"], [54, 63, "ILCE"], [64, 69, "IL"]]}
+{"text": "akyarlar mahallesi akyarlar mahallesi akçabük sokak begonvi l sitesi 62 turgutreis akçabük bodrum bodrum muğla türkiye", "entities": [[0, 37, "MAH"], [69, 71, "NO"], [91, 97, "IL"], [98, 104, "IL"], [105, 110, "IL"]]}
+{"text": "518 sokak numara 7 casa costa sitesi gündoğan bodrum muğla", "entities": [[0, 9, "SOKAK"], [17, 18, "NO"], [46, 52, "IL"], [53, 58, "IL"]]}
+{"text": "naldöken mahallesi inönü caddesi numara 16 b bornova izmir", "entities": [[0, 18, "MAH"], [40, 42, "NO"], [45, 52, "ILCE"], [53, 58, "IL"]]}
+{"text": "arkas lojistik mistral binası kat 12 çına", "entities": [[34, 36, "NO"]]}
+{"text": "süleyman demirel mahalle süleyman demirel mahalle 1103 sokaka ata apartman numara 5 1", "entities": [[50, 54, "NO"], [82, 83, "NO"], [84, 85, "NO"]]}
+{"text": "cumhuriyet mahallesi 1257 sokak numara 25 kat 2", "entities": [[0, 20, "MAH"], [21, 31, "SOKAK"], [39, 41, "NO"], [46, 47, "NO"]]}
+{"text": "cumhuriyet mahalle 95 sokak numara 8 instreet magazasi", "entities": [[19, 27, "SOKAK"], [35, 36, "NO"]]}
+{"text": "inönü cadde numara 25", "entities": [[19, 21, "NO"]]}
+{"text": "kasımpaşa mahalle kasımpaşa mahalle kuva i milliye cadde numara 4 6 daire 9 menderes izmir orhan deveci mali müşa virlik ofisi menderes izmir kasımpaş a mahalle menderes izmir türkiye", "entities": [[64, 65, "NO"], [66, 67, "NO"], [74, 75, "NO"], [85, 90, "IL"], [136, 141, "IL"], [170, 175, "IL"]]}
+{"text": "özgür mahallesi 3904 sokak numara 19 daire 3", "entities": [[0, 15, "MAH"], [16, 26, "SOKAK"], [34, 36, "NO"], [43, 44, "NO"]]}
+{"text": "armutalan mahallesi 285 sokak numara 6 daire 3 marmaris armutalan mahalle marmaris muğla", "entities": [[0, 19, "MAH"], [20, 29, "SOKAK"], [37, 38, "NO"], [45, 46, "NO"], [47, 55, "IL"], [74, 82, "IL"], [83, 88, "IL"]]}
+{"text": "yenikent mahallesi ruhi gürsoy caddesi ekinkent sitesi numara 36", "entities": [[0, 18, "MAH"], [62, 64, "NO"]]}
+{"text": "7448 14 sokak numara 2b parkyücesoy 3 etap b blok kat 4 daire 7", "entities": [[0, 4, "NO"], [5, 13, "SOKAK"], [21, 23, "NO"], [36, 37, "NO"], [54, 55, "NO"], [62, 63, "NO"]]}
+{"text": "12699 sokak numara 91 azd kazimdirik bornova izmir", "entities": [[0, 11, "SOKAK"], [19, 21, "NO"], [37, 44, "ILCE"], [45, 50, "IL"]]}
+{"text": "cumhuriyet mahalle atatürk cadde numara 146 daire 6 salihli manisa cumhuriyet salihli manisa", "entities": [[40, 43, "NO"], [50, 51, "NO"], [60, 66, "IL"], [86, 92, "IL"]]}
+{"text": "şirinevler mahallesi doğu denizli bulvarı numara 4 a nazilli aydin", "entities": [[0, 20, "MAH"], [26, 33, "IL"], [49, 50, "NO"]]}
+{"text": "adnan menderes mahallesi 142 sokak numara 13 daire 18 toki 3 c 5 daire 18", "entities": [[0, 24, "MAH"], [25, 34, "SOKAK"], [42, 44, "NO"], [51, 53, "NO"], [59, 60, "NO"], [63, 64, "NO"], [71, 73, "NO"]]}
+{"text": "izmir aydin caddesi tukas gida numara 51", "entities": [[0, 19, "CADDE"], [38, 40, "NO"]]}
+{"text": "ismet paşa mahalle bademlik cadde numara 3 kat 2 milas muğla", "entities": [[41, 42, "NO"], [47, 48, "NO"], [55, 60, "IL"]]}
+{"text": "muslihittin mahallesi özgür sokak yükselis apartmani b blok numara 4 kat 5 daire 10", "entities": [[0, 21, "MAH"], [67, 68, "NO"], [73, 74, "NO"], [81, 83, "NO"]]}
+{"text": "camikebir mahallesi 87 5 sokak numara 9 daire2 seferihisar izmir camikebir mahalle", "entities": [[0, 19, "MAH"], [20, 22, "NO"], [23, 30, "SOKAK"], [38, 39, "NO"], [45, 46, "DAIRE"], [59, 64, "IL"]]}
+{"text": "peker mahallesi 1702 sokak numara 20 daire 10", "entities": [[0, 15, "MAH"], [16, 26, "SOKAK"], [34, 36, "NO"], [43, 45, "NO"]]}
+{"text": "gülyaka mahallesi gülyaka mahalle 3031 sokak numara 18 daire 2 3 4 5 kale apartman karabağlar izmir karabağlar izmir türkiye", "entities": [[0, 17, "MAH"], [34, 44, "SOKAK"], [52, 54, "NO"], [61, 62, "NO"], [63, 64, "NO"], [65, 66, "NO"], [67, 68, "NO"], [83, 93, "ILCE"], [94, 99, "IL"], [100, 110, "ILCE"], [111, 116, "IL"]]}
+{"text": "80 2 sokak numara c1 8 irmak apartman kat 2 daire6 gazikent mahalle gaziemir izmir gazikent gaziemir izmir", "entities": [[0, 2, "NO"], [3, 10, "SOKAK"], [21, 22, "NO"], [42, 43, "NO"], [49, 50, "DAIRE"], [68, 76, "ILCE"], [77, 82, "IL"], [92, 100, "ILCE"], [101, 106, "IL"]]}
+{"text": "tersane mahalle 1664 sokak numara 29 k1 d2", "entities": [[16, 26, "SOKAK"], [34, 36, "NO"], [38, 39, "KAT"], [41, 42, "DAIRE"]]}
+{"text": "sinan mahalle gazi ali yücel sokak numara 3 daire 8 armutalan marmaris", "entities": [[42, 43, "NO"], [50, 51, "NO"], [62, 70, "IL"]]}
+{"text": "kurtuluş mahalle süleyman demirel bulvar numara 9", "entities": [[0, 40, "BULVAR"], [48, 49, "NO"]]}
+{"text": "29 ekim mahalle 155 sokak numara 17 magna kent sitesi a blok kat 6 daire54 menemen izmir", "entities": [[0, 2, "NO"], [16, 25, "SOKAK"], [33, 35, "NO"], [65, 66, "NO"], [72, 74, "DAIRE"], [83, 88, "IL"]]}
+{"text": "basin sitesi mahalle 172 sokak numara 17 da16", "entities": [[21, 30, "SOKAK"], [38, 40, "NO"]]}
+{"text": "ahmet taner kişlali cadde numara 5 14 soma", "entities": [[33, 34, "NO"], [35, 37, "NO"]]}
+{"text": "akdeniz caddesi numara 4 2 ekominiye komşu gölköy bodrum muğla", "entities": [[0, 15, "CADDE"], [23, 24, "NO"], [25, 26, "NO"], [50, 56, "IL"], [57, 62, "IL"]]}
+{"text": "gaziosman paşa bulvari numara 56 z 1 çankaya izmir konak", "entities": [[0, 22, "BULVAR"], [30, 32, "NO"], [35, 36, "NO"], [37, 44, "ILCE"], [45, 50, "IL"], [51, 56, "ILCE"]]}
+{"text": "atatürk mahalle 216 sokak bina numara 4 kat 1 daire numara 1 buca izmir", "entities": [[16, 25, "SOKAK"], [38, 39, "NO"], [44, 45, "NO"], [59, 60, "NO"], [61, 65, "ILCE"], [66, 71, "IL"]]}
+{"text": "musalla mahallesi 1003 sokak bina 9 daire 1 çeşme izmir", "entities": [[0, 17, "MAH"], [18, 28, "SOKAK"], [34, 35, "NO"], [42, 43, "NO"], [44, 49, "IL"], [50, 55, "IL"]]}
+{"text": "hashoca mahalle 127sokak no50 kat 2 daire 4 akhisar manisa", "entities": [[16, 24, "SOKAK"], [27, 29, "NO"], [34, 35, "NO"], [42, 43, "NO"], [52, 58, "IL"]]}
+{"text": "10006 sokak mustafa kemal atatürk bulvarı mimosa cafe çiğli izmir", "entities": [[0, 11, "SOKAK"], [54, 59, "ILCE"], [60, 65, "IL"]]}
+{"text": "servergazi mahalle atakent 9 sokak numara 4 buyuk kirla ngic site a blok kar 1 daire 4", "entities": [[27, 34, "SOKAK"], [42, 43, "NO"], [77, 78, "NO"], [85, 86, "NO"]]}
+{"text": "ulus ulus mahallesi istiklal caddesi numara 12 akasya sitesi c blok kat 4 daire 14 menemen izmir koyundere", "entities": [[0, 19, "MAH"], [44, 46, "NO"], [72, 73, "NO"], [80, 82, "NO"], [91, 96, "IL"]]}
+{"text": "konacik mahalle gaz deresi cadde enerji elektrik numara 25 10 bodrum muğla 3enerji elektrik", "entities": [[56, 58, "NO"], [59, 61, "NO"], [62, 68, "IL"], [69, 74, "IL"]]}
+{"text": "güzelçamlı mahalle kestane sokak numara 8 21 bozkir apartman", "entities": [[40, 41, "NO"], [42, 44, "NO"]]}
+{"text": "4160 sokak numara 13 kat 1 daire 2 yeşilova mahalle bornova izmir daire 2", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"], [25, 26, "NO"], [33, 34, "NO"], [52, 59, "ILCE"], [60, 65, "IL"], [72, 73, "NO"]]}
+{"text": "1057 sokak numara 1 daire 3", "entities": [[0, 10, "SOKAK"], [18, 19, "NO"], [26, 27, "NO"]]}
+{"text": "mehmet akif cadde numara 2 kat 2 204 eroğlu iş merkezi", "entities": [[25, 26, "NO"], [31, 32, "NO"], [33, 36, "NO"]]}
+{"text": "4057 sokak numara 1 daire 1 yunus emre mahallesi karabağlar izmir", "entities": [[0, 48, "MAH"], [49, 59, "ILCE"], [60, 65, "IL"]]}
+{"text": "akyarlar mahalle halil saygı sokak numara 63 bodrum muğl a akyarlar mahalle bodrum muğla türkiye", "entities": [[42, 44, "NO"], [45, 51, "IL"], [76, 82, "IL"], [83, 88, "IL"]]}
+{"text": "kaplanın ambalaj izmir ankara asfaltı cadde numara 75 1 35710 kemalpaşa izmir kemalpaşa osb mahalle kemalpaşa", "entities": [[17, 22, "IL"], [23, 29, "IL"], [51, 53, "NO"], [54, 55, "NO"], [56, 61, "NO"], [72, 77, "IL"]]}
+{"text": "hilaliye cadde 151 cadde numara 109 3 4 mevsim gazozcusu bitişiği", "entities": [[15, 18, "NO"], [32, 35, "NO"], [36, 37, "NO"], [38, 39, "NO"]]}
+{"text": "yedieylül mahalle yedi eylül mahalle kurultay sokak numara 91 öterler", "entities": [[59, 61, "NO"]]}
+{"text": "muğla menteşe emirbeyazıt mahallesi vatan bilgisiyar menteşe", "entities": [[0, 35, "MAH"], [53, 60, "ILCE"]]}
+{"text": "firat fırat mahalle 271 sokak numara 74 daire 14 rakipbey apartman firat buca izmir firat buca izmir türkiye", "entities": [[20, 29, "SOKAK"], [37, 39, "NO"], [46, 48, "NO"], [73, 77, "ILCE"], [78, 83, "IL"], [90, 94, "ILCE"], [95, 100, "IL"]]}
+{"text": "yavansumh batıyakası sitesi manolya sokak d31 86s", "entities": [[43, 45, "DAIRE"]]}
+{"text": "kazımdirik mahalle 161 sokak özgen apartman n 10 daire 2 k1", "entities": [[19, 28, "SOKAK"], [46, 48, "NO"], [55, 56, "NO"], [58, 59, "KAT"]]}
+{"text": "9130 sokak vatan mahallesi 9130 sokak numara 2 kat 2 daire 4", "entities": [[0, 26, "MAH"], [27, 37, "SOKAK"], [45, 46, "NO"], [51, 52, "NO"], [59, 60, "NO"]]}
+{"text": "sart mahalle sart mahallesi pınar sokak numara 16 manisa salihli", "entities": [[0, 27, "MAH"], [47, 49, "NO"], [50, 56, "IL"]]}
+{"text": "atatürk mahallesi 915 sokak numara 151 daire 29", "entities": [[0, 17, "MAH"], [18, 27, "SOKAK"], [35, 38, "NO"], [45, 47, "NO"]]}
+{"text": "adnan menderes bulvarı efeler mahalle sunset court sitesi", "entities": [[0, 22, "BULVAR"], [23, 29, "ILCE"]]}
+{"text": "1374 cadde 11i kapı ada numara 589 kuşadası aydın soğucak mahalle", "entities": [[0, 4, "NO"], [31, 34, "NO"], [44, 49, "IL"]]}
+{"text": "orta mahalle 217 sokak central life 256 apartman kat 1 daire 10 a central life 256 apartman kat 1 daire 10", "entities": [[13, 22, "SOKAK"], [36, 39, "NO"], [53, 54, "NO"], [61, 63, "NO"], [79, 82, "NO"], [96, 97, "NO"], [104, 106, "NO"]]}
+{"text": "ata mahalle ata mahallesi oruç reis sokak numara 5 daire 6 bergama apartmanı menderes izmir", "entities": [[0, 25, "MAH"], [49, 50, "NO"], [57, 58, "NO"], [86, 91, "IL"]]}
+{"text": "adalet mahalle denizli 20 tr tr20 fatih sultan mehmet cadde umut 1 evl er bahar apartman kat 1 numara 7", "entities": [[15, 22, "IL"], [23, 25, "NO"], [34, 39, "ILCE"], [65, 66, "NO"], [93, 94, "NO"], [102, 103, "NO"]]}
+{"text": "kabakum mahallesi güzelbelde sokak doktorlar ve iş adamları sitesi numara 6 12 kabakum dikili izmir", "entities": [[0, 17, "MAH"], [74, 75, "NO"], [76, 78, "NO"], [87, 93, "IL"], [94, 99, "IL"]]}
+{"text": "güzelköy mahalle güzelköy mahallesi 1500 sokak no43 pamukkale denizli", "entities": [[0, 35, "MAH"], [36, 46, "SOKAK"], [49, 51, "NO"], [62, 69, "IL"]]}
+{"text": "merkez mahallesi poyraz 1021 sokak numara 17 1 özler kent sitesi yanı merkez karaburun izmir", "entities": [[0, 16, "MAH"], [24, 34, "SOKAK"], [42, 44, "NO"], [45, 46, "NO"], [87, 92, "IL"]]}
+{"text": "3209 sokak numara 12 kat 1 çalıkuşu mahalle", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"], [25, 26, "NO"]]}
+{"text": "selvilitepe mahalle dursun savcı sokak musal sitesi c blok daire 20 selvilitepe turgutlu manisa", "entities": [[65, 67, "NO"], [89, 95, "IL"]]}
+{"text": "alaçatı mahalle 16119 sokak numara 35", "entities": [[16, 27, "SOKAK"], [35, 37, "NO"]]}
+{"text": "uşak özlem tatil sitesi 37219 sokak numara 1 ildırı alaçatı izmir ildir mahalle", "entities": [[24, 35, "SOKAK"], [43, 44, "NO"], [60, 65, "IL"]]}
+{"text": "torbalı mahalle çetineller zeytinyağ fabrikası torbalı mahalle izmir aydın asfaltı üzeri no7 3 torbalı izmir", "entities": [[63, 68, "IL"], [69, 74, "IL"], [91, 92, "NO"], [93, 94, "NO"], [103, 108, "IL"]]}
+{"text": "çetin emeç mahallesi atletizm sokak numara 3 blok 8 yönetim ofisi giriş kat balçova izmir", "entities": [[0, 20, "MAH"], [43, 44, "NO"], [50, 51, "NO"], [84, 89, "IL"]]}
+{"text": "torba mahalle inönü cadde selena evleri numara 23 3 torba bodrum muğla", "entities": [[47, 49, "NO"], [50, 51, "NO"], [58, 64, "IL"], [65, 70, "IL"]]}
+{"text": "mordoğan mahallesi namık kemal cadde numara 25 2 sağlık ocağı bahçesi 112 acil sağlık hizmetleri istasyonu", "entities": [[0, 18, "MAH"], [44, 46, "NO"], [47, 48, "NO"], [70, 73, "NO"]]}
+{"text": "turan mahallesi atatürk bulvarı numara 122 kat 3 daire 310 turan turgutlu manisa", "entities": [[0, 15, "MAH"], [39, 42, "NO"], [47, 48, "NO"], [55, 58, "NO"], [74, 80, "IL"]]}
+{"text": "güllük mahalle güllük mahalle adnan menderes cadde no21 a s ahil pide milas", "entities": [[53, 55, "NO"]]}
+{"text": "ören mahalle iskele cadde 127 nolu sokak no3 ören milas muğla", "entities": [[26, 29, "NO"], [43, 44, "NO"], [56, 61, "IL"]]}
+{"text": "eskiçeşme mahalle eskiçeşme sokak numara 5 kat 2 b odrum muğla", "entities": [[41, 42, "NO"], [47, 48, "NO"], [57, 62, "IL"]]}
+{"text": "556 sokak 15 mayis pamukkale denizli", "entities": [[0, 9, "SOKAK"], [10, 12, "NO"], [29, 36, "IL"]]}
+{"text": "manisa kula 4 eylül mahallesi 234 sokak no32 1 manisa kula ilk adım anaokulu", "entities": [[0, 29, "MAH"], [30, 39, "SOKAK"], [42, 44, "NO"], [45, 46, "NO"], [47, 53, "IL"]]}
+{"text": "yeşil mahalle 626 sokak yılmaz inşaat aygün sitesi a blok numara 4 a kat 2 daire 7nazilli aydın yeşil nazilli aydın", "entities": [[14, 23, "SOKAK"], [65, 66, "NO"], [73, 74, "NO"], [90, 95, "IL"], [110, 115, "IL"]]}
+{"text": "mehmetçik mehmetçik mahallesi lisese 1caddesi sub ay loj h blok kat 1 numara 1 mehmetçik pam ukkale denizli mehmetçik pamukkale denizli türkiye", "entities": [[0, 29, "MAH"], [68, 69, "NO"], [77, 78, "NO"], [100, 107, "IL"], [128, 135, "IL"]]}
+{"text": "karakaklık cadde kapı 42 kat 2 karaçulha fethiye muğla", "entities": [[22, 24, "NO"], [29, 30, "NO"], [41, 48, "IL"], [49, 54, "IL"]]}
+{"text": "güven mahalle 387 sokak numara 15 daire 6 sirinyer buca", "entities": [[14, 23, "SOKAK"], [31, 33, "NO"], [40, 41, "NO"], [51, 55, "ILCE"]]}
+{"text": "orhaniye mahalle şht ast yıldıray çeltiklioğlu cadde numara 31a 19 yeşill rezidans muğla menteşe", "entities": [[60, 63, "NO"], [64, 66, "NO"], [83, 88, "IL"], [89, 96, "ILCE"]]}
+{"text": "448 sokak özsubaşı life b blok kat 2 daire 6 cumhuriyet incirliova aydın", "entities": [[0, 9, "SOKAK"], [35, 36, "NO"], [43, 44, "NO"], [67, 72, "IL"]]}
+{"text": "cumhuriyet mahalle osman akça caddesi rıza akça sitesi dblok kat 3 sarayköy denizli", "entities": [[0, 37, "CADDE"], [65, 66, "NO"], [76, 83, "IL"]]}
+{"text": "3251 sokak numara 4 kat 1 calikusu mahalle", "entities": [[0, 10, "SOKAK"], [18, 19, "NO"], [24, 25, "NO"]]}
+{"text": "izmir çesme 16 eylül mahallesi gündoğdu apartman numara 46 daire 2 16 eylül mahalle çeşme", "entities": [[0, 30, "MAH"], [56, 58, "NO"], [65, 66, "NO"], [67, 69, "NO"], [84, 89, "IL"]]}
+{"text": "7026 1 sokak numara 1 pınarbaşı izmir", "entities": [[0, 4, "NO"], [5, 12, "SOKAK"], [20, 21, "NO"], [32, 37, "IL"]]}
+{"text": "tülbentli mahalle kumru geçidi sokak numara 8 kat 3 daire 27 menemen tülbentli menemen izmir", "entities": [[44, 45, "NO"], [50, 51, "NO"], [58, 60, "NO"], [87, 92, "IL"]]}
+{"text": "cumhuriyet bulvari numara 99 kat 8 daire 20 alsancak konak izmir", "entities": [[0, 18, "BULVAR"], [26, 28, "NO"], [33, 34, "NO"], [41, 43, "NO"], [53, 58, "ILCE"], [59, 64, "IL"]]}
+{"text": "belenli fotograf akincilar mahalle alcitepe cadde numara 36 a sehzadeler manisa", "entities": [[57, 59, "NO"], [73, 79, "IL"]]}
+{"text": "kazımdirik mahalle 372 sokak forum bornova yönetin binası bornova izmir kazimdirik bornova izmir", "entities": [[19, 28, "SOKAK"], [35, 42, "ILCE"], [58, 65, "ILCE"], [66, 71, "IL"], [83, 90, "ILCE"], [91, 96, "IL"]]}
+{"text": "çiftlik mahalle 161 sokak numara 3 a rizaköse ortaokulu arkası", "entities": [[16, 25, "SOKAK"], [33, 34, "NO"]]}
+{"text": "pazaryeri mahallesi süleyman demirel bulvari numara 164 fethiye mugla pazaryeri fethiye muğla", "entities": [[0, 19, "MAH"], [52, 55, "NO"], [56, 63, "IL"], [80, 87, "IL"], [88, 93, "IL"]]}
+{"text": "gümüşçay mahallesi 4056 sokak numara 2 kat 4 daire 7", "entities": [[0, 18, "MAH"], [19, 29, "SOKAK"], [37, 38, "NO"], [43, 44, "NO"], [51, 52, "NO"]]}
+{"text": "yeni mahalle 28 sokak ege hayat sitesi numara 62 a kat 1 daire 1", "entities": [[13, 21, "SOKAK"], [46, 48, "NO"], [55, 56, "NO"], [63, 64, "NO"]]}
+{"text": "mevlana mahallesi 1730 2 sokak myvia bornova evleri numara 7 a daire 31 bornova izmir", "entities": [[0, 17, "MAH"], [18, 22, "NO"], [23, 30, "SOKAK"], [37, 44, "ILCE"], [59, 60, "NO"], [69, 71, "NO"], [72, 79, "ILCE"], [80, 85, "IL"]]}
+{"text": "atatürk tarım sokak numara 6 kat 1 ödemiş izmir", "entities": [[27, 28, "NO"], [33, 34, "NO"], [42, 47, "IL"]]}
+{"text": "muradiye mahallesi muradiye mahalle gümüş sokak numara 1 daire 4 kat 2 tatlıcı hurşit apartman manisa yunusemre bina 1 kat 2 daire 4 yunusemre manisa", "entities": [[0, 18, "MAH"], [55, 56, "NO"], [63, 64, "NO"], [69, 70, "NO"], [95, 101, "IL"], [117, 118, "NO"], [123, 124, "NO"], [131, 132, "NO"], [143, 149, "IL"]]}
+{"text": "kazimdirik mustafa kemal cadde numara 39 kat 7 daire13 kazimdirik bornova izmir", "entities": [[38, 40, "NO"], [45, 46, "NO"], [52, 54, "DAIRE"], [66, 73, "ILCE"], [74, 79, "IL"]]}
+{"text": "2196 2 sokak no4 kat2 cengizhan mahallesi bayraklı izmir", "entities": [[0, 41, "MAH"], [42, 50, "ILCE"], [51, 56, "IL"]]}
+{"text": "gülistan cadde numara 3 bagua bahçelievler merkezefendi denizli", "entities": [[22, 23, "NO"], [56, 63, "IL"]]}
+{"text": "5720 sokak numara 1 daire 1 meriç mahallesi bornova izmir", "entities": [[0, 43, "MAH"], [44, 51, "ILCE"], [52, 57, "IL"]]}
+{"text": "4032 sokak numara 17 daire 2 yeşilova bornova izmir yeşilova bornova izmir bornova izmir tr", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"], [27, 28, "NO"], [38, 45, "ILCE"], [46, 51, "IL"], [61, 68, "ILCE"], [69, 74, "IL"], [75, 82, "ILCE"], [83, 88, "IL"]]}
+{"text": "basinsitesi mahallesi 162 sokak numara 9 daire3 selin apartmani", "entities": [[0, 21, "MAH"], [22, 31, "SOKAK"], [39, 40, "NO"], [46, 47, "DAIRE"]]}
+{"text": "atatürk mahalle fatih caddesi 344 sokak kapan apartmanı numara 11 daire 8 izmir aliağa", "entities": [[0, 29, "CADDE"], [30, 39, "SOKAK"], [63, 65, "NO"], [72, 73, "NO"], [74, 79, "IL"]]}
+{"text": "elif yapıcı apartman numara 51 53 kapı numara 10 kat 4", "entities": [[28, 30, "NO"], [31, 33, "NO"], [46, 48, "NO"], [53, 54, "NO"]]}
+{"text": "yalıkavak mahallesi küdür caddesi numara 43 çaça restaurant çaça restaurant", "entities": [[0, 19, "MAH"], [41, 43, "NO"]]}
+{"text": "gölcük mahallesi 9432 sokak numara 28 daire 2", "entities": [[0, 16, "MAH"], [17, 27, "SOKAK"], [35, 37, "NO"], [44, 45, "NO"]]}
+{"text": "muğla milas ören mahallesi yalı mevki 6 nolu sokak 2 3 ören mahalle", "entities": [[0, 26, "MAH"], [38, 39, "NO"], [51, 52, "NO"], [53, 54, "NO"]]}
+{"text": "ismetpaşa mahallesi 70 1 ok panaroma sitesi c blok daire 11 dikili izmir", "entities": [[0, 19, "MAH"], [20, 22, "NO"], [23, 24, "NO"], [57, 59, "NO"], [60, 66, "IL"], [67, 72, "IL"]]}
+{"text": "ismet inönü mahallesi 2100 sokak 13 1 çeşme izmir", "entities": [[0, 21, "MAH"], [22, 32, "SOKAK"], [33, 35, "NO"], [36, 37, "NO"], [38, 43, "IL"], [44, 49, "IL"]]}
+{"text": "1405 sokak numara 19 buharalı apartman kat 3 daire 14 bucakoop mahallasi buca izmir", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"], [43, 44, "NO"], [51, 53, "NO"], [73, 77, "ILCE"], [78, 83, "IL"]]}
+{"text": "müskebi mahalle kopuz cadde 17 1", "entities": [[28, 30, "NO"], [31, 32, "NO"]]}
+{"text": "kasimpaşa mahalle kasımpaşa mahallesiatatürk caddesi numara 27 sarıkaya mobilya menemen izmir", "entities": [[0, 52, "CADDE"], [60, 62, "NO"], [88, 93, "IL"]]}
+{"text": "q beach club mutfak mersinaki caddesi 362 sokak numara 6 35680 foça izmir 35680 foça izmir", "entities": [[0, 37, "CADDE"], [38, 47, "SOKAK"], [55, 56, "NO"], [57, 62, "NO"], [68, 73, "IL"], [74, 79, "NO"], [85, 90, "IL"]]}
+{"text": "yeni mahalle ismet sezgin mesleki teknik anadolu lisesi moda tasarimi bölümü burda temmuz 2025", "entities": [[90, 94, "NO"]]}
+{"text": "cumhuriyet mahalle cumhuriyet kültür caddesi bina numara 24 daire numara 1 kat 1 beydağ izmir cumhuriyet beydağ izmir beydağ izmir tr", "entities": [[0, 44, "CADDE"], [57, 59, "NO"], [73, 74, "NO"], [79, 80, "NO"], [88, 93, "IL"], [112, 117, "IL"], [125, 130, "IL"]]}
+{"text": "tepe mahalle özel marmaris ağız ve dış sağlığı polikliniği tepe mahalle 63 sokak numara 3 5 7 cankurt iş merkezi nüfus müdürlüğü üstü", "entities": [[18, 26, "IL"], [72, 80, "SOKAK"], [88, 89, "NO"], [90, 91, "NO"], [92, 93, "NO"]]}
+{"text": "bengisu mahallesi 353 sokak numara 7 a blok çolakoğlu apartmanı kat 2 daire 5 bengisu", "entities": [[0, 17, "MAH"], [18, 27, "SOKAK"], [35, 36, "NO"], [68, 69, "NO"], [76, 77, "NO"]]}
+{"text": "izmir torbalı atatürk mahallesi 1559sk numara 20 a", "entities": [[0, 31, "MAH"], [46, 48, "NO"]]}
+{"text": "83 4 sokak camiikebir mahallesi ismail aygun plaza derya blok kat 3 daire numara 11", "entities": [[0, 31, "MAH"], [66, 67, "NO"], [81, 83, "NO"]]}
+{"text": "206 sokak atatürk mahallesi kat 8 daire 23 buca izmir", "entities": [[0, 27, "MAH"], [32, 33, "NO"], [40, 42, "NO"], [43, 47, "ILCE"], [48, 53, "IL"]]}
+{"text": "dalaman açık ceza infaz kurum müdürlüğü dalaman muğla", "entities": [[48, 53, "IL"]]}
+{"text": "yeşilova mahallesi 4055 sokak numara 1 altınışık kumaşçılık", "entities": [[0, 18, "MAH"], [19, 29, "SOKAK"], [37, 38, "NO"]]}
+{"text": "bitez yalısı amca cadde mare sitesi c 5 bodrum muğla", "entities": [[38, 39, "NO"], [40, 46, "IL"], [47, 52, "IL"]]}
+{"text": "895 sokak numara 12 hisarönü işgören silahçilik konak konak izmir", "entities": [[0, 9, "SOKAK"], [17, 19, "NO"], [48, 53, "ILCE"], [54, 59, "ILCE"], [60, 65, "IL"]]}
+{"text": "aydın efeler mimar sinan mahallesi 2351 sokak uşaklı apartmanı kat 5 daire 9 09000 aydın türkiye", "entities": [[0, 34, "MAH"], [35, 45, "SOKAK"], [67, 68, "NO"], [75, 76, "NO"], [77, 82, "NO"], [83, 88, "IL"]]}
+{"text": "gazipaşa mahalle gazipaşa mahalle 63 sokak numara 35 ayşenaz apartman kat 3 daire5 ayşenaz apartman kat 3 daire5", "entities": [[34, 42, "SOKAK"], [50, 52, "NO"], [74, 75, "NO"], [81, 82, "DAIRE"], [104, 105, "NO"], [111, 112, "DAIRE"]]}
+{"text": "rafet paşa mahalle 5252 sokak numara 3 kat 2 bornova izmir", "entities": [[19, 29, "SOKAK"], [37, 38, "NO"], [43, 44, "NO"], [45, 52, "ILCE"], [53, 58, "IL"]]}
+{"text": "çırkan mahallesi paşa dede caddesi park bodrum evleri a18 1 konacık bodrum", "entities": [[0, 16, "MAH"], [40, 46, "IL"], [58, 59, "NO"], [68, 74, "IL"]]}
+{"text": "cukuralti mahalle 2189 sokak numara 26 29 menderes izmir özdere cumhuriyet menderes izmir", "entities": [[18, 28, "SOKAK"], [36, 38, "NO"], [39, 41, "NO"], [51, 56, "IL"], [84, 89, "IL"]]}
+{"text": "8216 1 sokak numara 9b kat 2 daire4 ataşehir çiğli", "entities": [[0, 4, "NO"], [5, 12, "SOKAK"], [20, 22, "NO"], [27, 28, "NO"], [34, 35, "DAIRE"], [45, 50, "ILCE"]]}
+{"text": "kyk aydın il müdürlüğü gençik ve spor bakanlığı yüksek öğrenim kredi ve yurtlar kurumu adnan menderes erkek öğrencyurdu işikli efeler aydın", "entities": [[4, 9, "IL"], [127, 133, "ILCE"], [134, 139, "IL"]]}
+{"text": "6523 sokak soyak sitesi b giriş daire 9 blok kat 13 daire 74 mavişehir izmir yali karşiyaka izmir", "entities": [[0, 10, "SOKAK"], [38, 39, "NO"], [49, 51, "NO"], [58, 60, "NO"], [71, 76, "IL"], [92, 97, "IL"]]}
+{"text": "orta mahalle hacıyusuflar sokak numara 14 irem bebe tavas denizli orta tavas denizli", "entities": [[39, 41, "NO"], [58, 65, "IL"], [77, 84, "IL"]]}
+{"text": "yeşilbağlar mahallesi 289 48 sokak numara 51 a akbulut sitesi1 b blok daire 7 buca izmir akbulut sitesi1 b blok daire 7", "entities": [[0, 21, "MAH"], [22, 25, "NO"], [26, 34, "SOKAK"], [42, 44, "NO"], [76, 77, "NO"], [78, 82, "ILCE"], [83, 88, "IL"], [118, 119, "NO"]]}
+{"text": "801 sokak numara 7 kat 1 daire2 inönü mahallesi atatürk bornova izmir", "entities": [[0, 47, "MAH"], [56, 63, "ILCE"], [64, 69, "IL"]]}
+{"text": "1202 taksim 1 sokak numara 15h halkapınar mahallesi gıda çarşısı konak izmir", "entities": [[0, 51, "MAH"], [65, 70, "ILCE"], [71, 76, "IL"]]}
+{"text": "günaltay mahallesi günaltay mahalle 4765 sokak numara 48 kat 2 karabağlar izmir türkiye", "entities": [[0, 18, "MAH"], [36, 46, "SOKAK"], [54, 56, "NO"], [61, 62, "NO"], [63, 73, "ILCE"], [74, 79, "IL"]]}
+{"text": "manisa akhisar paşa mahalle 144 sokak numara 60 lezzet pide lezzet pide salonu", "entities": [[0, 6, "IL"], [28, 37, "SOKAK"], [45, 47, "NO"]]}
+{"text": "cumhuriyet mahalle severcan cadde kale konut sitesi f blok numara 49 gümbet bodrum muğla", "entities": [[66, 68, "NO"], [76, 82, "IL"], [83, 88, "IL"]]}
+{"text": "salimbey mahalle 17 sokak numara 2a freya taki", "entities": [[17, 25, "SOKAK"], [33, 35, "NO"]]}
+{"text": "muradiye mahallesi 3 sokak numara 7 noran style sitesi f blok daire numara 1 yunusemre manisa", "entities": [[0, 18, "MAH"], [19, 26, "SOKAK"], [34, 35, "NO"], [75, 76, "NO"], [87, 93, "IL"]]}
+{"text": "atatürk mahallesi sedir sokak numara 6 daire 6 kat 1 çağlar apartmanı atatürk mahalle bergama", "entities": [[0, 17, "MAH"], [37, 38, "NO"], [45, 46, "NO"], [51, 52, "NO"]]}
+{"text": "merkez mahallesi cengiz topel caddesi 13 sokak elif apartman 10 1 dalaman", "entities": [[0, 16, "MAH"], [38, 46, "SOKAK"], [61, 63, "NO"], [64, 65, "NO"]]}
+{"text": "uğur mumcu mahallesi 1312 sokak numara 68 daire kat numara 3 menemen izmir numara 68 kat 3 daire 3 menemen izmir tr", "entities": [[0, 20, "MAH"], [21, 31, "SOKAK"], [39, 41, "NO"], [59, 60, "NO"], [69, 74, "IL"], [82, 84, "NO"], [89, 90, "NO"], [97, 98, "NO"], [107, 112, "IL"]]}
+{"text": "2074 sokak numara 15 mavi evler sitesi e blok kat 2 d2", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"], [50, 51, "NO"], [53, 54, "DAIRE"]]}
+{"text": "yenikale mahalle halkbank narlıdere şubesi mithatpaşa cadde numara 120 a narlıdere izmir yenikale ma h narlıdere izmir türkiye", "entities": [[67, 70, "NO"], [83, 88, "IL"], [113, 118, "IL"]]}
+{"text": "bodrum merkez çarşı mahalle cecat şakir cadde numara 68 bodrum muğla", "entities": [[0, 6, "IL"], [53, 55, "NO"], [56, 62, "IL"], [63, 68, "IL"]]}
+{"text": "cahit gündüz cadde numara 25 cunda balık fethiye", "entities": [[26, 28, "NO"], [41, 48, "IL"]]}
+{"text": "4 eylül mahallesi 240 sokak numara 11 3", "entities": [[0, 17, "MAH"], [18, 27, "SOKAK"], [35, 37, "NO"], [38, 39, "NO"]]}
+{"text": "hürriyet mahalle 452 sokak numara 11 kat 4 daire5 akhisar manisa hürriyet akhisar manisa akhisar manisa tr", "entities": [[17, 26, "SOKAK"], [34, 36, "NO"], [41, 42, "NO"], [48, 49, "DAIRE"], [58, 64, "IL"], [82, 88, "IL"], [97, 103, "IL"]]}
+{"text": "bariş mahalle 152 2 sokak numara 4b", "entities": [[14, 17, "NO"], [18, 25, "SOKAK"], [33, 35, "NO"]]}
+{"text": "sehit sukru uzun sokak numara 32 daire 3 nurgoren apartman", "entities": [[30, 32, "NO"], [39, 40, "NO"]]}
+{"text": "islamhaneleri mahalle eczacilar caddesi eczacilar sitesi k3a gürece bagla mevki bodrum", "entities": [[0, 39, "CADDE"], [80, 86, "IL"]]}
+{"text": "gerzele mahalle kanyon cadde numara 47 vadikent 3 sitesi b blok daire 3", "entities": [[36, 38, "NO"], [48, 49, "NO"], [70, 71, "NO"]]}
+{"text": "güzelhisar mahallesi 69 sokak numara 12 kat 5 daire10 güven apartman efeler aydın güzelhisar efeler aydın", "entities": [[0, 20, "MAH"], [21, 29, "SOKAK"], [37, 39, "NO"], [44, 45, "NO"], [51, 53, "DAIRE"], [69, 75, "ILCE"], [76, 81, "IL"], [93, 99, "ILCE"], [100, 105, "IL"]]}
+{"text": "hürriyet mahallesi 429 sokak numara 31 5 akhisar manisa", "entities": [[0, 18, "MAH"], [19, 28, "SOKAK"], [36, 38, "NO"], [39, 40, "NO"], [49, 55, "IL"]]}
+{"text": "üniversite cadde park yaşam bornova a blok daire 4 kazimdirik bornova izmir", "entities": [[28, 35, "ILCE"], [49, 50, "NO"], [62, 69, "ILCE"], [70, 75, "IL"]]}
+{"text": "güzelyurt mahalle güzelyurt mahalle 5741 sokak numara 4 b daire17 yunusemre manisa", "entities": [[36, 46, "SOKAK"], [54, 55, "NO"], [63, 65, "DAIRE"], [76, 82, "IL"]]}
+{"text": "mansuroğlu mahallesi 273 2 sokak özkanlar 45 apartmanı numara 3 daire 18 kat 6 bayraklı izmir", "entities": [[0, 20, "MAH"], [21, 24, "NO"], [25, 32, "SOKAK"], [42, 44, "NO"], [62, 63, "NO"], [70, 72, "NO"], [77, 78, "NO"], [79, 87, "ILCE"], [88, 93, "IL"]]}
+{"text": "cumhuriyet cumhuriyet mahallesi kursun sokak numara 12 kat 3 manisa turgutlu", "entities": [[0, 31, "MAH"], [52, 54, "NO"], [59, 60, "NO"], [61, 67, "IL"]]}
+{"text": "1249 sokak numara 14 b gözde eczanesi", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"]]}
+{"text": "gerzele mahalle menekse caddesi numara 22 kat 2 merkezefendi denizli", "entities": [[0, 31, "CADDE"], [39, 41, "NO"], [46, 47, "NO"], [61, 68, "IL"]]}
+{"text": "mavişehir mahalle selcuk 5 giriş 5 kat 18 daire 72 karşiyaka izmir", "entities": [[25, 26, "NO"], [33, 34, "NO"], [39, 41, "NO"], [48, 50, "NO"], [61, 66, "IL"]]}
+{"text": "ova sokak numara 7 bahar konaklarına girmeden giriş kapısını geçince sağdaki ilk 2 katlı ev giriş kat beçin milas muğla", "entities": [[17, 18, "NO"], [81, 82, "NO"], [114, 119, "IL"]]}
+{"text": "hacı isa mahalle yeni otopark sokak deniz apartman numara 13 daire16 şoförler derneği üst kati", "entities": [[58, 60, "NO"], [66, 68, "DAIRE"]]}
+{"text": "beş eylul mahalle turan alakent cadde numara 26a engin ustanın yeri", "entities": [[45, 48, "NO"]]}
+{"text": "yeşilbağlar mahalle #278skk bina numara 6 kat 2 daire numara 2 buca izmir", "entities": [[40, 41, "NO"], [46, 47, "NO"], [61, 62, "NO"], [63, 67, "ILCE"], [68, 73, "IL"]]}
+{"text": "umurlu mahallesi 4119 sokak 39a", "entities": [[0, 16, "MAH"], [17, 27, "SOKAK"]]}
+{"text": "yeşil mahalle 1864 sokak numara 17 a blok avcıoğlu apartman kat 5 daire 10", "entities": [[14, 24, "SOKAK"], [32, 34, "NO"], [64, 65, "NO"], [72, 74, "NO"]]}
+{"text": "turunç köyü mehmet ali çelik caddesi numara z4", "entities": [[0, 36, "CADDE"]]}
+{"text": "mithatpaşa mahallesi 140 sokak numara 19 daire 5 erimer apartman mithatpaşa konak izmir", "entities": [[0, 20, "MAH"], [21, 30, "SOKAK"], [38, 40, "NO"], [47, 48, "NO"], [76, 81, "ILCE"], [82, 87, "IL"]]}
+{"text": "denizli devlet hastanesi a blok zemin kat sarf depo birimi sirakapilar merkezefendi denizli", "entities": [[0, 7, "IL"], [84, 91, "IL"]]}
+{"text": "patlangıç mahalle 346sokak bina 13 dayre 5 fethiye muğla", "entities": [[18, 26, "SOKAK"], [32, 34, "NO"], [41, 42, "NO"], [43, 50, "IL"], [51, 56, "IL"]]}
+{"text": "atifbey atıfbey mahalle 67 sokak numara 43 daire 8 gaziemir izmir", "entities": [[24, 32, "SOKAK"], [40, 42, "NO"], [49, 50, "NO"], [51, 59, "ILCE"], [60, 65, "IL"]]}
+{"text": "selma karaduman atatürk mahallesi eski denizli yolu kat 1 numara 63", "entities": [[0, 33, "MAH"], [39, 46, "IL"], [56, 57, "NO"], [65, 67, "NO"]]}
+{"text": "mavişehir aziz nesin bulvarı pamukkale 8 giriş 95 katno 8 95 daire4r karşıyaka izmir kat 10", "entities": [[0, 28, "BULVAR"], [39, 40, "NO"], [47, 49, "NO"], [56, 57, "NO"], [58, 60, "NO"], [69, 78, "ILCE"], [79, 84, "IL"], [89, 91, "NO"]]}
+{"text": "aydınlıkevler mahalle akkent sitesi 34 blok numara 203 milas muğla", "entities": [[36, 38, "NO"], [51, 54, "NO"], [61, 66, "IL"]]}
+{"text": "atatürk cadde sahil yolu numara 137 torba mahallesi", "entities": [[0, 51, "MAH"]]}
+{"text": "816 sokak numara 51 a müşteri aranacak içerik gida", "entities": [[0, 9, "SOKAK"], [17, 19, "NO"]]}
+{"text": "gazikent mahallesi 73 sokak numara 11 daire1 su apartmanı gaziemir izmir", "entities": [[0, 18, "MAH"], [19, 27, "SOKAK"], [35, 37, "NO"], [43, 44, "DAIRE"], [58, 66, "ILCE"], [67, 72, "IL"]]}
+{"text": "gerzele 511 sokak numara 1 kardelen apartman kat 2 daire 5 merkezefendi denizli", "entities": [[8, 17, "SOKAK"], [25, 26, "NO"], [49, 50, "NO"], [57, 58, "NO"], [72, 79, "IL"]]}
+{"text": "refet bele mahallesi 9131 24 sokak numara 3 kat 3 daire 6", "entities": [[0, 20, "MAH"], [21, 25, "NO"], [26, 34, "SOKAK"], [42, 43, "NO"], [48, 49, "NO"], [56, 57, "NO"]]}
+{"text": "anafartalar mahallesi salkım sokak numara 10 kat 4 daire 6 izmir ödemiş", "entities": [[0, 21, "MAH"], [42, 44, "NO"], [49, 50, "NO"], [57, 58, "NO"], [59, 64, "IL"]]}
+{"text": "adatepe mahalle adatepe mahallesi 1sokak no19 21 ünalbey apartmanı kat 4 daire 5 buca izmir buca izmir", "entities": [[0, 33, "MAH"], [34, 40, "SOKAK"], [43, 45, "NO"], [46, 48, "NO"], [71, 72, "NO"], [79, 80, "NO"], [81, 85, "ILCE"], [86, 91, "IL"], [92, 96, "ILCE"], [97, 102, "IL"]]}
+{"text": "yunus emre mahallesi 6465 sokak numara 5 emsan evleri b3 blok kat 1 daire 1 pamukkale denizli", "entities": [[0, 20, "MAH"], [21, 31, "SOKAK"], [39, 40, "NO"], [66, 67, "NO"], [74, 75, "NO"], [86, 93, "IL"]]}
+{"text": "güzelyurt mahalle güzelyurt mahallesi 5780 sokak prestij yasam konutlari 2 sitesi b blok daire 2 yunusemre", "entities": [[0, 37, "MAH"], [38, 48, "SOKAK"], [73, 74, "NO"], [95, 96, "NO"]]}
+{"text": "30 ağustos mahallesi 3 cadde 14 daire turpa emlak", "entities": [[0, 20, "MAH"], [21, 22, "NO"], [29, 31, "NO"]]}
+{"text": "fevzi çakmak mahalle baris manco caddesi numara 70 türe apartmani kat 1 daire 3 torbali izmir", "entities": [[0, 40, "CADDE"], [48, 50, "NO"], [70, 71, "NO"], [78, 79, "NO"], [88, 93, "IL"]]}
+{"text": "karabag mahalle kaykacak cadde numara 50 3 turgutreis", "entities": [[38, 40, "NO"], [41, 42, "NO"]]}
+{"text": "bozyaka çalıkuşu mahallesi 3206 sokak park apartmanı no2 daire 16 kat 5", "entities": [[0, 26, "MAH"], [27, 37, "SOKAK"], [55, 56, "NO"], [63, 65, "NO"], [70, 71, "NO"]]}
+{"text": "aydın kuşadası 4311 sokak numara 6 nazilli sitesi aydin eski kapı numarasi 25 kadıkalesi mahalle", "entities": [[0, 5, "IL"], [15, 25, "SOKAK"], [33, 34, "NO"], [75, 77, "NO"]]}
+{"text": "konuk sokak 40 35430 izmir urla çınar apartmanı", "entities": [[12, 14, "NO"], [15, 20, "NO"], [21, 26, "IL"]]}
+{"text": "mithatpasa mahalle mitatpasa cadde kervan işhani kat 1 numara 137 107salihli manisa mithatpasa mahalle sevgiyolu cadde kervan işhani kat 1 numara 116 salihli manisa", "entities": [[53, 54, "NO"], [62, 65, "NO"], [77, 83, "IL"], [137, 138, "NO"], [146, 149, "NO"], [158, 164, "IL"]]}
+{"text": "6260 sokak numara 25 daire 9 şemikler karşıyaka izmir şemikler karşiyaka izmir", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"], [27, 28, "NO"], [38, 47, "ILCE"], [48, 53, "IL"], [73, 78, "IL"]]}
+{"text": "99 sokak park iaos sitesi 1420 parsel numara 14 5 güllük milas muğla 48000", "entities": [[0, 8, "SOKAK"], [26, 30, "NO"], [45, 47, "NO"], [48, 49, "NO"], [63, 68, "IL"], [69, 74, "NO"]]}
+{"text": "çamköy alpaslan türkeş cmk cadde numara 138 a fethiye muğla", "entities": [[40, 43, "NO"], [46, 53, "IL"], [54, 59, "IL"]]}
+{"text": "474 sokak numara 76 kat 3 daire 9 osman nuri apartman", "entities": [[0, 9, "SOKAK"], [17, 19, "NO"], [24, 25, "NO"], [32, 33, "NO"]]}
+{"text": "umurbey mahalle samsun cadde numara 2 ödemiş", "entities": [[36, 37, "NO"]]}
+{"text": "inönü mahalle 689 12 sokak numara 4 kat 2", "entities": [[14, 17, "NO"], [18, 26, "SOKAK"], [34, 35, "NO"], [40, 41, "NO"]]}
+{"text": "izmir bornova gediz caddesi numara 21 b blok daire 4", "entities": [[0, 27, "CADDE"], [35, 37, "NO"], [51, 52, "NO"]]}
+{"text": "altay mahallesi serin sokak no17", "entities": [[0, 15, "MAH"], [30, 32, "NO"]]}
+{"text": "atatürk mahalle 212 sokak numara 3 vito veterinet kliniğinin arasındaki sokak gelince arayın lütfen atatürk buca izmir", "entities": [[16, 25, "SOKAK"], [33, 34, "NO"], [108, 112, "ILCE"], [113, 118, "IL"]]}
+{"text": "merkez 65 sokak numara 273 daire a dörttepe dörttepe", "entities": [[7, 15, "SOKAK"], [23, 26, "NO"]]}
+{"text": "12500 sokak 50 a", "entities": [[0, 11, "SOKAK"], [12, 14, "NO"]]}
+{"text": "kizilay mahallesi ersoy caddesi numara 82 daire 3 bornova izmir kizilay bornova izmir", "entities": [[0, 17, "MAH"], [39, 41, "NO"], [48, 49, "NO"], [50, 57, "ILCE"], [58, 63, "IL"], [72, 79, "ILCE"], [80, 85, "IL"]]}
+{"text": "burak reis cadde 5218 sokak numara 11 kat 2 bornova izmir", "entities": [[17, 27, "SOKAK"], [35, 37, "NO"], [42, 43, "NO"], [44, 51, "ILCE"], [52, 57, "IL"]]}
+{"text": "nurettin ersoy cadde kirveli salihli manisa", "entities": [[37, 43, "IL"]]}
+{"text": "söğütlüyurt mahallesi cengizhan 8 sokak bozbel apartmanı numara 1 daire 3 numara 1 daire 3 dalaman", "entities": [[0, 21, "MAH"], [32, 39, "SOKAK"], [64, 65, "NO"], [72, 73, "NO"], [81, 82, "NO"], [89, 90, "NO"]]}
+{"text": "75 yıl mahalle vali azizbey cadde 33 kat 2 daire 5 75 yil yunusemre manisa yunusemre manisa tr", "entities": [[0, 2, "NO"], [34, 36, "NO"], [41, 42, "NO"], [49, 50, "NO"], [51, 53, "NO"], [68, 74, "IL"], [85, 91, "IL"]]}
+{"text": "atatürk metin ğöktepe cadde numara 8 daire 2 buca izmir", "entities": [[35, 36, "NO"], [43, 44, "NO"], [45, 49, "ILCE"], [50, 55, "IL"]]}
+{"text": "atatürk mahalle abalıoğlu yağ sanayi ve ticaret a ş 10006 1 sokak numara 19aosb çiğli", "entities": [[52, 57, "NO"], [58, 65, "SOKAK"], [80, 85, "ILCE"]]}
+{"text": "dokuz eylül sarnıç yolu üzeri numara 23 kenmak hastane m alzemeleri a ş gaziemir dokuz eylül ga ziemir izmir dokuz eylül gaziemir izmir türkiye", "entities": [[37, 39, "NO"], [72, 80, "ILCE"], [103, 108, "IL"], [121, 129, "ILCE"], [130, 135, "IL"]]}
+{"text": "gümsan 1 sitesi yakut sokak 12 ada numara 15 koyunbaba mahallesi gümüşlük bodrum koyunbaba bodrum muğla", "entities": [[0, 64, "MAH"], [74, 80, "IL"], [91, 97, "IL"], [98, 103, "IL"]]}
+{"text": "dokuzeylül mahalle 692 sokak numara 14 a imc binası", "entities": [[19, 28, "SOKAK"], [36, 38, "NO"]]}
+{"text": "ergenekon mahalle fatih cadde numara 66 kat2 daire 3 ergenekon turgutlu manisa turgutlu manisa tr", "entities": [[18, 23, "ILCE"], [37, 39, "NO"], [43, 44, "KAT"], [51, 52, "NO"], [72, 78, "IL"], [88, 94, "IL"]]}
+{"text": "hoca ahmet yesevi caddesi numara 190 buca izmir", "entities": [[0, 25, "CADDE"], [33, 36, "NO"], [37, 41, "ILCE"], [42, 47, "IL"]]}
+{"text": "fatih mahallesi sardunya sokak numara 4c daire 17 fatih mahalle", "entities": [[0, 15, "MAH"], [38, 40, "NO"], [47, 49, "NO"], [50, 55, "ILCE"]]}
+{"text": "aksoy mahalle cemal gürsel caddesi numara 430 ka t5 daire 12 sanver apartman a blok karşıyaka adresim", "entities": [[0, 34, "CADDE"], [42, 45, "NO"], [58, 60, "NO"], [84, 93, "ILCE"]]}
+{"text": "foça mahalle cahit beğenç bulvarı numara 19 remer hotel", "entities": [[0, 33, "BULVAR"], [41, 43, "NO"]]}
+{"text": "akdeniz mahallesi fevzipaşa bulvarı numara 14 704", "entities": [[0, 17, "MAH"], [43, 45, "NO"], [46, 49, "NO"]]}
+{"text": "musalla mahallesi 1106 sokak numara 1 çeşme marina carfoursa karşısı izsu tesisi çeşme izmir çeşme izmir", "entities": [[0, 17, "MAH"], [18, 28, "SOKAK"], [36, 37, "NO"], [38, 43, "IL"], [81, 86, "IL"], [87, 92, "IL"], [93, 98, "IL"], [99, 104, "IL"]]}
+{"text": "semikler mahalle semikler mahallesi osman gazi caddesi numara 45 gölkent konutlari a blok kat 2 daire 9 merkezefendi", "entities": [[0, 35, "MAH"], [62, 64, "NO"], [94, 95, "NO"], [102, 103, "NO"]]}
+{"text": "8927 sokak numara 1 kat 4 daire 14 izmir çiğli evka 5", "entities": [[0, 10, "SOKAK"], [18, 19, "NO"], [24, 25, "NO"], [32, 34, "NO"], [35, 40, "IL"], [41, 46, "ILCE"], [52, 53, "NO"]]}
+{"text": "atilla mahalle atillamahallesi475sokibrahimapartno20kat4daire4 eşrefpaşa konak", "entities": [[73, 78, "ILCE"]]}
+{"text": "ege perla avm yönetim ofisi ozan abay cadde ege perla avm numara 8 yönetim ofisi çinarli konak izmir", "entities": [[65, 66, "NO"], [89, 94, "ILCE"], [95, 100, "IL"]]}
+{"text": "clup flipper sokak clup flipper devre mülk 24 4 dirmil bodrum muğla", "entities": [[43, 45, "NO"], [46, 47, "NO"], [55, 61, "IL"], [62, 67, "IL"]]}
+{"text": "eski çeşme yolu üzeri total benzin istasyonu yalin petrol torosan mahalle numara 312 urla izmir torasan urla izmir", "entities": [[5, 10, "IL"], [81, 84, "NO"], [90, 95, "IL"], [109, 114, "IL"]]}
+{"text": "fesleğen mahalle emek cadde numara 73 yıldızevler apartmanı a blok kat 3 daire 14 pamukkale denizli", "entities": [[35, 37, "NO"], [71, 72, "NO"], [79, 81, "NO"], [92, 99, "IL"]]}
+{"text": "dere mahalle 10 sokak numara 5 dere dere", "entities": [[13, 21, "SOKAK"], [29, 30, "NO"]]}
+{"text": "basın sitesi mahalle 215 sokak bina ve daire numara numara 49 daire 5 karabağlar izmir", "entities": [[21, 30, "SOKAK"], [59, 61, "NO"], [68, 69, "NO"], [70, 80, "ILCE"], [81, 86, "IL"]]}
+{"text": "1326 sokak diyetisyen sena tireli sağlıklı yaşam merkezi numara 22a altintop merkezefendi denizli", "entities": [[0, 10, "SOKAK"], [64, 67, "NO"], [90, 97, "IL"]]}
+{"text": "atatürk mahallesi sahil caddesi numara 51 53", "entities": [[0, 17, "MAH"], [39, 41, "NO"], [42, 44, "NO"]]}
+{"text": "göktoğan teknik makina model tmm atatürk plst osb mahalle 6 cadde numara 8 menemen izmir", "entities": [[58, 59, "NO"], [73, 74, "NO"], [83, 88, "IL"]]}
+{"text": "mevlana cadde nirvana park sitesi c blok kat 4 daire 13", "entities": [[45, 46, "NO"], [53, 55, "NO"]]}
+{"text": "721 sokak numara 6 2 şehzadeler", "entities": [[0, 9, "SOKAK"], [17, 18, "NO"], [19, 20, "NO"]]}
+{"text": "ortaklar mahalle kayahan şok numara 6 daire 1 germencik aydin ortaklar germencik aydın", "entities": [[36, 37, "NO"], [44, 45, "NO"], [81, 86, "IL"]]}
+{"text": "keçiliköy osb mustafa kemal bulvar numara 13 emas makina", "entities": [[0, 34, "BULVAR"], [42, 44, "NO"]]}
+{"text": "1439 sokak numara 11 b 35220 alsancak konak izmir", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"], [23, 28, "NO"], [38, 43, "ILCE"], [44, 49, "IL"]]}
+{"text": "ovacik mahalle 7140 sokak mimarin ovacik evle ri 24 2 çeşme ev", "entities": [[15, 25, "SOKAK"], [49, 51, "NO"], [52, 53, "NO"], [54, 59, "IL"]]}
+{"text": "gürpınar caddesi numara 87 üç kapı 1 abalı manav cumhuriyet seydikemer muğla", "entities": [[0, 16, "CADDE"], [24, 26, "NO"], [35, 36, "NO"], [71, 76, "IL"]]}
+{"text": "1409 sokak çağlayan sitesi numara 6 daire 1 kat 1", "entities": [[0, 10, "SOKAK"], [34, 35, "NO"], [42, 43, "NO"], [48, 49, "NO"]]}
+{"text": "profesör doktor zekeriya aydın sokak numara 20 kat 3 daire 7 kurtuluş aliağa izmir", "entities": [[25, 30, "IL"], [44, 46, "NO"], [51, 52, "NO"], [59, 60, "NO"], [77, 82, "IL"]]}
+{"text": "754 sokak 4 2 seyit ahmet akhisar manisa", "entities": [[0, 9, "SOKAK"], [10, 11, "NO"], [12, 13, "NO"], [34, 40, "IL"]]}
+{"text": "bitez mahallesi adnan menderes caddesi gündonumu mevki 1410 sokak numara 90a doria hotel", "entities": [[0, 15, "MAH"], [55, 65, "SOKAK"], [73, 76, "NO"]]}
+{"text": "kazim dirik mahalle kazımdirik mahalle 219 sokak numara 4 a", "entities": [[39, 48, "SOKAK"], [56, 57, "NO"]]}
+{"text": "uğur mumcu bulvar numara 41 muski", "entities": [[0, 17, "BULVAR"], [25, 27, "NO"]]}
+{"text": "armutalan mahalle belediye caddesi numara 1 kapı 4a 1 muski bi nası büyükşehir zabıta ofisi", "entities": [[0, 34, "CADDE"], [42, 43, "NO"], [52, 53, "NO"]]}
+{"text": "3033 sokak numara9 daire3 kat3", "entities": [[0, 10, "SOKAK"], [17, 18, "NO"], [24, 25, "DAIRE"], [29, 30, "KAT"]]}
+{"text": "mustafa ismet inönü caddesi istiklal mahallesi numara 91 kat 2 daire 3 kemalpaşa ulucak izmir", "entities": [[0, 46, "MAH"], [54, 56, "NO"], [61, 62, "NO"], [69, 70, "NO"], [88, 93, "IL"]]}
+{"text": "güzelyurt mahallesi 5777 sokak 22 a güzelyurt yunusemre manisa", "entities": [[0, 19, "MAH"], [20, 30, "SOKAK"], [31, 33, "NO"], [56, 62, "IL"]]}
+{"text": "1025 sokak 78 c blok numara 12 emek apartmanı kat 5 daire 23 evka 4 bornova evka 4 bornova izmir", "entities": [[0, 10, "SOKAK"], [11, 13, "NO"], [28, 30, "NO"], [50, 51, "NO"], [58, 60, "NO"], [66, 67, "NO"], [68, 75, "ILCE"], [81, 82, "NO"], [83, 90, "ILCE"], [91, 96, "IL"]]}
+{"text": "incilipinar incilipınar mahalle 1202 sokak numara 47 kat 4 i ncilipinar pamukkale denizli incilipinar pamukkale denizli türkiye", "entities": [[32, 42, "SOKAK"], [50, 52, "NO"], [57, 58, "NO"], [82, 89, "IL"], [112, 119, "IL"]]}
+{"text": "ismail hakkı karadayı cadde manolya villa numara 5 gökcebel yalıkavak", "entities": [[49, 50, "NO"]]}
+{"text": "denizli pamukkale anafartalar mahalle 2140 2 sokak numara 5 daire 4 anafartalar pamukkale denizli", "entities": [[0, 7, "IL"], [38, 42, "NO"], [43, 50, "SOKAK"], [58, 59, "NO"], [66, 67, "NO"], [90, 97, "IL"]]}
+{"text": "hürriyet mahallesi kır çiceği sokak numara 23 24 kat 3 daire 3", "entities": [[0, 18, "MAH"], [43, 45, "NO"], [46, 48, "NO"], [53, 54, "NO"], [61, 62, "NO"]]}
+{"text": "yahşi mahalle ortakent yahsi mahallesi deniz caddesi 50 2 daire 1", "entities": [[0, 38, "MAH"], [53, 55, "NO"], [56, 57, "NO"], [64, 65, "NO"]]}
+{"text": "foça mahallesi 1005 sokak numara 34 fethiye muğla 34", "entities": [[0, 14, "MAH"], [15, 25, "SOKAK"], [33, 35, "NO"], [36, 43, "IL"], [44, 49, "IL"], [50, 52, "NO"]]}
+{"text": "haci ishak mahallesi 249sokak toki evleri y19 blok daire 11 kat 5", "entities": [[0, 20, "MAH"], [21, 29, "SOKAK"], [57, 59, "NO"], [64, 65, "NO"]]}
+{"text": "gülbahçe 12075 sokak numara 46 35433 urla izmir surfhouse oteli gülbahçe urla izmir", "entities": [[9, 20, "SOKAK"], [28, 30, "NO"], [31, 36, "NO"], [42, 47, "IL"], [78, 83, "IL"]]}
+{"text": "patlangiç mahalle patlangıç mahalle patlangıç ölüdeniz caddesi 71 2 türsap üstü erday apartmanı", "entities": [[0, 62, "CADDE"], [63, 65, "NO"], [66, 67, "NO"]]}
+{"text": "girne mahallesi 2175 sokak özcan apartman numara 15 kat 1 daire 1 efeler aydın türkiye", "entities": [[0, 15, "MAH"], [16, 26, "SOKAK"], [49, 51, "NO"], [56, 57, "NO"], [64, 65, "NO"], [66, 72, "ILCE"], [73, 78, "IL"]]}
+{"text": "kuslubahce mahallesi okul caddesi numara 29 kat 4", "entities": [[0, 20, "MAH"], [41, 43, "NO"], [48, 49, "NO"]]}
+{"text": "yunus emre mahallesi 6460 sokak numara 4 kat 1 daire 6 pamukkale denizli", "entities": [[0, 20, "MAH"], [21, 31, "SOKAK"], [39, 40, "NO"], [45, 46, "NO"], [53, 54, "NO"], [65, 72, "IL"]]}
+{"text": "1100 3sk numara 1 d4 evka1 buca izmir deniz apartmanı daire 4", "entities": [[0, 4, "NO"], [16, 17, "NO"], [19, 20, "DAIRE"], [27, 31, "ILCE"], [32, 37, "IL"], [60, 61, "NO"]]}
+{"text": "barış cadde eca yetkili servis hacikaplanlar pamukkale denizli", "entities": [[55, 62, "IL"]]}
+{"text": "113 17 sokak numara 2 7 saraykent 4 evka3 erzene mahalle bornova", "entities": [[0, 3, "NO"], [4, 12, "SOKAK"], [20, 21, "NO"], [22, 23, "NO"], [34, 35, "NO"], [57, 64, "ILCE"]]}
+{"text": "1543 sokak numara 6 alsancak konutları daire158 ege mahalle", "entities": [[0, 10, "SOKAK"], [18, 19, "NO"], [44, 47, "DAIRE"]]}
+{"text": "56 sokak numara 7 kat 3 daire 9 gaziemir izmir", "entities": [[0, 8, "SOKAK"], [16, 17, "NO"], [22, 23, "NO"], [30, 31, "NO"], [32, 40, "ILCE"], [41, 46, "IL"]]}
+{"text": "2193 1 sokak numara 8 cengizhan mahallesi", "entities": [[0, 41, "MAH"]]}
+{"text": "küçük çiğli mahalle 8713 sokak numara 81 daire 7 kat3", "entities": [[6, 11, "ILCE"], [20, 30, "SOKAK"], [38, 40, "NO"], [47, 48, "NO"], [52, 53, "KAT"]]}
+{"text": "şehitler mahalle ankara asfaltı cadde numara 143 pilot garage binası şehitler turgutlu manisa", "entities": [[17, 23, "IL"], [45, 48, "NO"], [87, 93, "IL"]]}
+{"text": "bayır mahalle m ruşen özbek cadde numara 1 salihpaşalar menteşe muğla", "entities": [[41, 42, "NO"], [56, 63, "ILCE"], [64, 69, "IL"]]}
+{"text": "türkmen mahallesi emine tümer sokak no2 lotus wellness türkmen mahallesi emine tümer sokak no2 lotus wellness", "entities": [[0, 72, "MAH"], [93, 94, "NO"]]}
+{"text": "1663 sokak arzum apartman numara 23 daire 7", "entities": [[0, 10, "SOKAK"], [33, 35, "NO"], [42, 43, "NO"]]}
+{"text": "istasyon mahallesi gazialparslan caddesi bina numara 29 anemon apartmanı kat 4 daire 12 alaşehir", "entities": [[0, 18, "MAH"], [53, 55, "NO"], [77, 78, "NO"], [85, 87, "NO"]]}
+{"text": "ayhanlar cadde 210 sokak no6 daire1 marmaris muğla zemin kat daire 1", "entities": [[15, 24, "SOKAK"], [27, 28, "NO"], [34, 35, "DAIRE"], [36, 44, "IL"], [45, 50, "IL"], [67, 68, "NO"]]}
+{"text": "izmir eski foça eski bağarası kazım dirik mahalle sokak 455 numara 7 2", "entities": [[0, 5, "IL"], [56, 59, "NO"], [67, 68, "NO"], [69, 70, "NO"]]}
+{"text": "çakabey mahallesi 2200 sokak dış kapı numara 39 çeşme izmir çakabey mahalle", "entities": [[0, 17, "MAH"], [18, 28, "SOKAK"], [45, 47, "NO"], [48, 53, "IL"], [54, 59, "IL"]]}
+{"text": "obakent sitesi 415 sokak numara 5 şehit mehmet çeşme izmir", "entities": [[15, 24, "SOKAK"], [32, 33, "NO"], [47, 52, "IL"], [53, 58, "IL"]]}
+{"text": "prometsan demir çelik a ş eskihisar mahalle 8000 sokak 35 ab m efendi eskihisar merkezefendi denizli", "entities": [[44, 54, "SOKAK"], [55, 57, "NO"], [93, 100, "IL"]]}
+{"text": "kazımdirik kazım dirik mahallesi 213 sokak 13 a the elit hair style erkek kuaförü izmir bornova bornova izmir", "entities": [[0, 32, "MAH"], [33, 42, "SOKAK"], [43, 45, "NO"], [82, 87, "IL"], [88, 95, "ILCE"], [96, 103, "ILCE"], [104, 109, "IL"]]}
+{"text": "koyunbaba mahalle fuat köprülü sokak numara 25 gümsan 2 sitesi gümüşlük", "entities": [[44, 46, "NO"], [54, 55, "NO"]]}
+{"text": "alparslan türkeş bulvar ali ipek iş merkezi ipek marketin orası fırat penin üstü bina numara 14 e kat 2 çirkan bodrum muğla", "entities": [[0, 23, "BULVAR"], [93, 95, "NO"], [102, 103, "NO"], [111, 117, "IL"], [118, 123, "IL"]]}
+{"text": "1021 sokak numara 4", "entities": [[0, 10, "SOKAK"], [18, 19, "NO"]]}
+{"text": "istiklal mahallesi mücadele caddesi bozkurt apartmanı kat 1 daire numara 1 efeler aydin istiklal efeler aydın", "entities": [[0, 18, "MAH"], [58, 59, "NO"], [73, 74, "NO"], [75, 81, "ILCE"], [97, 103, "ILCE"], [104, 109, "IL"]]}
+{"text": "1615 20 sokak numara 11", "entities": [[0, 4, "NO"], [5, 13, "SOKAK"], [21, 23, "NO"]]}
+{"text": "adatepe doğuş cadde numara 195 35390 buca izmir kyk izmir kiz öğrenci yurdu", "entities": [[27, 30, "NO"], [31, 36, "NO"], [37, 41, "ILCE"], [42, 47, "IL"], [52, 57, "IL"]]}
+{"text": "çamtepe mahalle uludağ sokak numara 8 a gdz elektrik", "entities": [[36, 37, "NO"]]}
+{"text": "yunusemre mahalle bursa cadde numara 73 neslihan eczanesi", "entities": [[18, 23, "IL"], [37, 39, "NO"]]}
+{"text": "aydın efeler yedieylül mahallesi izmir bulvarı no17 2 nisan apartmanı 1 kat", "entities": [[0, 32, "MAH"], [33, 38, "IL"], [49, 51, "NO"], [52, 53, "NO"], [70, 71, "NO"]]}
+{"text": "akıncılar mahallesi hürriyet caddesi numara 16 c ödemiş izmir ödemiş izmir türkiye", "entities": [[0, 19, "MAH"], [44, 46, "NO"], [56, 61, "IL"], [69, 74, "IL"]]}
+{"text": "kyk karabağlar erkek yurdu günaltay mahalle karabağlar", "entities": [[4, 14, "ILCE"], [44, 54, "ILCE"]]}
+{"text": "namık kemal mahalle evren cadde no1 a namik kemal köprübaşi manisa", "entities": [[34, 35, "NO"], [60, 66, "IL"]]}
+{"text": "efeler mahallesi 1402 sokak numara 3 daire 4 orman işletme lojmanı efeler aydın", "entities": [[0, 16, "MAH"], [17, 27, "SOKAK"], [35, 36, "NO"], [43, 44, "NO"], [67, 73, "ILCE"], [74, 79, "IL"]]}
+{"text": "1201 sokak numara 42 daire 1 orta tavas denizli", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"], [27, 28, "NO"], [40, 47, "IL"]]}
+{"text": "catalarik mahallesi turgut ozal bulvari 120a 1 mugla fethiye", "entities": [[0, 19, "MAH"], [45, 46, "NO"], [53, 60, "IL"]]}
+{"text": "kotekli mahallesi 300 sokak numara 12 6 ardore apartman", "entities": [[0, 17, "MAH"], [18, 27, "SOKAK"], [35, 37, "NO"], [38, 39, "NO"]]}
+{"text": "uğur mumcu caddesi bergama izmir tr", "entities": [[0, 18, "CADDE"], [27, 32, "IL"]]}
+{"text": "albayrak mahallesi kırgız sokak kapı numara 17 iç kapı numara 1", "entities": [[0, 18, "MAH"], [44, 46, "NO"], [62, 63, "NO"]]}
+{"text": "adatepe mahallesi 62 9 sokak ataykent sitesi duygu apartmanı numara 10 daire 2 izmir buca", "entities": [[0, 17, "MAH"], [18, 20, "NO"], [21, 28, "SOKAK"], [68, 70, "NO"], [77, 78, "NO"], [79, 84, "IL"], [85, 89, "ILCE"]]}
+{"text": "halkapinar mahalle sehitler cadde 138 140 1 a blok halkapınar konak", "entities": [[34, 37, "NO"], [38, 41, "NO"], [42, 43, "NO"], [62, 67, "ILCE"]]}
+{"text": "atatürk mahallesi 1530 sokak kuzeyşehirsitesi 25 2 c blok kat 4 daire20 menemen izmir menemen izmir tr", "entities": [[0, 17, "MAH"], [18, 28, "SOKAK"], [46, 48, "NO"], [49, 50, "NO"], [62, 63, "NO"], [69, 71, "DAIRE"], [80, 85, "IL"], [94, 99, "IL"]]}
+{"text": "turunç mahallesi cumhuriyet merkez caddesi numara 36a ölmez real estate emlak ofisi", "entities": [[0, 16, "MAH"], [50, 53, "NO"]]}
+{"text": "kemer mahalle 1677sk numara 23 efeler aydin efeler aydin", "entities": [[28, 30, "NO"], [31, 37, "ILCE"], [44, 50, "ILCE"]]}
+{"text": "atifbey mahalle atıfbey mahallesi 6 sokak numara 51 kat 3 daire 3 gaziemir izmir", "entities": [[0, 33, "MAH"], [34, 41, "SOKAK"], [49, 51, "NO"], [56, 57, "NO"], [64, 65, "NO"], [66, 74, "ILCE"], [75, 80, "IL"]]}
+{"text": "mustafa kemal atatürk mahalle 9221 sokak numara 6 daire 1 ulucak", "entities": [[30, 40, "SOKAK"], [48, 49, "NO"], [56, 57, "NO"]]}
+{"text": "cevat şakir mahalle müjde sokak numara 6 gümbet bodrum muğla bodrum muğla", "entities": [[39, 40, "NO"], [48, 54, "IL"], [55, 60, "IL"], [61, 67, "IL"], [68, 73, "IL"]]}
+{"text": "akarca mahalle 901 sokak numara 32 a daire 2", "entities": [[15, 24, "SOKAK"], [32, 34, "NO"], [43, 44, "NO"]]}
+{"text": "sarigerme mahallesi dönmezler cadde 2050 sokak numara 2 sarıgerm ortaca muğla türkiye", "entities": [[0, 19, "MAH"], [36, 46, "SOKAK"], [54, 55, "NO"], [72, 77, "IL"]]}
+{"text": "muğla menteşe emirbeyazıt mahallesi stadyum sokak no7 ülkütaş apartmanı daire 18", "entities": [[0, 35, "MAH"], [52, 53, "NO"], [78, 80, "NO"]]}
+{"text": "kumbahçe mahallesi muğla bodrum kumbahçe mahallesi atatü rk caddesi gazı abdullah alp sokak zamb ak sitesi i 1 kat 1 bodrum muğla türkiye", "entities": [[0, 50, "MAH"], [109, 110, "NO"], [115, 116, "NO"], [117, 123, "IL"], [124, 129, "IL"]]}
+{"text": "atatürk mahallesi 865 sokak numara 58 kat 2", "entities": [[0, 17, "MAH"], [18, 27, "SOKAK"], [35, 37, "NO"], [42, 43, "NO"]]}
+{"text": "fatih mahalle zirve sokak numara 18 daire 4 bergama izmir fatih mahalle zirve sokak numara 18 daire 4 bergama izmir 35700 izmir", "entities": [[0, 5, "ILCE"], [33, 35, "NO"], [42, 43, "NO"], [52, 57, "IL"], [58, 63, "ILCE"], [91, 93, "NO"], [100, 101, "NO"], [110, 115, "IL"], [116, 121, "NO"], [122, 127, "IL"]]}
+{"text": "1419 sokak numara 34 doğanlar doğanlar bornova izmir", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"], [39, 46, "ILCE"], [47, 52, "IL"]]}
+{"text": "uğur mumcu mahallesi 8967 sokak numara 15 kat 2 harmandalı çiğli uğur mumcu çiğli izmir", "entities": [[0, 20, "MAH"], [21, 31, "SOKAK"], [39, 41, "NO"], [46, 47, "NO"], [59, 64, "ILCE"], [76, 81, "ILCE"], [82, 87, "IL"]]}
+{"text": "yeni mahalle 4753 sokak numara 7 kat 4 zil 3 yeni mahalle yunusemre manisa", "entities": [[13, 23, "SOKAK"], [31, 32, "NO"], [37, 38, "NO"], [43, 44, "NO"], [68, 74, "IL"]]}
+{"text": "85 yıl cumhuriyet mahalle armutlu izmir cadde numara 97 iç kapı numara 4 armutlu 85 yil cumhuriyet kemalpaşa izmir", "entities": [[0, 2, "NO"], [34, 39, "IL"], [53, 55, "NO"], [71, 72, "NO"], [81, 83, "NO"], [109, 114, "IL"]]}
+{"text": "mehmet akif ersoy mahalle inönü cadde numara 111 kemal paşa belediye", "entities": [[45, 48, "NO"]]}
+{"text": "organize sanayi bölgesi keçiliköyosb sakarya caddesi numara 4 valf sanayii aş yunusemre manisa", "entities": [[0, 52, "CADDE"], [60, 61, "NO"], [88, 94, "IL"]]}
+{"text": "karabağlar belediyesi nasreddin hoca çocuk kültür bilim merkezi yurtoğlu mahalle 3945 6 sokak karabağlar izmir", "entities": [[0, 10, "ILCE"], [81, 85, "NO"], [86, 93, "SOKAK"], [94, 104, "ILCE"], [105, 110, "IL"]]}
+{"text": "uğur mumcu mahalle uğur mumcu mahallesi 1301 sokak no10 kat 3 d21", "entities": [[0, 39, "MAH"], [40, 50, "SOKAK"], [53, 55, "NO"], [60, 61, "NO"], [63, 65, "DAIRE"]]}
+{"text": "mustafa mahallesi marmara sokak numara 2 turgutlu manisa", "entities": [[0, 17, "MAH"], [39, 40, "NO"], [50, 56, "IL"]]}
+{"text": "erzene mahalle 113 17 sokak sareykent 4 blok numara 2 11 bornova izmir", "entities": [[15, 18, "NO"], [19, 27, "SOKAK"], [38, 39, "NO"], [52, 53, "NO"], [54, 56, "NO"], [57, 64, "ILCE"], [65, 70, "IL"]]}
+{"text": "salihleraltı cadde 812 sokak numara 2 sahil siteleri önder sitesi dikili izmir salihler dikili izmir", "entities": [[19, 28, "SOKAK"], [36, 37, "NO"], [66, 72, "IL"], [73, 78, "IL"], [88, 94, "IL"], [95, 100, "IL"]]}
+{"text": "351 sokak numara 4 daire 5 yiğitler buca izmir", "entities": [[0, 9, "SOKAK"], [17, 18, "NO"], [25, 26, "NO"], [36, 40, "ILCE"], [41, 46, "IL"]]}
+{"text": "kahramanlar cadde 63 a ugurlu halı camikebir kuşadasi aydın", "entities": [[18, 20, "NO"], [54, 59, "IL"]]}
+{"text": "inkilap mahalle 569 sokak numara 32 daire16 şirinyer buca izmir meltem apartman", "entities": [[16, 25, "SOKAK"], [33, 35, "NO"], [41, 43, "DAIRE"], [53, 57, "ILCE"], [58, 63, "IL"]]}
+{"text": "tuzla mahalle cahit gündüz caddesi petek apartman numara 30 daire3 fethiye", "entities": [[0, 34, "CADDE"], [57, 59, "NO"], [65, 66, "DAIRE"], [67, 74, "IL"]]}
+{"text": "mehmet akif ersoy mahallesi 232 sokak numara 3kat4", "entities": [[0, 27, "MAH"], [28, 37, "SOKAK"]]}
+{"text": "mehmet akif caddesi inkilap mahalle 93 6 buca izmir", "entities": [[0, 19, "CADDE"], [36, 38, "NO"], [39, 40, "NO"], [41, 45, "ILCE"], [46, 51, "IL"]]}
+{"text": "keçiliköy osb 50 yıl cadde numara 21 keçiliköy osb yunusemre manisa", "entities": [[14, 16, "NO"], [34, 36, "NO"], [61, 67, "IL"]]}
+{"text": "inönü mahalle inönü mahalle 6732 3 sokak kaya prestige konutları a 303 daire15 karşıyaka izmir", "entities": [[28, 32, "NO"], [33, 40, "SOKAK"], [67, 70, "NO"], [76, 78, "DAIRE"], [79, 88, "ILCE"], [89, 94, "IL"]]}
+{"text": "esenlik mahallesi gökdere caddesi karakuş apartmanı numara 12 daire 8 karabağlar yeşilyurt izmir", "entities": [[0, 17, "MAH"], [59, 61, "NO"], [68, 69, "NO"], [70, 80, "ILCE"], [91, 96, "IL"]]}
+{"text": "vali rahmi bey mahallesi menderes caddedi numara 21 a denizbank buca şube", "entities": [[0, 24, "MAH"], [49, 51, "NO"], [64, 68, "ILCE"]]}
+{"text": "keçiliköy osb cumhuriyet bulvar vestel elektronik fabrika vestel dış ticaret yunusemre manisa", "entities": [[0, 31, "BULVAR"], [87, 93, "IL"]]}
+{"text": "karabağ mahalle 7583 sokak eski 2083 sokak 6 4 turgutreis", "entities": [[16, 26, "SOKAK"], [32, 42, "SOKAK"], [43, 44, "NO"], [45, 46, "NO"]]}
+{"text": "mustafa kemal 6753 1 sokak numara 2 4 kat 7 daire25 varyant plu s sitesi mustafa kemal karşiyaka izmir m ustafa kemal karşiyaka izmir türkiye", "entities": [[14, 18, "NO"], [19, 26, "SOKAK"], [34, 35, "NO"], [36, 37, "NO"], [42, 43, "NO"], [49, 51, "DAIRE"], [97, 102, "IL"], [128, 133, "IL"]]}
+{"text": "doğanbey cumhuriyet mahallesi 5151 sokak kapı numara 2 yıldız market seferihisar izmir türkiye", "entities": [[0, 29, "MAH"], [30, 40, "SOKAK"], [53, 54, "NO"], [81, 86, "IL"]]}
+{"text": "foça mahallesi köçek mustafa caddesi seaside sitesi 30a fethiye muğla foça fethiye muğla", "entities": [[0, 14, "MAH"], [56, 63, "IL"], [64, 69, "IL"], [75, 82, "IL"], [83, 88, "IL"]]}
+{"text": "tevfikiye mahalle tevfikiye mahallesi atatürk 56 sokak numara 84", "entities": [[0, 37, "MAH"], [46, 54, "SOKAK"], [62, 64, "NO"]]}
+{"text": "eskiköy cadde no25 ekşiliyurt ortaca muğla", "entities": [[16, 18, "NO"], [37, 42, "IL"]]}
+{"text": "menderes caddesi valirahmi bey mahallesi numara 21 a künefezade buca izmir", "entities": [[0, 40, "MAH"], [48, 50, "NO"], [64, 68, "ILCE"], [69, 74, "IL"]]}
+{"text": "izmir karaburun merkez mahallesi gelincik sokak numara 3", "entities": [[0, 32, "MAH"], [55, 56, "NO"]]}
+{"text": "deliktaş mahallesi 1974 1 sokak numara 2 deliktaş pamukkale denizli", "entities": [[0, 18, "MAH"], [19, 23, "NO"], [24, 31, "SOKAK"], [39, 40, "NO"], [60, 67, "IL"]]}
+{"text": "dokuz eylül doğan trend otomobilite izmir suzuki akçay caddesi numara 145 gaziemir izmir türkiye", "entities": [[0, 62, "CADDE"], [70, 73, "NO"], [74, 82, "ILCE"], [83, 88, "IL"]]}
+{"text": "mustafa kemal mahallesi acıbadem yolu numara 72 kat 3", "entities": [[0, 23, "MAH"], [45, 47, "NO"], [52, 53, "NO"]]}
+{"text": "doğanay mahallesi 9104 sokak numara 13 daire 3", "entities": [[0, 17, "MAH"], [18, 28, "SOKAK"], [36, 38, "NO"], [45, 46, "NO"]]}
+{"text": "narlı mahalle mithatpaşa cadde numara 369 sevgi aprt daire 8 narlıdere izmir", "entities": [[38, 41, "NO"], [59, 60, "NO"], [71, 76, "IL"]]}
+{"text": "istasyon mahallesi necip fazıl kısakürek sokak no10 kat2 daire10 manisa alasehir alaşehir", "entities": [[0, 18, "MAH"], [49, 51, "NO"], [55, 56, "KAT"], [62, 64, "DAIRE"], [65, 71, "IL"]]}
+{"text": "poligon mahalle 123 12 sokak numara 1 kat 5 daire 12 alya panoroma sitesi poligon mahalle", "entities": [[16, 19, "NO"], [20, 28, "SOKAK"], [36, 37, "NO"], [42, 43, "NO"], [50, 52, "NO"]]}
+{"text": "491 sokak numara 11 cumhuriyet dikili izmir", "entities": [[0, 9, "SOKAK"], [17, 19, "NO"], [31, 37, "IL"], [38, 43, "IL"]]}
+{"text": "ardiç 5434 sokak numara 4", "entities": [[6, 16, "SOKAK"], [24, 25, "NO"]]}
+{"text": "turan mahallesi atatürk bulvarı numara 82 1", "entities": [[0, 15, "MAH"], [39, 41, "NO"], [42, 43, "NO"]]}
+{"text": "necdet bukey cadde 200 1 sokak numara 3 1", "entities": [[19, 22, "NO"], [23, 30, "SOKAK"], [38, 39, "NO"], [40, 41, "NO"]]}
+{"text": "1517sokak numara 23 ege mahalesi", "entities": [[0, 9, "SOKAK"], [17, 19, "NO"]]}
+{"text": "cumhuriyet mahalle cumh mahalle cumh cadde numara 45 a efeler aydın efeler aydin", "entities": [[50, 52, "NO"], [55, 61, "ILCE"], [62, 67, "IL"], [68, 74, "ILCE"]]}
+{"text": "emek mahallesi hamdi mergen caddesi konak sitesi b blok 116 2 kat 1 daire 2 milas muğla konak sitesi b blok 116 2 kat 1 daire 2", "entities": [[0, 14, "MAH"], [36, 41, "ILCE"], [56, 59, "NO"], [60, 61, "NO"], [66, 67, "NO"], [74, 75, "NO"], [82, 87, "IL"], [88, 93, "ILCE"], [108, 111, "NO"], [112, 113, "NO"], [118, 119, "NO"], [126, 127, "NO"]]}
+{"text": "147 sokak numara 56 kat 1 daire 2 demir süit villari yanı", "entities": [[0, 9, "SOKAK"], [17, 19, "NO"], [24, 25, "NO"], [32, 33, "NO"]]}
+{"text": "85 11 sokak 18 camikebir mahalle royal teos personel lojmanlari", "entities": [[0, 2, "NO"], [3, 11, "SOKAK"], [12, 14, "NO"]]}
+{"text": "çeştepe mahalle 3436 sokak numara 8 daire 2", "entities": [[16, 26, "SOKAK"], [34, 35, "NO"], [42, 43, "NO"]]}
+{"text": "pelitlibağ mahalle 1093 sokak numara 44 pamukkale denizli", "entities": [[19, 29, "SOKAK"], [37, 39, "NO"], [50, 57, "IL"]]}
+{"text": "izmir karabağlar vatan mahallesi yeşilyurt 9083 sokak vizyon apartmanı no11 kat 4 daire 12 vatan mahalle karabağlar", "entities": [[0, 32, "MAH"], [43, 53, "SOKAK"], [73, 75, "NO"], [80, 81, "NO"], [88, 90, "NO"], [105, 115, "ILCE"]]}
+{"text": "112 4 sokak numara 14 kat 1 daire 2 evka3 evka3 bornova 35150 izmir türkiye", "entities": [[0, 3, "NO"], [4, 11, "SOKAK"], [19, 21, "NO"], [26, 27, "NO"], [34, 35, "NO"], [48, 55, "ILCE"], [56, 61, "NO"], [62, 67, "IL"]]}
+{"text": "8782 1 sokak 11 daire 2", "entities": [[0, 4, "NO"], [5, 12, "SOKAK"], [13, 15, "NO"], [22, 23, "NO"]]}
+{"text": "atça mahalle atã§a mahallesi 128 sokakno 31 kat 2 sultanhä°sar aydin", "entities": [[17, 28, "MAH"], [29, 32, "NO"], [41, 43, "NO"], [48, 49, "NO"]]}
+{"text": "kötekli mahallesi 54 cadde c1 8 8 toki menteşe muğla", "entities": [[0, 17, "MAH"], [18, 20, "NO"], [30, 31, "NO"], [32, 33, "NO"], [39, 46, "ILCE"], [47, 52, "IL"]]}
+{"text": "evka 3 mahalle 127 24 sokak numara 2 kat 4 daire8 gürışık apartman evka 3 bornova izmir bornova izmir", "entities": [[5, 6, "NO"], [15, 18, "NO"], [19, 27, "SOKAK"], [35, 36, "NO"], [41, 42, "NO"], [48, 49, "DAIRE"], [72, 73, "NO"], [74, 81, "ILCE"], [82, 87, "IL"], [88, 95, "ILCE"], [96, 101, "IL"]]}
+{"text": "10023 sokak numara 9 oem ındustry", "entities": [[0, 11, "SOKAK"], [19, 20, "NO"]]}
+{"text": "mehmet ali akman mahalle 15 sokak numara 3 kamile apartman kat 1 daire4", "entities": [[25, 33, "SOKAK"], [41, 42, "NO"], [63, 64, "NO"], [70, 71, "DAIRE"]]}
+{"text": "fevzi çakmak mahallesi 8106 sokak numara 47 kat 2 izmir torbalı ayrancılar", "entities": [[0, 22, "MAH"], [23, 33, "SOKAK"], [41, 43, "NO"], [48, 49, "NO"], [50, 55, "IL"]]}
+{"text": "asmalıevler mahallesi 6650 sokak numara 18 daire 23 saygın sitesi daire numara 23 20160 denizli türkiye", "entities": [[0, 21, "MAH"], [22, 32, "SOKAK"], [40, 42, "NO"], [49, 51, "NO"], [79, 81, "NO"], [82, 87, "NO"], [88, 95, "IL"]]}
+{"text": "adnan süvari mahalle 108 11 sokak numara 32 pırlanta gold apartman kat 6 daire 24 karabağlar izmir pırlanta gold apartman daire 24 kat 5", "entities": [[21, 24, "NO"], [25, 33, "SOKAK"], [41, 43, "NO"], [71, 72, "NO"], [79, 81, "NO"], [82, 92, "ILCE"], [93, 98, "IL"], [128, 130, "NO"], [135, 136, "NO"]]}
+{"text": "cumhuriyet cadde 79 3 karakaya mahalle gumusluk bodrum", "entities": [[17, 19, "NO"], [20, 21, "NO"], [48, 54, "IL"]]}
+{"text": "taşyaka mahallesi sanayi sitesi 253 sokak numara 54", "entities": [[0, 17, "MAH"], [32, 41, "SOKAK"], [49, 51, "NO"]]}
+{"text": "adatepe mahalle 26 sokak numara 1 albay sitesi elif residance daire 40 kat 4 adatepe buca izmir", "entities": [[16, 24, "SOKAK"], [32, 33, "NO"], [68, 70, "NO"], [75, 76, "NO"], [85, 89, "ILCE"], [90, 95, "IL"]]}
+{"text": "270 sokak numara 93 daire 2 efendi akhisar manisa", "entities": [[0, 9, "SOKAK"], [17, 19, "NO"], [26, 27, "NO"], [43, 49, "IL"]]}
+{"text": "laleli mahallesi özsaruhan bulvarı no13 kat1 paykocu apartmanı manisa yunusemre", "entities": [[0, 16, "MAH"], [37, 39, "NO"], [43, 44, "KAT"], [63, 69, "IL"]]}
+{"text": "taşyaka mahalle inönü bulvarı numara 70 a ziraat katılım bankası fethiye muğla", "entities": [[0, 29, "BULVAR"], [37, 39, "NO"], [65, 72, "IL"], [73, 78, "IL"]]}
+{"text": "1410 sokak numara 9 daire 2 buca koop buca izmir buca izmir tr", "entities": [[0, 10, "SOKAK"], [18, 19, "NO"], [26, 27, "NO"], [28, 32, "ILCE"], [38, 42, "ILCE"], [43, 48, "IL"], [49, 53, "ILCE"], [54, 59, "IL"]]}
+{"text": "barış mahalle 949 sokak gülnar sitesi numara 2 salihli manisa", "entities": [[14, 23, "SOKAK"], [45, 46, "NO"], [55, 61, "IL"]]}
+{"text": "osmangazi mahalle 567 sokak numara 8 tekin sitesi c blok daire2 osmangazi bayrakli izmir", "entities": [[18, 27, "SOKAK"], [35, 36, "NO"], [62, 63, "DAIRE"], [83, 88, "IL"]]}
+{"text": "73 sokak numara 1 kat 2 daire 4 karabiber apartman", "entities": [[0, 8, "SOKAK"], [16, 17, "NO"], [22, 23, "NO"], [30, 31, "NO"]]}
+{"text": "288 12 sokak numara 23 daire3 fırat mahallesi buca izmir", "entities": [[0, 45, "MAH"], [46, 50, "ILCE"], [51, 56, "IL"]]}
+{"text": "anadolu caddesi numara 19 iç kapı numara 64 izka line binası 6 kat çinarli konak izmir", "entities": [[0, 15, "CADDE"], [23, 25, "NO"], [41, 43, "NO"], [61, 62, "NO"], [75, 80, "ILCE"], [81, 86, "IL"]]}
+{"text": "6410 sokak numara 7 daire4 ok apartmani", "entities": [[0, 10, "SOKAK"], [18, 19, "NO"], [25, 26, "DAIRE"]]}
+{"text": "ali fuat cebesoy mahallesi özarslan apartmanı 9135 4 sokak numara 30 daire 10 yesilyurt koop evleri izmir ali fuat cebesoy karabağlar izmir", "entities": [[0, 26, "MAH"], [46, 50, "NO"], [51, 58, "SOKAK"], [66, 68, "NO"], [75, 77, "NO"], [100, 105, "IL"], [123, 133, "ILCE"], [134, 139, "IL"]]}
+{"text": "7370 sokak 4 numara 25 a kat 2 yamanlar bayrakli izmir bayrakli izmir tr", "entities": [[0, 10, "SOKAK"], [11, 12, "NO"], [20, 22, "NO"], [29, 30, "NO"], [49, 54, "IL"], [64, 69, "IL"]]}
+{"text": "kapuz cadde plaza bodrum numara 8 iç kapı 18", "entities": [[18, 24, "IL"], [32, 33, "NO"], [42, 44, "NO"]]}
+{"text": "turgutlar hürriyet sokak numara 27 kat 1 turgutlu manisa", "entities": [[32, 34, "NO"], [39, 40, "NO"], [50, 56, "IL"]]}
+{"text": "altınordu mahallesi 961 sokak numara 4 basmane konak izmir 35240 altinordu konak izmir", "entities": [[0, 19, "MAH"], [20, 29, "SOKAK"], [37, 38, "NO"], [47, 52, "ILCE"], [53, 58, "IL"], [59, 64, "NO"], [75, 80, "ILCE"], [81, 86, "IL"]]}
+{"text": "64 sokak numara 10 fakülte taksi durağı buca", "entities": [[0, 8, "SOKAK"], [16, 18, "NO"], [40, 44, "ILCE"]]}
+{"text": "gülpınar mahalle eski pazar yeri gümüş kıraathanesi numara 9 gülpinar köyceğiz muğla", "entities": [[59, 60, "NO"], [79, 84, "IL"]]}
+{"text": "952 sokak numara 1 kat 2 daire 2 atatürk mahallesi bornova izmir atatürk mahalle", "entities": [[0, 50, "MAH"], [51, 58, "ILCE"], [59, 64, "IL"]]}
+{"text": "içmeler mahalle 127 sokak numara 10 içmeler marmaris muğla", "entities": [[16, 25, "SOKAK"], [33, 35, "NO"], [44, 52, "IL"], [53, 58, "IL"]]}
+{"text": "efeler mahalle 1535 sokak numara 4", "entities": [[0, 6, "ILCE"], [15, 25, "SOKAK"], [33, 34, "NO"]]}
+{"text": "sanayi caddesi numara 29 kat 1 daire 2 han yapı üstü merkez dalaman muğla", "entities": [[0, 14, "CADDE"], [22, 24, "NO"], [29, 30, "NO"], [37, 38, "NO"], [68, 73, "IL"]]}
+{"text": "izmir karabağlar general kazım özalp mahallesi 47 18 sokak numara 34 36 park doğa apartmanı kat 2 daire 44", "entities": [[0, 46, "MAH"], [47, 49, "NO"], [50, 58, "SOKAK"], [66, 68, "NO"], [69, 71, "NO"], [96, 97, "NO"], [104, 106, "NO"]]}
+{"text": "atatürk mahalle 1034 sokak numara 12 daire 8 kat 4 selçuk izmir atatürk selçuk izmir", "entities": [[16, 26, "SOKAK"], [34, 36, "NO"], [43, 44, "NO"], [49, 50, "NO"], [58, 63, "IL"], [79, 84, "IL"]]}
+{"text": "denizli merkezefendi değirmenönü mahalle 1385 sokak numara 4 daire 6 eşrafoğlu apartman turuncu bina", "entities": [[0, 7, "IL"], [41, 51, "SOKAK"], [59, 60, "NO"], [67, 68, "NO"]]}
+{"text": "karaburun mahallesi sanayi sitesi 522 sokak numara 8 67 mermer ortaca muğla ortaca", "entities": [[0, 19, "MAH"], [34, 43, "SOKAK"], [51, 52, "NO"], [53, 55, "NO"], [70, 75, "IL"]]}
+{"text": "arap hasan mahalle gazeteci hasan tahsin cadde numara 102 daire 5 üzüm apartman karabaglar izmir karabaglar", "entities": [[54, 57, "NO"], [64, 65, "NO"], [91, 96, "IL"]]}
+{"text": "1139 sokak numara 2 5 konak izmir yenidogan mahalle", "entities": [[0, 10, "SOKAK"], [18, 19, "NO"], [20, 21, "NO"], [22, 27, "ILCE"], [28, 33, "IL"]]}
+{"text": "gülyaka mahalle 3036 sokak aydin numara 34 daire 1 35110 karabağlar izmir", "entities": [[16, 26, "SOKAK"], [40, 42, "NO"], [49, 50, "NO"], [51, 56, "NO"], [57, 67, "ILCE"], [68, 73, "IL"]]}
+{"text": "zeytinkoy mahalle karacaoglan caddesi numara 9 kat 3 denizli pamukkale", "entities": [[0, 37, "CADDE"], [45, 46, "NO"], [51, 52, "NO"], [53, 60, "IL"]]}
+{"text": "güzelyurt mahallesi intercity 1 sitesi b blok kat 1 daire 4 yunusemre manisa", "entities": [[0, 19, "MAH"], [30, 31, "NO"], [50, 51, "NO"], [58, 59, "NO"], [70, 76, "IL"]]}
+{"text": "274 5 sokak numara 19 daire14 deniz apartman kat 2 manavkuyu bayrakli izmir", "entities": [[0, 3, "NO"], [4, 11, "SOKAK"], [19, 21, "NO"], [27, 29, "DAIRE"], [49, 50, "NO"], [70, 75, "IL"]]}
+{"text": "çağdaş mahallesi 8825 sokak numara 15 kat 1 daire 3 çiğli izmir", "entities": [[0, 16, "MAH"], [17, 27, "SOKAK"], [35, 37, "NO"], [42, 43, "NO"], [50, 51, "NO"], [52, 57, "ILCE"], [58, 63, "IL"]]}
+{"text": "atatürk mahalle 358 sokak numara 4 daire 10 manisa akhisar daire 10", "entities": [[16, 25, "SOKAK"], [33, 34, "NO"], [41, 43, "NO"], [44, 50, "IL"], [65, 67, "NO"]]}
+{"text": "dirmil mahallesi 6730sokak6 2 yalıkavak", "entities": [[0, 16, "MAH"], [28, 29, "NO"]]}
+{"text": "5003 sokak numara 58 medicana çeşme tıp merkezi", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"], [30, 35, "IL"]]}
+{"text": "reşat bey mahallesi 167 sokak numara 62 kat 2 daire 4 niyazi turan apartmanı", "entities": [[0, 19, "MAH"], [20, 29, "SOKAK"], [37, 39, "NO"], [44, 45, "NO"], [52, 53, "NO"]]}
+{"text": "bimeyko 58 sokak numara 39 çandarli dikili izmir", "entities": [[8, 16, "SOKAK"], [24, 26, "NO"], [36, 42, "IL"], [43, 48, "IL"]]}
+{"text": "tasyaka mahalle 376 sokak altin petek sitesi yasemin apartman numara 7 a iç kapı numara 2 fethiye", "entities": [[16, 25, "SOKAK"], [69, 70, "NO"], [88, 89, "NO"], [90, 97, "IL"]]}
+{"text": "ismet inönü bulvarı çamlıçay mahallesi numara 134 daire 7 zeytinpark evleri zeytinalanı zeytinpark evleri", "entities": [[0, 38, "MAH"], [46, 49, "NO"], [56, 57, "NO"]]}
+{"text": "1061 sokak numara 27 daire 3 gaziemir izmir", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"], [27, 28, "NO"], [29, 37, "ILCE"], [38, 43, "IL"]]}
+{"text": "yaka mahalle yaka mahalle şehit yüzbaşı kemal sokak numara 72 daire 3 keşkek apartman", "entities": [[59, 61, "NO"], [68, 69, "NO"]]}
+{"text": "maltepe mahalle magosa sokak numara 16 kat 2 daire 4", "entities": [[36, 38, "NO"], [43, 44, "NO"], [51, 52, "NO"]]}
+{"text": "haydarpaşa caddesi numara 6 a", "entities": [[0, 18, "CADDE"], [26, 27, "NO"]]}
+{"text": "siteler mahalle siteler mahallesi 428 sokak numara 10 şubat sitesi c blok kat 2 daire 9", "entities": [[0, 33, "MAH"], [34, 43, "SOKAK"], [51, 53, "NO"], [78, 79, "NO"], [86, 87, "NO"]]}
+{"text": "aydinlikevler 6792 sokak hakimevleri sitesi numara 5 daire9 a ydinlikevler çiğli izmir aydinlikevler çiğli izmir türkiye", "entities": [[14, 24, "SOKAK"], [51, 52, "NO"], [58, 59, "DAIRE"], [75, 80, "ILCE"], [81, 86, "IL"], [101, 106, "ILCE"], [107, 112, "IL"]]}
+{"text": "izmir bayraklı yamanlar mahallesi 7305 sokak numara 1 a yamanlar mahallesi yamanlar bayrakli izmir", "entities": [[0, 74, "MAH"], [93, 98, "IL"]]}
+{"text": "6248 sokak soyuçok apartmanı numara 5 daire 12 siteler pamukkale denizli", "entities": [[0, 10, "SOKAK"], [36, 37, "NO"], [44, 46, "NO"], [65, 72, "IL"]]}
+{"text": "atatürk mahallesi 202 12 sokak zeliha fahriye apartmanı numara 17 kat 3 daire 20 izmir buca", "entities": [[0, 17, "MAH"], [18, 21, "NO"], [22, 30, "SOKAK"], [63, 65, "NO"], [70, 71, "NO"], [78, 80, "NO"], [81, 86, "IL"], [87, 91, "ILCE"]]}
+{"text": "burgaz mahlesinazmi akdeniz cadde numara 98", "entities": [[41, 43, "NO"]]}
+{"text": "soğuksu mahalle sümer oral cadde numara 202 alaşehir manisa alaşehir", "entities": [[40, 43, "NO"], [53, 59, "IL"]]}
+{"text": "davutlar yolu pirireis sitesi numara 3 4 kuşadası aydın soğucak kuşadasi aydın", "entities": [[37, 38, "NO"], [39, 40, "NO"], [50, 55, "IL"], [73, 78, "IL"]]}
+{"text": "paşa mahallesi 125 sokak numara 4 ahmet kayalı işhanı kat 2 daire 212", "entities": [[0, 14, "MAH"], [15, 24, "SOKAK"], [32, 33, "NO"], [58, 59, "NO"], [66, 69, "NO"]]}
+{"text": "cumhuriyet mahallesi numara 1963 sokak efeler belediye katlı otopark", "entities": [[0, 20, "MAH"], [28, 38, "SOKAK"], [39, 45, "ILCE"]]}
+{"text": "siteler mahallesi 6202 sokak numara 1 alayont apartmani siteler mahalle kat 2 daire 1 ⁠pamukkale", "entities": [[0, 17, "MAH"], [18, 28, "SOKAK"], [36, 37, "NO"], [76, 77, "NO"], [84, 85, "NO"]]}
+{"text": "barış caddesi numara 28 kat 2 daire 2 toros konak izmir", "entities": [[0, 13, "CADDE"], [21, 23, "NO"], [28, 29, "NO"], [36, 37, "NO"], [44, 49, "ILCE"], [50, 55, "IL"]]}
+{"text": "fevzi çakmak mahallesi sakarya caddesi komagane no34 a dükkan", "entities": [[0, 22, "MAH"], [50, 52, "NO"]]}
+{"text": "atatürk cadde rüya evleri sitesi a2 blok daire 9 kat 3 fatih gaziemir izmir", "entities": [[47, 48, "NO"], [53, 54, "NO"], [55, 60, "ILCE"], [61, 69, "ILCE"], [70, 75, "IL"]]}
+{"text": "mumcular mahallesi atatürk caddesi yıldırım evleri g blok 5 numara", "entities": [[0, 18, "MAH"], [58, 59, "NO"]]}
+{"text": "ortakent mahalle ecem mimarlık müskebi mahallesi cumhuriyet caddesi numara 117 2 bodrum muğla", "entities": [[0, 48, "MAH"], [75, 78, "NO"], [79, 80, "NO"], [81, 87, "IL"], [88, 93, "IL"]]}
+{"text": "gölcükler mahalle 1026 sokak can sitesi 7aa blok", "entities": [[18, 28, "SOKAK"]]}
+{"text": "çarşı sokak numara 34 şirince selçuk izmir", "entities": [[19, 21, "NO"], [37, 42, "IL"]]}
+{"text": "gündoğan mahalle șehit uğur öztop cadde tepecik sokak numara 18 1 gündoğan", "entities": [[61, 63, "NO"], [64, 65, "NO"]]}
+{"text": "yalı mahallesi 6332 sokak numara 1", "entities": [[0, 14, "MAH"], [15, 25, "SOKAK"], [33, 34, "NO"]]}
+{"text": "1420 sokak numara 69 kat 5 daire 9 konak izmir", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"], [25, 26, "NO"], [33, 34, "NO"], [35, 40, "ILCE"], [41, 46, "IL"]]}
+{"text": "yenice mahalle kekliktepe cadde mesa 1 evleri numara 89", "entities": [[37, 38, "NO"], [53, 55, "NO"]]}
+{"text": "yahya kemal beyatlı cadde numara 24 begos 2 bölge imeks tekstil adatepe mahallesi", "entities": [[0, 81, "MAH"]]}
+{"text": "adnan menderes mahallesi 515 sokak evciler apartmanı numara 10 daire 7 efeler aydın", "entities": [[0, 24, "MAH"], [25, 34, "SOKAK"], [60, 62, "NO"], [69, 70, "NO"], [71, 77, "ILCE"], [78, 83, "IL"]]}
+{"text": "3180 sokak numara4 yenişakran mahalle aliağa izmir tr", "entities": [[0, 10, "SOKAK"], [17, 18, "NO"], [45, 50, "IL"]]}
+{"text": "bozburun mahalle bozburun mahallesi 7154 sokak numara 19", "entities": [[0, 35, "MAH"], [36, 46, "SOKAK"], [54, 56, "NO"]]}
+{"text": "zafer mahalle 6 eylül sokak numara 15", "entities": [[14, 15, "NO"], [35, 37, "NO"]]}
+{"text": "mithat pasa mahallesi armutlu sokak numara 53", "entities": [[0, 21, "MAH"], [43, 45, "NO"]]}
+{"text": "izmir çiğli evka 2 aydinlikevler mahallesi 6787 sokak numara 9 daire 3 numara 9 kat 2 daire 3 çiğli izmir tr", "entities": [[0, 42, "MAH"], [43, 53, "SOKAK"], [61, 62, "NO"], [69, 70, "NO"], [78, 79, "NO"], [84, 85, "NO"], [92, 93, "NO"], [94, 99, "ILCE"], [100, 105, "IL"]]}
+{"text": "yeşilova mahalle abdi ipekçi cadde numara 192 a tual fotografç ilik", "entities": [[42, 45, "NO"]]}
+{"text": "gazikent mahalle 73 7 sokak noa186 daire4 gaziemir izmir gaziemir izmir tr", "entities": [[17, 19, "NO"], [20, 27, "SOKAK"], [40, 41, "DAIRE"], [42, 50, "ILCE"], [51, 56, "IL"], [57, 65, "ILCE"], [66, 71, "IL"]]}
+{"text": "dokuzeylül mahalle 343 1 sokak numara 107008gaziemir gaziemir izmir tr", "entities": [[19, 22, "NO"], [23, 30, "SOKAK"], [53, 61, "ILCE"], [62, 67, "IL"]]}
+{"text": "711 2no 15kat 3 azize’ye mahallesi", "entities": [[0, 3, "NO"], [14, 15, "NO"], [22, 34, "MAH"]]}
+{"text": "alaçatı mahallesi 16124 sokak numara 7 1 çeşme izmir", "entities": [[0, 17, "MAH"], [18, 29, "SOKAK"], [37, 38, "NO"], [39, 40, "NO"], [41, 46, "IL"], [47, 52, "IL"]]}
+{"text": "sümer mahalle sümer mahallesi 5 sokakno 30 avcı kaporta", "entities": [[0, 29, "MAH"], [30, 31, "NO"], [40, 42, "NO"]]}
+{"text": "turgutalp mahallesi sağlık sokak numara 11 kat 2", "entities": [[0, 19, "MAH"], [40, 42, "NO"], [47, 48, "NO"]]}
+{"text": "pazaryeri mahalle 417 sokak numara 6 4 fethiye muğla", "entities": [[18, 27, "SOKAK"], [35, 36, "NO"], [37, 38, "NO"], [39, 46, "IL"], [47, 52, "IL"]]}
+{"text": "13004 sokak numara 11 çeşme izmir tr", "entities": [[0, 11, "SOKAK"], [19, 21, "NO"], [22, 27, "IL"], [28, 33, "IL"]]}
+{"text": "ovacik mahalle kocapiynar caddesi ölüdeniz fethiye numara 52 2 hepsijet", "entities": [[0, 33, "CADDE"], [43, 50, "IL"], [58, 60, "NO"], [61, 62, "NO"]]}
+{"text": "adnan menderes mahalle 134 sokak numara 14 2", "entities": [[23, 32, "SOKAK"], [40, 42, "NO"], [43, 44, "NO"]]}
+{"text": "336 sokak numara 11 a valirahmibey mahallesi winners spor salonu şirinyer buca izmir winners gym", "entities": [[0, 44, "MAH"], [74, 78, "ILCE"], [79, 84, "IL"]]}
+{"text": "ihsan sungur sokak numara 73 kat 3 daire 3 eğitim balçova izmir", "entities": [[26, 28, "NO"], [33, 34, "NO"], [41, 42, "NO"], [58, 63, "IL"]]}
+{"text": "şemikler mahallesi 3131 sokak 22d 22 deda la vida sitesi", "entities": [[0, 18, "MAH"], [19, 29, "SOKAK"], [34, 36, "NO"]]}
+{"text": "villakent mahalle 5133sokak no2 menemen izmir", "entities": [[18, 27, "SOKAK"], [30, 31, "NO"], [40, 45, "IL"]]}
+{"text": "limontepelimontepe mahallesi 9757 sokak numara 23 daire 2 izmir karabağlar", "entities": [[0, 28, "MAH"], [29, 39, "SOKAK"], [47, 49, "NO"], [56, 57, "NO"], [58, 63, "IL"], [64, 74, "ILCE"]]}
+{"text": "yenicami mahalle adnan kahveci cadde comfort evleri a blok daire 18 söke aydın", "entities": [[65, 67, "NO"], [73, 78, "IL"]]}
+{"text": "imbatli mahallesi 7502 1 numara 2 kat 4 daire 14 karşiyaka izmir türkiye", "entities": [[0, 17, "MAH"], [18, 22, "NO"], [23, 24, "NO"], [32, 33, "NO"], [38, 39, "NO"], [46, 48, "NO"], [59, 64, "IL"]]}
+{"text": "gümüşlük mahalle 5215 sokak daire blok dış kapı numara 1 daire 2 bodrum muğla gümüşlük bodrum muğla", "entities": [[17, 27, "SOKAK"], [55, 56, "NO"], [63, 64, "NO"], [65, 71, "IL"], [72, 77, "IL"], [87, 93, "IL"], [94, 99, "IL"]]}
+{"text": "hisar mahallesi koşuyolu caddesi kyk kız öğrenci yurdu", "entities": [[0, 15, "MAH"]]}
+{"text": "göcek mahalle sümbül sokak numara 14 fethiye muğla blues yatçılık", "entities": [[34, 36, "NO"], [37, 44, "IL"], [45, 50, "IL"]]}
+{"text": "3500 sokak numara 4 kat 3 kayhan yüzme havuzu yanı cumhuriyet pamukkale denizli", "entities": [[0, 10, "SOKAK"], [18, 19, "NO"], [24, 25, "NO"], [72, 79, "IL"]]}
+{"text": "yalı mahalle 6323 sokak numara 12 kat 2 daire 2 karşıyaka izmir türkiye", "entities": [[13, 23, "SOKAK"], [31, 33, "NO"], [38, 39, "NO"], [46, 47, "NO"], [48, 57, "ILCE"], [58, 63, "IL"]]}
+{"text": "atatürk mahallesi 45 sokak numara 7 kemalpaşa izmir", "entities": [[0, 17, "MAH"], [18, 26, "SOKAK"], [34, 35, "NO"], [46, 51, "IL"]]}
+{"text": "mehmet akif ersoy mahalle 244 1 sokak numara 4 daire5", "entities": [[26, 29, "NO"], [30, 37, "SOKAK"], [45, 46, "NO"], [52, 53, "DAIRE"]]}
+{"text": "umurbey mahalle sanayi sitesi 27 sokak numara 2", "entities": [[30, 38, "SOKAK"], [46, 47, "NO"]]}
+{"text": "orhaniye mahallesi ismet çatak caddesi 22 6 menteşe muğla muğla il sağlık müdürlüğü", "entities": [[0, 18, "MAH"], [39, 41, "NO"], [42, 43, "NO"], [44, 51, "ILCE"], [52, 57, "IL"], [58, 63, "IL"]]}
+{"text": "2178 sokak numara 6 kat 2", "entities": [[0, 10, "SOKAK"], [18, 19, "NO"], [24, 25, "NO"]]}
+{"text": "iskele mahalle hürriyet cadde numara 27 my marina select hotel", "entities": [[37, 39, "NO"]]}
+{"text": "kazimdirik mahallesi kazımdirik mahalle 301 sokak numara 13 bornova i zmir bornova izmir türkiye", "entities": [[0, 20, "MAH"], [40, 49, "SOKAK"], [57, 59, "NO"], [60, 67, "ILCE"], [75, 82, "ILCE"], [83, 88, "IL"]]}
+{"text": "atatürk mahalle atatürk mahalle 19 sokak no9 kat2 daire 4 foça izmir", "entities": [[32, 40, "SOKAK"], [43, 44, "NO"], [48, 49, "KAT"], [56, 57, "NO"], [63, 68, "IL"]]}
+{"text": "denizli merkez efendim haciyüplü mahallesi menderes bulvari numara 7", "entities": [[0, 42, "MAH"], [67, 68, "NO"]]}
+{"text": "denizli merkezefendi karaman mahallesi 1721 4 sokak numara 1 dikmen apartman daire 5", "entities": [[0, 38, "MAH"], [39, 43, "NO"], [44, 51, "SOKAK"], [59, 60, "NO"], [83, 84, "NO"]]}
+{"text": "çamlikule 250 1 no35 daire 2 çamlıkule mahallesi buca izmir izmir buca", "entities": [[0, 48, "MAH"], [49, 53, "ILCE"], [54, 59, "IL"], [60, 65, "IL"], [66, 70, "ILCE"]]}
+{"text": "6417 1 sokak coşkuntürk apartman numara 9 daire 17", "entities": [[0, 4, "NO"], [5, 12, "SOKAK"], [40, 41, "NO"], [48, 50, "NO"]]}
+{"text": "9139 2 sokak numara 4 prestij evleri sitesi c blok daire 40 kat 0 görevli dairesi refet bele karabağlar izmir", "entities": [[0, 4, "NO"], [5, 12, "SOKAK"], [20, 21, "NO"], [57, 59, "NO"], [64, 65, "NO"], [93, 103, "ILCE"], [104, 109, "IL"]]}
+{"text": "akyarlar mahalle kemer mevki güneş tepe sitesi 4354 sokak site içinde petünye sokak 3 14 akyarlar turgutreis bodrum", "entities": [[47, 57, "SOKAK"], [84, 85, "NO"], [86, 88, "NO"], [109, 115, "IL"]]}
+{"text": "denizli çivril şampiyon kokareç", "entities": [[0, 7, "IL"]]}
+{"text": "ataşehir mahalle 8216 3 sokak gültekinapt numara 2 daire 9", "entities": [[17, 21, "NO"], [22, 29, "SOKAK"], [49, 50, "NO"], [57, 58, "NO"]]}
+{"text": "atatürk mahalle 63 2 sokak bina numara 4 kat 2 daire numara 7 buca izmir", "entities": [[16, 18, "NO"], [19, 26, "SOKAK"], [39, 40, "NO"], [45, 46, "NO"], [60, 61, "NO"], [62, 66, "ILCE"], [67, 72, "IL"]]}
+{"text": "turan mahallesi ziya gokalp caddesi numara 106 a beydagli surucu kursu", "entities": [[0, 15, "MAH"], [43, 46, "NO"]]}
+{"text": "toparlar mahallesi konyalı caddesi numara 17 kat 1 sırköy mandıra karşısı", "entities": [[0, 18, "MAH"], [42, 44, "NO"], [49, 50, "NO"]]}
+{"text": "turgutreis mahalle 4043 sokak numara 1 3", "entities": [[19, 29, "SOKAK"], [37, 38, "NO"], [39, 40, "NO"]]}
+{"text": "307 sokak numara 3 ulkomod sitesi a blok kat 1 daire4", "entities": [[0, 9, "SOKAK"], [17, 18, "NO"], [45, 46, "NO"], [52, 53, "DAIRE"]]}
+{"text": "basın sitesi mahalle basınsitesi mahalle 149 sokak sırma apartmanı numara 2 daire 3 hatay karabağlar izmir", "entities": [[41, 50, "SOKAK"], [74, 75, "NO"], [82, 83, "NO"], [90, 100, "ILCE"], [101, 106, "IL"]]}
+{"text": "guven mahalle 392 sokak numara 3 daire1 buca izmir güven buca izmir", "entities": [[14, 23, "SOKAK"], [31, 32, "NO"], [38, 39, "DAIRE"], [40, 44, "ILCE"], [45, 50, "IL"], [57, 61, "ILCE"], [62, 67, "IL"]]}
+{"text": "sıra mahalle çiğdem sokak numara 3 3", "entities": [[33, 34, "NO"], [35, 36, "NO"]]}
+{"text": "cumhuriyet mahallesi karli sokak7 4", "entities": [[0, 20, "MAH"], [34, 35, "NO"]]}
+{"text": "emirbeyazıt mahalle bulvar sokak tuğçe apartmanı bina numara 6 kat 2 daire numara 11 menteşe muğla", "entities": [[0, 26, "BULVAR"], [61, 62, "NO"], [67, 68, "NO"], [82, 84, "NO"], [85, 92, "ILCE"], [93, 98, "IL"]]}
+{"text": "cumhuriyet mahalle 466sokak bina numara 8 dikili izmir cumhuriyet dikili izmir", "entities": [[19, 27, "SOKAK"], [40, 41, "NO"], [42, 48, "IL"], [49, 54, "IL"], [66, 72, "IL"], [73, 78, "IL"]]}
+{"text": "süleyman demirel mahalle 1117 şok numara 2 daire yeşil inci sitesi daire blok daire 7 ödemiş izmir izmir ödemiş", "entities": [[25, 29, "NO"], [41, 42, "NO"], [84, 85, "NO"], [93, 98, "IL"], [99, 104, "IL"]]}
+{"text": "yunus emre mahallesi 4070 sokak numara 115 melek apartmanı daire 3 kat 3", "entities": [[0, 20, "MAH"], [21, 31, "SOKAK"], [39, 42, "NO"], [65, 66, "NO"], [71, 72, "NO"]]}
+{"text": "6730 sokak numara 63 daire 3 inönü mahallesi karşıyaka izmir", "entities": [[0, 44, "MAH"], [45, 54, "ILCE"], [55, 60, "IL"]]}
+{"text": "gazeteci hasan tahsin caddesi numara 10 3 gizem apartman", "entities": [[0, 29, "CADDE"], [37, 39, "NO"], [40, 41, "NO"]]}
+{"text": "2318 sokak içirr apartman numara 4 c", "entities": [[0, 10, "SOKAK"], [33, 34, "NO"]]}
+{"text": "akçay caddesi numara 284 1 a gaziemir izmir ekmekçiler grup atifbey gaziemir izmir", "entities": [[0, 13, "CADDE"], [21, 24, "NO"], [25, 26, "NO"], [29, 37, "ILCE"], [38, 43, "IL"], [68, 76, "ILCE"], [77, 82, "IL"]]}
+{"text": "cumhuriyet mahalle• atatürk cadde numara fethiye cem optik", "entities": [[41, 48, "IL"]]}
+{"text": "atıfbey mahallesi 6 1 sokak numara 4 e", "entities": [[0, 17, "MAH"], [18, 19, "NO"], [20, 27, "SOKAK"], [35, 36, "NO"]]}
+{"text": "piyaleoğlu caddesi numara 221 a gökmen avm yilmazlar turgutlu manisa", "entities": [[0, 18, "CADDE"], [26, 29, "NO"], [62, 68, "IL"]]}
+{"text": "8972 sokak taksim 5 güneş apartmanı numara 6 daire 13 uğur mumcu mahallesi harmandalı çiğli izmir güneş apartmanı daire 13 izmir çiğli harmandalı", "entities": [[0, 74, "MAH"], [86, 91, "ILCE"], [92, 97, "IL"], [120, 122, "NO"], [123, 128, "IL"], [129, 134, "ILCE"]]}
+{"text": "139 sokak konyapı sitesi numara 20 kat 2 daire 3 menderes izmir kemalpaşa menderes izmir menderes izmir tr", "entities": [[0, 9, "SOKAK"], [32, 34, "NO"], [39, 40, "NO"], [47, 48, "NO"], [58, 63, "IL"], [83, 88, "IL"], [98, 103, "IL"]]}
+{"text": "177 9 sokak numara 56 camlikent sitesi b4 blok kat 8 daire 35", "entities": [[0, 3, "NO"], [4, 11, "SOKAK"], [19, 21, "NO"], [51, 52, "NO"], [59, 61, "NO"]]}
+{"text": "8087 13 sokak numara 34 kat 2 daire 8 çigli izmir yakakent çiğli izmir", "entities": [[0, 4, "NO"], [5, 13, "SOKAK"], [21, 23, "NO"], [28, 29, "NO"], [36, 37, "NO"], [44, 49, "IL"], [59, 64, "ILCE"], [65, 70, "IL"]]}
+{"text": "8809 4 numara 19 daire1 küçükçiğli mahalle çiğli izmir küçük çiğli çiğli izmir", "entities": [[0, 4, "NO"], [5, 6, "NO"], [14, 16, "NO"], [22, 23, "DAIRE"], [43, 48, "ILCE"], [49, 54, "IL"], [61, 66, "ILCE"], [67, 72, "ILCE"], [73, 78, "IL"]]}
+{"text": "atatürk mahalle 74 sokak numara 4 öyüş apartmani b blok kat 4 daire 7 atatürk ortaca muğla ortaca muğla tr", "entities": [[16, 24, "SOKAK"], [32, 33, "NO"], [60, 61, "NO"], [68, 69, "NO"], [85, 90, "IL"], [98, 103, "IL"]]}
+{"text": "hürriyet mahallesi 151 sokak hilaliye caddesi numara 7 1 daire 4 uğur apartmanı", "entities": [[0, 18, "MAH"], [19, 28, "SOKAK"], [53, 54, "NO"], [55, 56, "NO"], [63, 64, "NO"]]}
+{"text": "bahar mahallesi 2936 sokak doğangir sitesi lale apartmanı numara 4 daire 16 karabağlar izmir bahar mahalle", "entities": [[0, 15, "MAH"], [16, 26, "SOKAK"], [65, 66, "NO"], [73, 75, "NO"], [76, 86, "ILCE"], [87, 92, "IL"]]}
+{"text": "hacı ilyas mahalle gümüşkesen cadde örnekçi apartmanı numara 34 4 milas muğla haci ilyas milas muğla", "entities": [[61, 63, "NO"], [64, 65, "NO"], [72, 77, "IL"], [95, 100, "IL"]]}
+{"text": "orhaniye mahallesi 8 nolu sokak numara 8 5 menteşe 48", "entities": [[0, 18, "MAH"], [19, 20, "NO"], [39, 40, "NO"], [41, 42, "NO"], [43, 50, "ILCE"], [51, 53, "NO"]]}
+{"text": "1080 sokak numara 7 hürriyet gaziemir izmir", "entities": [[0, 10, "SOKAK"], [18, 19, "NO"], [29, 37, "ILCE"], [38, 43, "IL"]]}
+{"text": "reşadiye mahallesi kazım yılmaz bulvar sokak reşadiye market tanı 3 katlı bina 1 kat mesken 263 numara 1 muğla datça reşadiye datça muğla", "entities": [[0, 18, "MAH"], [66, 67, "NO"], [79, 80, "NO"], [92, 95, "NO"], [103, 104, "NO"], [105, 110, "IL"], [132, 137, "IL"]]}
+{"text": "namık kemal mahalle 113 sokak numara 25 lotus apartman manisa salihli 1", "entities": [[20, 29, "SOKAK"], [37, 39, "NO"], [55, 61, "IL"], [70, 71, "NO"]]}
+{"text": "şemikler mahalle 3007 sokak numara 9 kat 3 daire 14 merkezefendidenizli", "entities": [[17, 27, "SOKAK"], [35, 36, "NO"], [41, 42, "NO"], [49, 51, "NO"]]}
+{"text": "yahşelli mahallesi 6301 sokak numara 5 a blok daire 3 menemen izmir yahşelli menemen izmir", "entities": [[0, 18, "MAH"], [19, 29, "SOKAK"], [37, 38, "NO"], [52, 53, "NO"], [62, 67, "IL"], [85, 90, "IL"]]}
+{"text": "halkapınar mahalesi 1213 sokak numara 2 kat yenişehir gıda çarşısı halkapınar", "entities": [[20, 30, "SOKAK"], [38, 39, "NO"]]}
+{"text": "atatürk plastikosb mahalle menemen plastik ihtisas osb 3 cadde numara 5 kastaş idari menemen izmir", "entities": [[55, 56, "NO"], [70, 71, "NO"], [93, 98, "IL"]]}
+{"text": "2977sk numara 22 kat 2 daire 5 gülyaka karabağlar izmir", "entities": [[14, 16, "NO"], [21, 22, "NO"], [29, 30, "NO"], [39, 49, "ILCE"], [50, 55, "IL"]]}
+{"text": "foça mahallesi 957 sokak numara 4 daire 3", "entities": [[0, 14, "MAH"], [15, 24, "SOKAK"], [32, 33, "NO"], [40, 41, "NO"]]}
+{"text": "inciraltı mahallesi mithatpaşa cadde numara 56 20 daire115 depark zeytin binası", "entities": [[0, 19, "MAH"], [44, 46, "NO"], [47, 49, "NO"], [55, 58, "DAIRE"]]}
+{"text": "limanreis mahallesi aziz sokak numara 4 narlıdere izmir narlıdere narlıdere", "entities": [[0, 19, "MAH"], [38, 39, "NO"], [50, 55, "IL"]]}
+{"text": "karahasanli mahallesi 2035 2 sokak numara 3 da 3 zeynep apartmanı", "entities": [[0, 21, "MAH"], [22, 26, "NO"], [27, 34, "SOKAK"], [42, 43, "NO"], [47, 48, "NO"]]}
+{"text": "şehit öz polat cadde numara 109 daire numara 1", "entities": [[28, 31, "NO"], [45, 46, "NO"]]}
+{"text": "dere mahalle dere mahallesi esentepe caddesi 10 sokak numara 27 kat 2", "entities": [[0, 27, "MAH"], [45, 53, "SOKAK"], [61, 63, "NO"], [68, 69, "NO"]]}
+{"text": "selçukbey mahalle 650 sokak numara 6 1 c e 1 blok kat 9 daire 36", "entities": [[18, 27, "SOKAK"], [35, 36, "NO"], [37, 38, "NO"], [43, 44, "NO"], [54, 55, "NO"], [62, 64, "NO"]]}
+{"text": "sehit hasan kuzu caddesi numara 55 c", "entities": [[0, 24, "CADDE"], [32, 34, "NO"]]}
+{"text": "cūneyt bey mahallesi saha sokak numara 18 kat 3 daire 8 menderes izmir cüneytbey mahalle menderes", "entities": [[0, 20, "MAH"], [39, 41, "NO"], [46, 47, "NO"], [54, 55, "NO"], [65, 70, "IL"]]}
+{"text": "can aksay sirakapilar mahallesi 1521 sokak numara 4 merkezefendi denizli sirakapilar merkezefendi denizli", "entities": [[0, 31, "MAH"], [32, 42, "SOKAK"], [50, 51, "NO"], [65, 72, "IL"], [98, 105, "IL"]]}
+{"text": "nihat danışman mahalle bağlar caddesi ilke apartmanı 2 daire kat2 daire aire4", "entities": [[0, 37, "CADDE"], [53, 54, "NO"], [64, 65, "KAT"]]}
+{"text": "431 sokak ocak sitesi daire blok kat 5 daire 11", "entities": [[0, 9, "SOKAK"], [37, 38, "NO"], [45, 47, "NO"]]}
+{"text": "ergenekon mahallesi yalçınlar sokak daire 6 kat 2 numara 26 turgutlu manisa", "entities": [[0, 19, "MAH"], [42, 43, "NO"], [48, 49, "NO"], [57, 59, "NO"], [69, 75, "IL"]]}
+{"text": "gazi mustafa kemal mahalle 4122 sokak ergin suit daire 7 zemin kat bina numara 1", "entities": [[27, 37, "SOKAK"], [55, 56, "NO"], [79, 80, "NO"]]}
+{"text": "3565 sokak numara 25 bahçeli müstakil ev mehtap mahalle gürçeşme konak izmir mehtap konak izmir", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"], [65, 70, "ILCE"], [71, 76, "IL"], [84, 89, "ILCE"], [90, 95, "IL"]]}
+{"text": "1694 sokak numara 16 kat 3 daire4 olcan apartman 8 gelmeden gazete için aransın", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"], [25, 26, "NO"], [32, 33, "DAIRE"], [49, 50, "NO"]]}
+{"text": "selvili mahalle şehit pilot volkan koçyiğit bulvarı numara 44 selvili otoparkı gişesine teslim edilecek karabağlar izmir", "entities": [[0, 51, "BULVAR"], [59, 61, "NO"], [104, 114, "ILCE"], [115, 120, "IL"]]}
+{"text": "saygi 2721 sokak numara=17daire =1", "entities": [[6, 16, "SOKAK"], [33, 34, "NO"]]}
+{"text": "5057 sokak numara 10 daire 4 ege sitesi", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"], [27, 28, "NO"]]}
+{"text": "mevlana mahalle 1746 1 sokak mevlana mahallesi numara 5 9 bornova izmir ulusoy otel", "entities": [[0, 46, "MAH"], [54, 55, "NO"], [56, 57, "NO"], [58, 65, "ILCE"], [66, 71, "IL"]]}
+{"text": "fatih caddesi akkonak mahallesi numara 153 3", "entities": [[0, 31, "MAH"], [39, 42, "NO"], [43, 44, "NO"]]}
+{"text": "meşelikuyu cadde numara 44 villa 24 grupkent sitesi güzelçamli kuşadasi aydın", "entities": [[24, 26, "NO"], [33, 35, "NO"], [72, 77, "IL"]]}
+{"text": "karabağ mahallesi yakaarası caddesi fsg evleri t blok numara 2 kat bir", "entities": [[0, 17, "MAH"], [61, 62, "NO"]]}
+{"text": "5078 sokak numara 8", "entities": [[0, 10, "SOKAK"], [18, 19, "NO"]]}
+{"text": "tuna mahallesi sanat cadde numara 61 kat 3", "entities": [[0, 14, "MAH"], [34, 36, "NO"], [41, 42, "NO"]]}
+{"text": "zeybek mahallesi zeybek 5 caddesi gold towers sitesi efeler aydin kat 6 daire 11 e blok", "entities": [[0, 16, "MAH"], [24, 25, "NO"], [53, 59, "ILCE"], [70, 71, "NO"], [78, 80, "NO"]]}
+{"text": "gündoğan mahallesi farilya cadde gundogan mahalle zen suites bi rinci etal c1 bodrum muğla türkiye", "entities": [[0, 18, "MAH"], [78, 84, "IL"], [85, 90, "IL"]]}
+{"text": "zübeyde hanım kız kyk yurdu ?erzene mahalle atatürk caddesi ege üniversitesi kampüs içi numara 172 57 bornova izmir", "entities": [[29, 59, "CADDE"], [95, 98, "NO"], [99, 101, "NO"], [102, 109, "ILCE"], [110, 115, "IL"]]}
+{"text": "29 ekim mahallesi 7601 sokak numara 4a şelale sitesi a blok kat 4 daire 19", "entities": [[0, 17, "MAH"], [18, 28, "SOKAK"], [36, 38, "NO"], [64, 65, "NO"], [72, 74, "NO"]]}
+{"text": "onur mahallesi mandalin sokak no2 d1 k1 park apartmanı a blok", "entities": [[0, 14, "MAH"], [32, 33, "NO"], [35, 36, "DAIRE"], [38, 39, "KAT"]]}
+{"text": "izmir karabağlar barış mahallesi 4512 sokak 7a bariş karabağlar izmir", "entities": [[0, 32, "MAH"], [33, 43, "SOKAK"], [53, 63, "ILCE"], [64, 69, "IL"]]}
+{"text": "izmir bornova erzene mahallesi ankara caddesi numara 172 28 kampüs içindeki kyk yurdu erzene bornova izmir", "entities": [[0, 30, "MAH"], [31, 37, "IL"], [53, 56, "NO"], [57, 59, "NO"], [93, 100, "ILCE"], [101, 106, "IL"]]}
+{"text": "halil rıfat paşa caddesi numara 344 daire 3 akin simav konak izmir", "entities": [[0, 24, "CADDE"], [32, 35, "NO"], [42, 43, "NO"], [55, 60, "ILCE"], [61, 66, "IL"]]}
+{"text": "dalyan dalyan mahalle 4000 sokak numara 31", "entities": [[22, 32, "SOKAK"], [40, 42, "NO"]]}
+{"text": "yaşar aksoy sokak numara 71 daire 2", "entities": [[25, 27, "NO"], [34, 35, "NO"]]}
+{"text": "iskele mahalle askeri hava lojmanlari d1 blok kat 1", "entities": [[39, 40, "DAIRE"], [50, 51, "NO"]]}
+{"text": "mueadiye mahalle cumhuriyet cadde 247", "entities": [[34, 37, "NO"]]}
+{"text": "325 1 sokak numara 64 kat 1 oda 8 şirinyer 16 asm efeler buca izmir", "entities": [[0, 3, "NO"], [4, 11, "SOKAK"], [19, 21, "NO"], [26, 27, "NO"], [32, 33, "NO"], [43, 45, "NO"], [50, 56, "ILCE"], [57, 61, "ILCE"], [62, 67, "IL"]]}
+{"text": "altintaş mahalle altıntaş mahalle 159 sokak numara 22 gül apartmanı kat 1 daire 2 luna psikoloji aydın nazilli", "entities": [[34, 43, "SOKAK"], [51, 53, "NO"], [72, 73, "NO"], [80, 81, "NO"], [97, 102, "IL"]]}
+{"text": "erzene mahalle 55 sokak numara 16 kat 3 daire 5 son kat ferah apartman bornova izmir erzene bornova izmir bornova izmir tr", "entities": [[15, 23, "SOKAK"], [31, 33, "NO"], [38, 39, "NO"], [46, 47, "NO"], [71, 78, "ILCE"], [79, 84, "IL"], [92, 99, "ILCE"], [100, 105, "IL"], [106, 113, "ILCE"], [114, 119, "IL"]]}
+{"text": "dedetaşi mahalle 528 sokak numara 25 kat 2", "entities": [[17, 26, "SOKAK"], [34, 36, "NO"], [41, 42, "NO"]]}
+{"text": "sevgi mahallesi 4624 sokak numara 23 kat 4 daire 4 bozyaka", "entities": [[0, 15, "MAH"], [16, 26, "SOKAK"], [34, 36, "NO"], [41, 42, "NO"], [49, 50, "NO"]]}
+{"text": "5 sokak g1 daire 6", "entities": [[0, 7, "SOKAK"], [17, 18, "NO"]]}
+{"text": "ata mahalle doğu çevre bul numara 56 k3 d12 efeler aydın efeler", "entities": [[0, 26, "BULVAR"], [34, 36, "NO"], [38, 39, "KAT"], [41, 43, "DAIRE"], [44, 50, "ILCE"], [51, 56, "IL"], [57, 63, "ILCE"]]}
+{"text": "izmir çeşme çiftlik mahallesi 19 sokak numara 28 2 turkey 35000", "entities": [[0, 29, "MAH"], [30, 38, "SOKAK"], [46, 48, "NO"], [49, 50, "NO"], [58, 63, "NO"]]}
+{"text": "saray mahallesi tutluca yolu sokak 20 c blok sae 1 toki kat 3 daire 8", "entities": [[0, 15, "MAH"], [35, 37, "NO"], [49, 50, "NO"], [60, 61, "NO"], [68, 69, "NO"]]}
+{"text": "6041 sokak numara 15 çelik apartman kat 2 daire 11 kinikli pamukkale denizli", "entities": [[0, 10, "SOKAK"], [18, 20, "NO"], [40, 41, "NO"], [48, 50, "NO"], [69, 76, "IL"]]}
+{"text": "232 sokak numara 12 boncuk apartman", "entities": [[0, 9, "SOKAK"], [17, 19, "NO"]]}
+{"text": "1135 sokak gümüşlük el sanatları çarşısı b 19 numaralı stant mavi gümüşlük bodrum muğla", "entities": [[0, 10, "SOKAK"], [43, 45, "NO"], [75, 81, "IL"], [82, 87, "IL"]]}
+{"text": "emek mahallesi mercan sokak 6 9", "entities": [[0, 14, "MAH"], [28, 29, "NO"], [30, 31, "NO"]]}
+{"text": "yeşil mahalle 692 sokak numara 12 3 kat 2 b blok", "entities": [[14, 23, "SOKAK"], [31, 33, "NO"], [34, 35, "NO"], [40, 41, "NO"]]}
+{"text": "kehribar caddesi 2283 sokak emerald sitesi b1 blok daire 14 hisar didim aydın", "entities": [[0, 16, "CADDE"], [17, 27, "SOKAK"], [57, 59, "NO"], [72, 77, "IL"]]}
+{"text": "137 3 sokak 17 sığacık mahalle kat 2 daire 9 numara 17", "entities": [[0, 3, "NO"], [4, 11, "SOKAK"], [12, 14, "NO"], [35, 36, "NO"], [43, 44, "NO"], [52, 54, "NO"]]}
+{"text": "atatürk bulvarı numara 50 a ilgan dipdağ smmm bürosu", "entities": [[0, 15, "BULVAR"], [23, 25, "NO"]]}
+{"text": "yenikale mahallesi yenikale mahalle baran sokak numara 20 kat 5 daire 5 narlıdere izmir bina 20 kat 5 daire 5 narlıdere izmir", "entities": [[0, 18, "MAH"], [55, 57, "NO"], [62, 63, "NO"], [70, 71, "NO"], [82, 87, "IL"], [93, 95, "NO"], [100, 101, "NO"], [108, 109, "NO"], [120, 125, "IL"]]}
+{"text": "ejder sokak numara 28 a3 57 liler sitesi", "entities": [[19, 21, "NO"], [25, 27, "NO"]]}
+{"text": "bahçelievler mahalle bahçelievler mahallesi antikkent sitesi ateş sokakno 20", "entities": [[0, 43, "MAH"], [74, 76, "NO"]]}
+{"text": "ege mahallesi atatürk caddesi 4 sokak osman yıldız apartmanı kat 2 daire 4", "entities": [[0, 13, "MAH"], [30, 37, "SOKAK"], [65, 66, "NO"], [73, 74, "NO"]]}
+{"text": "yeni sanayi mahallesi 515 sokak numara 53 c3 blok emek aliminyum", "entities": [[0, 21, "MAH"], [22, 31, "SOKAK"], [39, 41, "NO"]]}
+{"text": "eğitim mahallesi köroğlu sokak numara 3 daire 2 gökçe apartman balçova izmir", "entities": [[0, 16, "MAH"], [38, 39, "NO"], [46, 47, "NO"], [71, 76, "IL"]]}
+{"text": "dinçer mahalle 2502sokak 62 1 deha güvenlik", "entities": [[15, 24, "SOKAK"], [25, 27, "NO"], [28, 29, "NO"]]}
+{"text": "basin sitesi mahalle 215 sokak numara 24 daire 6 basınsitesi mahalle", "entities": [[21, 30, "SOKAK"], [38, 40, "NO"], [47, 48, "NO"]]}
+{"text": "141 sokak lale apartman numara 99 daire 3 hakim evleri konak konak izmir", "entities": [[0, 9, "SOKAK"], [31, 33, "NO"], [40, 41, "NO"], [55, 60, "ILCE"], [61, 66, "ILCE"], [67, 72, "IL"]]}
+{"text": "954 sokak numara 11 b", "entities": [[0, 9, "SOKAK"], [17, 19, "NO"]]}
+{"text": "muslihittin mahalle şehit özden aşınmaz cadde hedef 96 8 blok dai 16 menteşe muğla", "entities": [[52, 54, "NO"], [55, 56, "NO"], [66, 68, "NO"], [69, 76, "ILCE"], [77, 82, "IL"]]}
+{"text": "3272 sokak numara 7 daire 1", "entities": [[0, 10, "SOKAK"], [18, 19, "NO"], [26, 27, "NO"]]}
+{"text": "yeni şafak mahallesi 1020 sokak özcan apartmanı numara 23 kat 3 daire 10", "entities": [[0, 20, "MAH"], [21, 31, "SOKAK"], [55, 57, "NO"], [62, 63, "NO"], [70, 72, "NO"]]}
+{"text": "hürriyet mahallesi dispanser sokak numara 2 kat 5 null", "entities": [[0, 18, "MAH"], [42, 43, "NO"], [48, 49, "NO"]]}
+{"text": "izmir selçuk ataturk mahalle 1038 sokak numara 11 kat 4 daire 8 atatürk mahalle", "entities": [[0, 5, "IL"], [29, 39, "SOKAK"], [47, 49, "NO"], [54, 55, "NO"], [62, 63, "NO"]]}
+{"text": "inönü mahalle 147sok numara 77 a blok kat 2 daire 15 rivella evleri", "entities": [[14, 20, "SOKAK"], [28, 30, "NO"], [42, 43, "NO"], [50, 52, "NO"]]}
+{"text": "çestepe mahalle 3433 sokak numara 15", "entities": [[16, 26, "SOKAK"], [34, 36, "NO"]]}
+{"text": "yeni sanayi sitesi c 1 blok 513 sokak numara 7l kaykallar otogaz kaykallar otogaz nazilli aydın", "entities": [[21, 22, "NO"], [28, 37, "SOKAK"], [45, 47, "NO"], [90, 95, "IL"]]}
+{"text": "kocaçeşme mahalle kocaçeşme mahalle fevzipaşa cadde numara 143 kat2 4", "entities": [[59, 62, "NO"], [66, 67, "KAT"], [68, 69, "NO"]]}
+{"text": "mehtap mahallesi 3646 so numara 12 kat 1 konak izmir", "entities": [[0, 16, "MAH"], [17, 21, "NO"], [32, 34, "NO"], [39, 40, "NO"], [41, 46, "ILCE"], [47, 52, "IL"]]}
+{"text": "gazi tekel cumhuriyet bulvarı 1453 sokak numara 3 c 1453 gazi market alsancak mahallesi 0 konak izmir türkiye 0 giriş katı gazi market izmir", "entities": [[0, 87, "MAH"], [88, 89, "NO"], [90, 95, "ILCE"], [96, 101, "IL"], [110, 111, "NO"], [135, 140, "IL"]]}
+{"text": "meriç mahallesi 5745 sokak numara 2 1a goldiva familya motorcu göçmen bornova izmir", "entities": [[0, 15, "MAH"], [16, 26, "SOKAK"], [34, 35, "NO"], [70, 77, "ILCE"], [78, 83, "IL"]]}
+{"text": "bahariye mahallesi şehit ibrahim er sokak bina 88 kat 2 daire 5 karşıyaka izmir", "entities": [[0, 18, "MAH"], [47, 49, "NO"], [54, 55, "NO"], [62, 63, "NO"], [64, 73, "ILCE"], [74, 79, "IL"]]}
+{"text": "bahçelievler mahalle bahçeli evler cadde numara 122 daire 1 20125 merkezefendi denizli", "entities": [[48, 51, "NO"], [58, 59, "NO"], [60, 65, "NO"], [79, 86, "IL"]]}
+{"text": "yeni mahalle 36 sokak mimarisinin cadde dış kapı 27 zemin kat", "entities": [[13, 21, "SOKAK"], [49, 51, "NO"]]}
+{"text": "mimar sinan mahalle kubilay cadde numara 17 1 nysa villaları efeler aydın atabey ilkokulu karşısı ortadaki daire", "entities": [[41, 43, "NO"], [44, 45, "NO"], [61, 67, "ILCE"], [68, 73, "IL"]]}
+{"text": "1418 sokak emot plus hastanesi numara 18 28", "entities": [[0, 10, "SOKAK"], [38, 40, "NO"], [41, 43, "NO"]]}
+{"text": "bitez mahallesi adliye caddesi numara 1 rnbodrum adliyesi 2 sulh ceza hakimliği kalemi", "entities": [[0, 15, "MAH"], [38, 39, "NO"], [58, 59, "NO"]]}
+{"text": "kuşçuburun mahallesi seyrantepe cadde desi numara 32", "entities": [[0, 20, "MAH"], [50, 52, "NO"]]}
+{"text": "kazim karabekir mahalle 9015 sokak numara 11 daire 2 yeşilyurt karabağlar izmir", "entities": [[24, 34, "SOKAK"], [42, 44, "NO"], [51, 52, "NO"], [63, 73, "ILCE"], [74, 79, "IL"]]}
+{"text": "opera caddesi mavişehir mahallesi pamukkale 4 giriş 60 kat 16 daire 65", "entities": [[0, 33, "MAH"], [44, 45, "NO"], [52, 54, "NO"], [59, 61, "NO"], [68, 70, "NO"]]}
+{"text": "çiftlik mahalle 16 sokak numara 19 a çiftlik çeşme izmir", "entities": [[16, 24, "SOKAK"], [32, 34, "NO"], [45, 50, "IL"], [51, 56, "IL"]]}
+{"text": "günlükbaşi polis karakolu fethiye muğla", "entities": [[26, 33, "IL"], [34, 39, "IL"]]}
+{"text": "kazım karabekir cadde numara 50 a erzene bornova izmir", "entities": [[29, 31, "NO"], [41, 48, "ILCE"], [49, 54, "IL"]]}
+{"text": "izmir torbali atatürk mahallesi 1594 sokak numara 62 kat 2 numara atatürk 1594 sokak numara 62 kat atatürk 1594 sokak numara 62 daire 2 torbali izmir tr", "entities": [[0, 31, "MAH"], [32, 42, "SOKAK"], [50, 52, "NO"], [57, 58, "NO"], [74, 84, "SOKAK"], [92, 94, "NO"], [107, 117, "SOKAK"], [125, 127, "NO"], [134, 135, "NO"], [144, 149, "IL"]]}
+{"text": "bahçedere mahallesi 1 çevre yolu caddesi cezaevi lojmanları numara 63 3 çiğdem blok iç kapı numara 9 aliağa izmir", "entities": [[0, 19, "MAH"], [20, 21, "NO"], [67, 69, "NO"], [70, 71, "NO"], [99, 100, "NO"], [108, 113, "IL"]]}
+{"text": "köprübaşı mahalle cumhuriyet cadde sanayi sitesi yanı özgür evleri b blok numara 7", "entities": [[81, 82, "NO"]]}
+{"text": "nirvana suits 7424 sokak b blok daire numara 41 istiklal menemen izmir", "entities": [[14, 24, "SOKAK"], [45, 47, "NO"], [65, 70, "IL"]]}
+{"text": "konacık mahalle konacık mahalle yıldırım beyazıt cadde numara 19 b 1 bodrum", "entities": [[62, 64, "NO"], [67, 68, "NO"], [69, 75, "IL"]]}
+{"text": "yeni cami yenicami mahallesi güvercin sokak özgür yaşam apartmanı daire 33 aydin soke", "entities": [[0, 28, "MAH"], [72, 74, "NO"]]}
+{"text": "aktur tatil sitesi c mahallesi numara 354 emecik mahalle", "entities": [[0, 30, "MAH"], [38, 41, "NO"]]}
+{"text": "29 ekim mahalle izmir 35 tr tr35 29 ekim mahalle 8 cadde numara 30 b daire 1 menemen izmir", "entities": [[0, 2, "NO"], [16, 21, "IL"], [22, 24, "NO"], [33, 35, "NO"], [49, 50, "NO"], [64, 66, "NO"], [75, 76, "NO"], [85, 90, "IL"]]}
+{"text": "diğer namık kemal mahalle fevzipaşa cadde numara 20 özbayioğlu yelken ticaret köprübaşı manisa tr", "entities": [[49, 51, "NO"], [88, 94, "IL"]]}
+{"text": "folkart hills musalla mahalle 1136 sokak numara 42 daire 51 fenerburnu mevki çeşme", "entities": [[30, 40, "SOKAK"], [48, 50, "NO"], [57, 59, "NO"], [77, 82, "IL"]]}
+{"text": "umurbey mahalle umurbey mahallesi mithatpaşa caddesi numara 21 nokta reklam irfan eczanesi yanı", "entities": [[0, 33, "MAH"], [60, 62, "NO"]]}
+{"text": "42 sokak 22 82 kaleburnu lojmanlari karamürsel bey apartmanı daire 8 atatürk foça izmir", "entities": [[0, 8, "SOKAK"], [9, 11, "NO"], [12, 14, "NO"], [67, 68, "NO"], [82, 87, "IL"]]}
+{"text": "428 sokak numara 2 daire 5", "entities": [[0, 9, "SOKAK"], [17, 18, "NO"], [25, 26, "NO"]]}
+{"text": "isa bey mahallesi argenta caddesi selçuk", "entities": [[0, 17, "MAH"]]}
+{"text": "124 sokak durmazlar sitesi daire blok kat 2 numara 4siteler armutala n marmaris muğla", "entities": [[0, 9, "SOKAK"], [42, 43, "NO"], [71, 79, "IL"], [80, 85, "IL"]]}
+{"text": "denizli pamukkale pınarkent mahalle dedapark sitesi 139 numara kat 4 daire 22 b blok pamukkale", "entities": [[0, 7, "IL"], [52, 55, "NO"], [67, 68, "NO"], [75, 77, "NO"]]}
+{"text": "kabakum mahallesi bankacilar sitesi 11 sokak 7 numara dikili izmir 7 numara", "entities": [[0, 17, "MAH"], [36, 44, "SOKAK"], [45, 46, "NO"], [54, 60, "IL"], [61, 66, "IL"], [67, 68, "NO"]]}
+{"text": "izmir ekonomi üniversitesi ieü fevzi çakmak sakarya cadde numara 156 35330 balçova izmir fevzi çakmak balçova izmir", "entities": [[0, 5, "IL"], [65, 68, "NO"], [69, 74, "NO"], [83, 88, "IL"], [110, 115, "IL"]]}

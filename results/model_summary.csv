@@ -1,0 +1,4 @@
+Model_Type,Data_Quality,F_Score,Precision,Recall,Key_Improvements
+Original,Standard entity extraction,90.11%,89.06%,91.21%,Basic pattern matching
+Improved,Enhanced MAH/CADDE separation,94.62%,93.84%,95.40%,Priority-based overlap resolution
+Improvement,Better entity labeling quality,+4.51%,+4.78%,+4.19%,Mahalle-Cadde separation fixed
