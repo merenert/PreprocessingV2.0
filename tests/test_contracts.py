@@ -86,7 +86,9 @@ def test_pydantic_validation_errors():
 
     with pytest.raises(ValidationError):
         ExplanationParsed(
-            confidence=1.5, method=MethodEnum.ML, warnings=[]  # Invalid: > 1.0
+            confidence=1.5,
+            method=MethodEnum.ML,
+            warnings=[],  # Invalid: > 1.0
         )
 
 

@@ -2,6 +2,7 @@
 """
 Demonstration script for the address normalization contracts.
 """
+
 import json
 
 from src.addrnorm.utils.contracts import (

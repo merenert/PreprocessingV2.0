@@ -46,6 +46,14 @@ class Config:
                 },
             },
             "resources": {"abbreviations_file": "data/resources/abbr_tr.yaml"},
+            "patterns": {
+                "default_threshold": 0.72,
+                "ema_alpha": 0.1,
+                "threshold_adjustment_factor": 0.2,
+                "min_threshold": 0.3,
+                "max_threshold": 0.9,
+                "min_samples_for_adjustment": 5,
+            },
         }
 
     def load_config(self, config_path: str):
@@ -101,3 +109,8 @@ class Config:
 
 # Global configuration instance
 config = Config()
+
+
+def get_config() -> Config:
+    """Get the global configuration instance."""
+    return config

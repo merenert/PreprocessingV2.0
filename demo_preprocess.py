@@ -2,6 +2,7 @@
 """
 Demonstration script for the preprocess module.
 """
+
 from src.addrnorm.preprocess import (
     expand_abbreviations,
     load_abbreviations,

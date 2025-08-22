@@ -1,0 +1,146 @@
+# Turkish Address Pattern Definitions
+# DSL for extracting address components from preprocessed text
+#
+# Pattern Syntax:
+#   <SlotName>     - Required named slot (e.g., <Mahalle>, <Sokak>)
+#   <SlotName?>    - Optional named slot
+#   <n>           - Number slot (numeric value)
+#   <text>        - Generic text slot
+#   literal       - Literal text that must match exactly
+#
+# Priority: Higher numbers = higher priority (checked first)
+
+patterns:
+  # Simple patterns (high confidence when matched)
+  - id: "mahalle_sokak_no"
+    priority: 90
+    pattern: "<Mahalle> <Sokak> no <n>"
+    description: "Mahalle + Sokak + No format"
+    examples:
+      - "moda mahalle bahariye sokak no 12"
+      - "konak mahalle cumhuriyet sokak no 45"
+
+  - id: "mahalle_cadde_no"
+    priority: 89
+    pattern: "<Mahalle> <Cadde> no <n>"
+    description: "Mahalle + Cadde + No format"
+    examples:
+      - "balgat mahalle turan güneş cadde no 67"
+      - "alsancak mahalle cumhuriyet cadde no 123"
+
+  # Patterns with building details
+  - id: "full_address_with_building"
+    priority: 85
+    pattern: "<Mahalle> <Sokak> no <n> daire <Daire>"
+    description: "Complete address with apartment"
+    examples:
+      - "moda mahalle bahariye sokak no 12 daire 5"
+      - "konak mahalle atatürk sokak no 34 daire 8"
+
+  # Patterns with optional explanation
+  - id: "explanation_mahalle_sokak_no"
+    priority: 80
+    pattern: "<Açıklama?> <Mahalle> <Sokak> no <n>"
+    description: "Optional explanation + Mahalle + Sokak + No"
+    examples:
+      - "istanbul kadiköy moda mahalle bahariye sokak no 12"
+      - "izmir konak alsancak mahalle atatürk sokak no 45"
+      - "moda mahalle bahariye sokak no 12"  # without explanation
+
+  # Complex patterns with multiple components
+  - id: "complex_address_full"
+    priority: 75
+    pattern: "<Açıklama?> <Mahalle> <Sokak> no <n> kat <Kat> daire <Daire>"
+    description: "Complex address with floor and apartment"
+    examples:
+      - "istanbul kadiköy moda mahalle prof daire cadde numara12 kat 5 daire 15"
+      - "moda mahalle bahariye sokak no 12 kat 3 daire 7"
+
+  # Block/Apartment complex patterns
+  - id: "site_pattern"
+    priority: 70
+    pattern: "<Site> <Blok?> no <n> daire <Daire>"
+    description: "Apartment complex with optional block"
+    examples:
+      - "rivella evleri a blok no 77 daire 15"
+      - "ismail soyak sitesi ablok no 6 daire 5"
+      - "burak yar sitesi no 12 daire 3"
+
+  # Street-focused patterns
+  - id: "sokak_numara_simple"
+    priority: 65
+    pattern: "<Sokak> numara <n>"
+    description: "Simple street + number"
+    examples:
+      - "bahariye sokak numara 12"
+      - "atatürk cadde numara 45"
+
+  # Number-first patterns
+  - id: "numara_first_pattern"
+    priority: 60
+    pattern: "<n> sokak no <n2>"
+    description: "Street number + building number"
+    examples:
+      - "1771 sokak no 5"
+      - "4632 sokak no 16"
+
+  # Loose patterns (lower confidence)
+  - id: "loose_mahalle_only"
+    priority: 50
+    pattern: "<Mahalle> <text?>"
+    description: "Mahalle with optional additional text"
+    examples:
+      - "moda mahalle"
+      - "konak mahalle 123"
+
+  # Keywords for pattern matching enhancement
+keywords:
+  location_indicators:
+    - "mahalle"
+    - "mah"
+    - "sokak"
+    - "sok"
+    - "cadde"
+    - "cad"
+    - "numara"
+    - "no"
+    - "daire"
+    - "kat"
+    - "blok"
+    - "sitesi"
+
+  low_importance:
+    - "istanbul"
+    - "ankara"
+    - "izmir"
+    - "bursa"
+    - "antalya"
+
+# Scoring weights for confidence calculation
+scoring:
+  # Base weights for different match types
+  exact_match_weight: 1.0
+  token_overlap_weight: 0.8
+  keyword_presence_weight: 0.6
+  pattern_coverage_weight: 0.9
+
+  # Slot-specific weights
+  slot_weights:
+    Mahalle: 0.9
+    Sokak: 0.9
+    Cadde: 0.9
+    n: 0.8        # numeric values
+    Daire: 0.7
+    Kat: 0.7
+    Site: 0.8
+    Blok: 0.6
+    Açıklama: 0.25  # Low weight for explanation
+    text: 0.3       # Generic text has low weight
+
+  # Penalty factors
+  missing_required_slot_penalty: 0.3
+  extra_text_penalty: 0.1
+
+  # Thresholds
+  min_confidence_threshold: 0.3
+  good_match_threshold: 0.7

@@ -2,6 +2,7 @@
 """
 Debug script for preprocess functionality.
 """
+
 from src.addrnorm.preprocess import (
     clean_punctuation,
     expand_abbreviations,

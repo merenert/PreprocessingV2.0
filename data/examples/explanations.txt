@@ -1,0 +1,64 @@
+# Test explanations for Turkish spatial relationship parsing
+# Format: explanation_text
+
+# Hotel/Otel examples
+Amorium Hotel karşısı
+Grand Otel yanında
+Hilton Hotel arkasında
+Ramada Inn girişi
+
+# Market examples
+marketin yanı
+Migros karşısında
+BİM arkası
+A101 önünde
+CarrefourSA köşesi
+
+# School/Okul examples
+okulun karşısı
+İlkokul yanında
+üniversite arkası
+kampüs girişi
+
+# Hospital examples
+hastane önü
+Acıbadem karşısı
+klinik yanında
+sağlık ocağı arkası
+
+# Bank examples
+banka köşesi
+Garanti yanı
+Akbank karşısında
+ATM önünde
+
+# Religious places
+caminin karşısı
+kilise yanında
+mescit arkası
+
+# Parks and recreation
+parkın arkası
+meydan karşısı
+bahçe yanında
+sahil kenarı
+
+# Shopping
+çarşının içi
+AVM girişi
+alışveriş merkezi yanı
+pazar yeri karşısı
+
+# Transportation
+otobüs durağı karşısı
+terminal yanında
+otogar arkası
+istasyon önü
+
+# Other landmarks
+benzinlik karşısı
+eczane yanı
+postane arkası
+belediye önü
+köprünün altı
+tünelin girişi

@@ -2,6 +2,7 @@
 """
 CLI interface for the address preprocessing module.
 """
+
 import argparse
 import json
 import sys
