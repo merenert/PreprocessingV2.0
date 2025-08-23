@@ -1,12 +1,13 @@
 # Turkish Address Normalization Tool (addrnorm)
 
-> Advanced Turkish address normalization using ML and rule-based methods with landmark explanation parsing.
+> Advanced Turkish address normalization using ML and rule-based methods with landmark explanation parsing and adaptive threshold management.
 
 ## Features
 
 - **ML-powered NER**: spaCy-based named entity recognition (94.6% F-score)
 - **Rule-based Fallback**: Pattern matching and heuristic extraction
 - **Landmark Explanation Parser**: Extract spatial relationships from descriptions like "Migros yanı", "Hotel karşısı"
+- **Adaptive Threshold Management**: Auto-adjust pattern thresholds based on performance
 - **Geographic Validation**: 81 cities + 897 districts with fuzzy matching
 - **Multiple Output Formats**: JSON Lines, CSV
 - **Parallel Processing**: Batch processing with configurable concurrency
@@ -29,6 +30,13 @@ graph TD
     L --> G
     G --> H(Output Format)
     H --> I[JSONL/CSV Output]
+    
+    %% Adaptive Threshold Management
+    C -->|Pattern Performance| AT[Adaptive Threshold Manager]
+    AT -->|Adjust Thresholds| C
+    AT -->|Track Success/Failure| PT[Pattern Tracker]
+    PT -->|Learning Engine| LE[Auto-optimization]
+    LE -->|Update Thresholds| AT
 ```
 
 ## Quick Start
@@ -80,7 +88,7 @@ result = parse_explanation("Migros yanı")
 print(result)
 # Output: {
 #   "type": "landmark",
-#   "landmark_name": "Migros", 
+#   "landmark_name": "Migros",
 #   "landmark_type": "market",
 #   "spatial_relation": "yanı",
 #   "confidence": 0.92
@@ -89,7 +97,7 @@ print(result)
 # Complex examples
 examples = [
     "Amorium Hotel karşısı",
-    "Şekerbank ATM yanında", 
+    "Şekerbank ATM yanında",
     "Koç Holding binası arkası"
 ]
 
@@ -385,7 +393,7 @@ print(result)
 # {
 #   "type": "landmark",
 #   "landmark_name": "Migros",
-#   "landmark_type": "market", 
+#   "landmark_type": "market",
 #   "spatial_relation": "yanı",
 #   "confidence": 0.92
 # }
@@ -422,7 +430,7 @@ for text in examples:
 # Process multiple explanations
 explanations = [
     "Migros yanı",
-    "Hotel karşısı", 
+    "Hotel karşısı",
     "Hastane önünde",
     "Okul arkasında"
 ]
@@ -442,9 +450,133 @@ for text, result in zip(explanations, results):
 # Run explanation parser examples
 python demo_explanation.py
 
+# Run adaptive threshold management demo
+python demo_adaptive.py
+```
+
+## Adaptive Threshold Management
+
+The adaptive threshold management system automatically adjusts pattern confidence thresholds based on performance metrics to optimize accuracy and processing efficiency.
+
+### Core Features
+- **Dynamic Threshold Adjustment**: Auto-adjust based on success rates
+- **Pattern Performance Tracking**: Monitor individual pattern effectiveness
+- **Learning Engine**: Intelligent optimization using historical data
+- **JSON Persistence**: Save and restore pattern statistics
+- **Pipeline Integration**: Seamless integration with existing normalization pipeline
+
+### Core Logic
+- **High Performance** (>95% success) → Lower threshold (down to 0.6)
+- **Low Performance** (<70% success) → Raise threshold (up to 0.95)
+- **Usage Frequency** consideration for careful adjustments
+
+### File Structure
+```
+src/addrnorm/adaptive/
+├── __init__.py           # Module exports and convenience functions
+├── threshold_manager.py  # Main adaptive threshold manager
+├── pattern_tracker.py   # Pattern performance tracking
+├── learning.py          # Learning engine for optimization
+└── models.py            # Pydantic data models
+```
+
+### Usage Examples
+
+```python
+from addrnorm.adaptive import AdaptiveThresholdManager
+
+# Initialize manager with configuration
+manager = AdaptiveThresholdManager(
+    config_file="adaptive_config.json",
+    persistence_file="adaptive_state.json"
+)
+
+# Get current threshold for a pattern
+threshold = manager.get_threshold("street_pattern")
+
+# Update pattern performance
+manager.update_performance(
+    pattern_name="street_pattern",
+    success=True,
+    confidence=0.85
+)
+
+# Get performance statistics
+stats = manager.get_pattern_stats("street_pattern")
+print(f"Success rate: {stats.success_rate:.1%}")
+print(f"Average confidence: {stats.avg_confidence:.2f}")
+
+# Analyze pattern performance
+analysis = manager.analyze_pattern("street_pattern")
+print(f"Trend: {analysis['trend']}")
+print(f"Stability: {analysis['stability_score']:.2f}")
+
+# Optimize all thresholds
+optimizations = manager.optimize_thresholds()
+for pattern, (new_threshold, reason) in optimizations.items():
+    print(f"{pattern}: {new_threshold:.3f} ({reason})")
+```
+
+### Pipeline Integration
+
+```python
+# Example of pipeline integration
+def process_address_with_adaptive(address_text, pattern_name):
+    # Get current threshold
+    threshold = manager.get_threshold(pattern_name)
+    
+    # Apply pattern matching
+    pattern_score = apply_pattern(address_text, pattern_name)
+    
+    # Check against adaptive threshold
+    if pattern_score >= threshold:
+        success = True
+        result = extract_with_pattern(address_text, pattern_name)
+    else:
+        success = False
+        result = fallback_processing(address_text)
+    
+    # Report performance back to adaptive manager
+    manager.update_performance(
+        pattern_name=pattern_name,
+        success=success,
+        confidence=pattern_score
+    )
+    
+    return result
+```
+
+### Configuration
+
+Create `adaptive_config.json`:
+```json
+{
+  "min_threshold": 0.6,
+  "max_threshold": 0.95,
+  "default_threshold": 0.8,
+  "adjustment_step": 0.05,
+  "min_samples": 10,
+  "high_performance_threshold": 0.95,
+  "low_performance_threshold": 0.7
+}
+```
+
+### Performance Metrics
+- **Pattern Success Tracking**: Individual pattern performance monitoring
+- **Confidence Analysis**: Statistical analysis of confidence distributions
+- **Trend Detection**: Identify improving/declining patterns
+- **Stability Scoring**: Measure consistency of pattern performance
+- **Usage Analytics**: Track pattern utilization frequencies
+
+### Command Line Demo
+
+```bash
+# Run explanation parser examples
+python demo_explanation.py
+
 # This will demonstrate:
 # - Basic landmark detection
-# - Spatial relation extraction  
+# - Spatial relation extraction
 # - Complex explanations
 # - Error handling
 # - Performance metrics

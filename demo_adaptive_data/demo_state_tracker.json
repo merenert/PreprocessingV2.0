@@ -1,0 +1,5562 @@
+{
+  "pattern_stats": {
+    "street_cleaner": {
+      "success_count": 82,
+      "total_count": 100,
+      "success_rate": 0.82,
+      "avg_confidence": 0.0,
+      "usage_count": 100,
+      "last_updated": "2025-08-24 00:49:16.347569",
+      "confidence_sum": 81.76537934440657
+    },
+    "district_detector": {
+      "success_count": 92,
+      "total_count": 100,
+      "success_rate": 0.92,
+      "avg_confidence": 0.0,
+      "usage_count": 100,
+      "last_updated": "2025-08-24 00:49:16.349564",
+      "confidence_sum": 89.2536927801574
+    },
+    "building_finder": {
+      "success_count": 70,
+      "total_count": 100,
+      "success_rate": 0.7,
+      "avg_confidence": 0.0,
+      "usage_count": 100,
+      "last_updated": "2025-08-24 00:49:16.361636",
+      "confidence_sum": 75.44266160752453
+    },
+    "number_extractor": {
+      "success_count": 91,
+      "total_count": 100,
+      "success_rate": 0.91,
+      "avg_confidence": 0.0,
+      "usage_count": 100,
+      "last_updated": "2025-08-24 00:49:16.364617",
+      "confidence_sum": 91.96146670083749
+    },
+    "explanation_parser": {
+      "success_count": 72,
+      "total_count": 100,
+      "success_rate": 0.72,
+      "avg_confidence": 0.0,
+      "usage_count": 100,
+      "last_updated": "2025-08-24 00:49:16.365567",
+      "confidence_sum": 66.54085694106631
+    }
+  },
+  "recent_results": {
+    "street_cleaner": [
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8966816027898472,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.201592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": false,
+        "confidence": 0.8506306704762184,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.201592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.9482998896789268,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.201592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7995551328126183,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.201592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7525556247719277,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.201592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8508617108957621,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.201592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.704488670488663,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.201592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.9264013272343494,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.201592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8269522512577517,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.201592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7760406172750378,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.201592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7595067178994889,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.201592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": false,
+        "confidence": 0.7429004815750925,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.201592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.9253303547511987,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.201592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.891255735949604,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.201592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7428591427774014,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.201592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7731574076816823,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.201592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": false,
+        "confidence": 0.8242111830687554,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.201592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": false,
+        "confidence": 0.7945351192153178,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.201592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7691190374232129,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.201592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.9306667245191516,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.201592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8978286820556282,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.260243",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8579458928900352,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.260243",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.772784469635245,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.260243",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7084224446979278,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.260243",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7707139187966907,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.260243",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7604742827444978,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.260243",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.9161901257978778,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.260243",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8864008133473316,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.261255",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": false,
+        "confidence": 0.7596759095018523,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.261255",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7601994313599207,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.261255",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8570524586280343,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.261255",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8398316072197184,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.261255",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8605515747080545,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.261255",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8658777423898754,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.261255",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.9352100460459588,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.261255",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": false,
+        "confidence": 0.7948704092733071,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.261255",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.824697814125686,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.261255",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": false,
+        "confidence": 0.7797901210536167,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.261255",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": false,
+        "confidence": 0.7986358857238747,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.261255",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8248206408799906,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.262333",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7290739231259955,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.284732",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8054295111665453,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.284732",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": false,
+        "confidence": 0.7331953610762145,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.284732",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8903400515347084,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.284732",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7240288600530436,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.284732",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7011316092750445,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.284732",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": false,
+        "confidence": 0.8476427096405756,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.285766",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7407439554185932,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.285766",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7176474760319305,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.285766",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.9125924359017237,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.285766",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8765817914505004,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.285766",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.9465008863108053,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.285766",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": false,
+        "confidence": 0.9319327760970101,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.285766",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.9053499075916916,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.285766",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7115698072257076,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.285766",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.9481005541135179,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.285766",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7486354931822679,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.285766",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7477701715964921,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.286823",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7838908972140775,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.287762",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8585266945427547,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.287762",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7961033308666303,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.313163",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": false,
+        "confidence": 0.7642841414424648,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.313163",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.726657410398458,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.314178",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": false,
+        "confidence": 0.8026274962574208,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.314178",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.9061567499066054,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.314178",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8858978090598805,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.314178",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7631860794168445,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.314178",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8950045358255593,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.315177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": false,
+        "confidence": 0.8504338139505967,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.315177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7465130181186289,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.315177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": false,
+        "confidence": 0.7937178978402114,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.315177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8729125909454332,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.316177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8909671292351864,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.316177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8775887226034668,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.316177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8150315600112845,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.316177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": false,
+        "confidence": 0.7385569639226138,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.316177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.816063884184431,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.316177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8649170141569306,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.316177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7609524876153327,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.316177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8116799544681116,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.316177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7552410017952657,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.346554",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.9389039128008342,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.346554",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7571576483402441,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.346554",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8296725794880334,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.346554",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8117755570630284,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.346554",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7173921919923292,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.346554",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": false,
+        "confidence": 0.7925384972895163,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.346554",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8392712380759242,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.346554",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7021428459616732,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.346554",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.765361954065425,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.346554",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7490326867866451,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.347569",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.9349319432781509,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.347569",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7001420264618703,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.347569",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": false,
+        "confidence": 0.737600264550102,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.347569",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8855252619024562,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.347569",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.9014021196495493,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.347569",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8671886997927152,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.347569",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8576472655656169,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.347569",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.7251319577970586,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.347569",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "street_cleaner",
+        "pattern_type": "street",
+        "success": true,
+        "confidence": 0.8993985555577019,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.347569",
+        "metadata": {
+          "round": 5
+        }
+      }
+    ],
+    "district_detector": [
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8997150887151233,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.202717",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9114614334053974,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.202717",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9363107261914927,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.202717",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9058668840511002,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.202717",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8831182367798428,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.202717",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8798582754368742,
+        "threshold_used": 0.75,
+        "timestamp": "2025-08-24 00:49:12.202717",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8865608380206172,
+        "threshold_used": 0.75,
+        "timestamp": "2025-08-24 00:49:12.202717",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8781683906289511,
+        "threshold_used": 0.75,
+        "timestamp": "2025-08-24 00:49:12.202717",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": false,
+        "confidence": 0.8820474372992801,
+        "threshold_used": 0.75,
+        "timestamp": "2025-08-24 00:49:12.202717",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": false,
+        "confidence": 0.8723543404171169,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.202717",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9152040465837863,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.203592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8716097239855295,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.203592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8928291561799369,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.203592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9148657068356522,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.203592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9210823247009091,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.203592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8978122363772936,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.203592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9004796056767669,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.203592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8887116598395247,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.203592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8991985246696235,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.203592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9110423652243751,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.203592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8619857515760341,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.263244",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9166508221584158,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.263244",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8733436749184572,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.263244",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.889542438697227,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.263244",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8842562531938113,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.263244",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8934300724320522,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.263244",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8752846408535678,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.263244",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8923511160881564,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.263244",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.897850590896891,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.263244",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8706507526188819,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.263244",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8981136694803808,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.264343",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": false,
+        "confidence": 0.8796623593064441,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.264343",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9100359222647755,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.264343",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8836698953656744,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.264343",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8882310804816956,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.264343",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9053438669466491,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.264343",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8943485752043624,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.264343",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8974959435901348,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.264343",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8975717446394216,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.264343",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8742992882720795,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.264343",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8818613334464044,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.288764",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9038080344512441,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.288764",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8819800485542069,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.288764",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9331767671918735,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.288764",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8972154471794241,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.288764",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8820833371521305,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.288764",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8911559785689276,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.288764",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8723756858401698,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.288764",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8903937310651241,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.288764",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.888589116736865,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.289867",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8858382756649489,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.289867",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": false,
+        "confidence": 0.8794579659621489,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.289867",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8841270207491381,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.289867",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.922969233918652,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.289867",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9030608367235878,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.289867",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8974147853368324,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.289867",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9145700956734293,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.289867",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8941388958859828,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.289867",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9145353344483859,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.289867",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": false,
+        "confidence": 0.8835265879403786,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.289867",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8951400814309177,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.317179",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": false,
+        "confidence": 0.8797173035698829,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.317179",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8945538291865742,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.318177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8718449699145476,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.318177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9069175481555939,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.318177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8934508815049989,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.318177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9049041661324101,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.318177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9087560305684768,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.318177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8895772391675052,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.318177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9023693946065786,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.318177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8577659510666071,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.318177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8959808616529429,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.318177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8784915207568949,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.319173",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8735655846798737,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.319173",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8961991482755354,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.319173",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8668983313982104,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.319173",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": false,
+        "confidence": 0.8829615559672547,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.319173",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8928544296179717,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.319173",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9207305022843577,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.319173",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8658773035300387,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.319173",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8925374236716485,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.347569",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8792384648340699,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.348563",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8789338700114678,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.348563",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8736481546637591,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.348563",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.880327298254579,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.348563",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9180013169458331,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.348563",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9217975916009811,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.348563",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.901347460400025,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.348563",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8663850499466084,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.348563",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9225577729067073,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.348563",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8954886888089332,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.348563",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.866746868411743,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.348563",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8841912943377628,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.348563",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8811908965143279,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.349564",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8735393845854763,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.349564",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8958789366890803,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.349564",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": false,
+        "confidence": 0.8728306322242213,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.349564",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9149458486831186,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.349564",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.9287275381762407,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.349564",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "district_detector",
+        "pattern_type": "district",
+        "success": true,
+        "confidence": 0.8921276825294298,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.349564",
+        "metadata": {
+          "round": 5
+        }
+      }
+    ],
+    "building_finder": [
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.8406691651138303,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.204592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.6101846335051525,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.204592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.8173148772543822,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.204592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.7180607550127762,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.204592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.6512564802012424,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.204592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.755778745617655,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.204592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.6469964806320847,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.204592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8517700450728947,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.204592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.6585171143607534,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.204592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.6250020503682334,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.204592",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.6191819050485923,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.250287",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.7116609480883977,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.250287",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.7265075236986305,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.250287",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.6616459879770366,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.250287",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.7240199020613919,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.250287",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.744383800813727,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.250287",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7990752413238651,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.250287",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.724627084262448,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.250287",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.8044358579375914,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.250287",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8615283818133418,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.250287",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7977258636811244,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.266528",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.6362329857204212,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.267543",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7617099213574283,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.267543",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.6746213639944063,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.267543",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8777666633349683,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.267543",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.831892973453185,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.267543",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.704591909679214,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.267543",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.6624245241511759,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.267543",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8481699352391417,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.267543",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8248245895049191,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.267543",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8076226679086626,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.273518",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.6869819879259595,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.273518",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7437861444692195,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.273518",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.889946645648851,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.273518",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.6231889051527064,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.273518",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.7063491155173184,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.275024",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.868442785683678,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.275024",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7141129448080938,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.275024",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7825901889166481,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.275024",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8433817954882459,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.275024",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8662886712761964,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:14.291209",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8319542041395076,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:14.291209",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8470787116755444,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:14.291209",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7913312544704941,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:14.291209",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.6552282664792058,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:14.291209",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7707319639035463,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:14.292227",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.6243627097155698,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:14.292227",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7430543992697309,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:14.292227",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.8951408241900088,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:14.292227",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.6257890359324856,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:14.292227",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7321267630532658,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:14.300217",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.618769571174103,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:14.300217",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7091142294918799,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:14.300217",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7584554305976632,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:14.300217",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8324360217647263,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:14.300217",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7450074911811266,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:14.300217",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7653724551272864,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:14.300217",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.6709563424901195,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:14.300217",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8096252902687777,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:14.301219",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7470436841479554,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:14.301219",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.7441018604205741,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:15.320230",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7427408185661527,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:15.321177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8870735208822822,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:15.321177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.6951828842413472,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:15.321177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.651039682588731,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:15.321177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.6001412508808075,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:15.321177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8160343442425206,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:15.321177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.642265239025732,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:15.321177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8242188356219997,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:15.321177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7580426773266771,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:15.321177",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.6903975362352563,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:15.332170",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.6641936852370325,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:15.332170",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.6660210454940642,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:15.332170",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.8466000893454789,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:15.332170",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.7586534832000151,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:15.332170",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8368487029409748,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:15.332170",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.865748629781679,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:15.332170",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8526742207259141,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:15.332170",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.6961032206987956,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:15.332170",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.7483930044903335,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:15.332170",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7651305103974266,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:16.350564",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": false,
+        "confidence": 0.8537165315818844,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:16.350564",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7091759213628467,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:16.350564",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8451506186818682,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:16.350564",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8786000107286689,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:16.350564",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.6214374652224439,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:16.350564",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8280604323432079,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:16.350564",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7803548897294597,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:16.350564",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8799424754374884,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:16.350564",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8504333035480565,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:16.350564",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7728553610972559,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:16.361636",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7787382894947863,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:16.361636",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.6255551351276984,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:16.361636",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.6287176682978441,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:16.361636",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8515321866678385,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:16.361636",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7403775899203214,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:16.361636",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7086624667121985,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:16.361636",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7827811297971886,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:16.361636",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.8866595311157586,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:16.361636",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "building_finder",
+        "pattern_type": "building",
+        "success": true,
+        "confidence": 0.7894571461653341,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:16.361636",
+        "metadata": {
+          "round": 5
+        }
+      }
+    ],
+    "number_extractor": [
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9385674606227746,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.251288",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": false,
+        "confidence": 0.9063308850617277,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.251288",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9145561374338994,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.251288",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9342610091855571,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.251288",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9100697481102799,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.251288",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": false,
+        "confidence": 0.9179390301748195,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.251288",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.8875152159795079,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.252180",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9369286457653492,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.252180",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9219742308854951,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.252180",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9371901974420811,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.252180",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9412040703325988,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.253178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": false,
+        "confidence": 0.9140799936605535,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.253178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9023259465927573,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.253178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": false,
+        "confidence": 0.8917914306238724,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.253178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9281077140811385,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.253178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9082003851039621,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.253178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.8982988291133257,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.253178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9016649756956726,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.253178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.917114217347779,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.253178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9091379742917126,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:12.253178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9377445589822844,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.275024",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": false,
+        "confidence": 0.9130438907928917,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.275024",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.906209176949888,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.275024",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.92698018769078,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.275024",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9075832198353994,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.275024",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9034643455740536,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.275024",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.8990153223684813,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.275024",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9539854481552498,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.276029",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9287273052574171,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.276029",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9474807140985179,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.276029",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9158879916422337,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.276029",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9219772285781574,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.276029",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9237315607876788,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.276029",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9216255804601171,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.276029",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9405981488317195,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.276029",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9142413280598721,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.276029",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9317824336243562,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.276029",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.914373796098272,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.276029",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9219752589866743,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.276029",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": false,
+        "confidence": 0.8988375506097093,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.276029",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9400644639463984,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.301219",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.915374957963884,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.301219",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.8989123627993013,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.301219",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9448233402654866,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.301219",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9318347830021322,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.301219",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9313024961463134,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.301219",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.926024565902494,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.301219",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": false,
+        "confidence": 0.9170571876288616,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.301219",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9138360045839979,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.301219",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9067968384846339,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.301219",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9296373906032189,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.302225",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9368990909935475,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.302225",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9271020501382833,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.302225",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9313940030588218,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.302225",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": false,
+        "confidence": 0.9030983631775319,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.302225",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9156178818704249,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.302225",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9134308299186901,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.302225",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9313225258245982,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.302225",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9238760333788847,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.302225",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9315558121305438,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.302225",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9037064089663875,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.333171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9281577379853325,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.333171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.915425406259241,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.333171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9376134035187207,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.333171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.8962536731289187,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.333171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9284150738951267,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.333171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.90512606534815,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.333171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.8946679571062656,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.333171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.8834508987565243,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.333171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.884477070847217,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.333171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9017267134079188,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.333171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9184545141811049,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.333171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9340234328416858,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.333171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9303439736424588,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.333171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": false,
+        "confidence": 0.9088446737915507,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.334171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9052807622850297,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.334171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9292931589222935,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.334171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9231250542603091,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.334171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9062469913421779,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.334171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9378100635926964,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.334171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.8941630270538786,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.362560",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9287858802214768,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.362560",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9204088022990615,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.362560",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9185019664446512,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.363561",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9237634622532133,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.363561",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9278513672216511,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.363561",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9552666581258266,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.363561",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9134069996371141,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.363561",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9103682492483021,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.363561",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9467759423529775,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.363561",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9244631498035751,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.363561",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9344187807877584,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.363561",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9223440361794859,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.363561",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.917464373051691,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.363561",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9215269319557408,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.363561",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9259848295787279,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.363561",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9224142448126008,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.364617",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9185671905078484,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.364617",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9390157201399171,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.364617",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "number_extractor",
+        "pattern_type": "number",
+        "success": true,
+        "confidence": 0.9070479283762419,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.364617",
+        "metadata": {
+          "round": 5
+        }
+      }
+    ],
+    "explanation_parser": [
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.524795564968205,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.253178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6614202224151622,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.254178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.7646175156828615,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.254178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.5478060579686349,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.254178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.6185766158369495,
+        "threshold_used": 0.8,
+        "timestamp": "2025-08-24 00:49:12.254178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6952857600735141,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.254178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6718312038168024,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.254178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7978188652324656,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.254178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.5416347008975173,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.254178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7748085716822575,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.254178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.5275352958141593,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.254178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7306988708867266,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.254178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6554130325309422,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.254178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.5459697837145536,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.254178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7265146288289431,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.254178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.5605221912239212,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.254178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.60520618336193,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.254178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7369780880939368,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.254178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.8443282767102402,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.254178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.5639376082732999,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:12.254178",
+        "metadata": {
+          "round": 1
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6583522479525674,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.277028",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6819778460480848,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.277028",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.8392568447674471,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.277028",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6266695949783292,
+        "threshold_used": 0.8500000000000001,
+        "timestamp": "2025-08-24 00:49:13.277028",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7365920311773587,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.277028",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.5195707827176946,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.277028",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.737094324841679,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.277028",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6778881271348394,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.277028",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.829517282570343,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.277028",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6350124414234574,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.277028",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.5367383520295356,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.277028",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.5058389268502381,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.277028",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.8480735627072147,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.277028",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.8060486907081976,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.277028",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.68907561566276,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.277028",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.5739843569027475,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.277028",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.5490060107044346,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.277028",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7417550327903398,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.277028",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6713925089761079,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.277028",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.589214869902413,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:13.277028",
+        "metadata": {
+          "round": 2
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.8363683113427243,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.303221",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.6547163227557155,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.303221",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7551653164855906,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.303221",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.7767658494018428,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.303221",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.5425801094566477,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.303221",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7545550237099525,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.303221",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.5284223857446976,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.303221",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.8382049447293914,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.303221",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6167142091791882,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.303221",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6871145846994519,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.303221",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7485372113421691,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.303221",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6948706877896809,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.303221",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7443392970916201,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.303221",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.5313698446993048,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.303221",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7579628066319537,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.303221",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.589754106017739,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.303221",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6741446678564491,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.303221",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6268851460939548,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.303221",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7033713671107642,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.303221",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.6298104049717337,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:14.303221",
+        "metadata": {
+          "round": 3
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.8143341594466805,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.334171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.5637878662181237,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.334171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7617849357974642,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.334171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6528891886690773,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.334171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.5869750120458477,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.334171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.5419832151357205,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.334171",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.5142492729952809,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.335172",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.6265256919127723,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.335172",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.6544626654073368,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.335172",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.5165838569305041,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.335172",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7161005460462135,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.335172",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7082942619745063,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.335172",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7561643033552214,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.336175",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.769592774080627,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.336175",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7437151192996863,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.336175",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6437967562917949,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.336175",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.5538934660924051,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.336175",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.5628814423390557,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.336175",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7523703409409956,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.336175",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.7353682329881988,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:15.336175",
+        "metadata": {
+          "round": 4
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7701835341946537,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.364617",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7107657304869803,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.365567",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.5454241942770014,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.365567",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.6653963941049482,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.365567",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6373396806703363,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.365567",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.6573528045466582,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.365567",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.7502028810362114,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.365567",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7618213635081997,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.365567",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7735749650664605,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.365567",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.5164759088595486,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.365567",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.5150514823903645,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.365567",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.6562121404730251,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.365567",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.681786958501824,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.365567",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6910984140820481,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.365567",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6295481634941498,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.365567",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.7495876067606833,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.365567",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.6192295729566107,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.365567",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.5303729210726418,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.365567",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": true,
+        "confidence": 0.5676134459522428,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.365567",
+        "metadata": {
+          "round": 5
+        }
+      },
+      {
+        "pattern_name": "explanation_parser",
+        "pattern_type": "explanation",
+        "success": false,
+        "confidence": 0.6956545846948312,
+        "threshold_used": 0.8250000000000001,
+        "timestamp": "2025-08-24 00:49:16.365567",
+        "metadata": {
+          "round": 5
+        }
+      }
+    ]
+  },
+  "last_save": "2025-08-24T00:49:17.409709"
+}

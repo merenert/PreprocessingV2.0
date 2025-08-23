@@ -6,11 +6,11 @@ landmark references and spatial relationships.
 
 Example:
     >>> from addrnorm.explanation import parse_explanation, ExplanationParser
-    >>> 
+    >>>
     >>> # Quick usage
     >>> result = parse_explanation("Migros yanı")
     >>> print(result)
-    >>> 
+    >>>
     >>> # Advanced usage
     >>> parser = ExplanationParser()
     >>> result = parser.parse("Amorium Hotel karşısı")
@@ -28,15 +28,10 @@ from .parser import (
     ExplanationParser,
     create_parser,
     parse_explanation,
-    extract_landmark_info
+    extract_landmark_info,
 )
 
-from .models import (
-    ExplanationResult,
-    ExplanationConfig,
-    Landmark,
-    SpatialRelation
-)
+from .models import ExplanationResult, ExplanationConfig, Landmark, SpatialRelation
 
 from .landmarks import LandmarkDetector
 from .relations import SpatialRelationExtractor
@@ -47,20 +42,18 @@ __author__ = "Turkish Address Normalization Team"
 # Main exports
 __all__ = [
     # Main parser
-    'ExplanationParser',
-    'create_parser',
-    'parse_explanation',
-    'extract_landmark_info',
-    
+    "ExplanationParser",
+    "create_parser",
+    "parse_explanation",
+    "extract_landmark_info",
     # Data models
-    'ExplanationResult',
-    'ExplanationConfig', 
-    'Landmark',
-    'SpatialRelation',
-    
+    "ExplanationResult",
+    "ExplanationConfig",
+    "Landmark",
+    "SpatialRelation",
     # Component classes
-    'LandmarkDetector',
-    'SpatialRelationExtractor'
+    "LandmarkDetector",
+    "SpatialRelationExtractor",
 ]
 
 # Quick usage examples
@@ -71,34 +64,34 @@ EXAMPLES = {
             "type": "landmark",
             "landmark_name": "Migros",
             "landmark_type": "market",
-            "spatial_relation": "yanı"
-        }
+            "spatial_relation": "yanı",
+        },
     },
     "hotel_example": {
-        "input": "Amorium Hotel karşısı", 
+        "input": "Amorium Hotel karşısı",
         "expected": {
             "type": "landmark",
             "landmark_name": "Amorium Hotel",
             "landmark_type": "hotel",
-            "spatial_relation": "karşısı"
-        }
+            "spatial_relation": "karşısı",
+        },
     },
     "business_example": {
         "input": "Şekerbank yanında",
         "expected": {
-            "type": "landmark", 
+            "type": "landmark",
             "landmark_name": "Şekerbank",
             "landmark_type": "banka",
-            "spatial_relation": "yanında"
-        }
+            "spatial_relation": "yanında",
+        },
     },
     "complex_example": {
         "input": "Koç Holding binası arkasında",
         "expected": {
             "type": "landmark",
             "landmark_name": "Koç Holding",
-            "landmark_type": "şirket", 
-            "spatial_relation": "arkasında"
-        }
-    }
+            "landmark_type": "şirket",
+            "spatial_relation": "arkasında",
+        },
+    },
 }

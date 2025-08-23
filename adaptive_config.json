@@ -1,0 +1,55 @@
+{
+  "min_threshold": 0.6,
+  "max_threshold": 0.95,
+  "default_threshold": 0.8,
+  "adjustment_step": 0.05,
+  "min_samples": 10,
+  "high_performance_threshold": 0.95,
+  "low_performance_threshold": 0.7,
+  "auto_save_interval": 50,
+  "history_retention_days": 30,
+  "pattern_types": {
+    "street": {
+      "default_threshold": 0.75,
+      "min_threshold": 0.6,
+      "max_threshold": 0.9
+    },
+    "district": {
+      "default_threshold": 0.8,
+      "min_threshold": 0.65,
+      "max_threshold": 0.95
+    },
+    "city": {
+      "default_threshold": 0.85,
+      "min_threshold": 0.7,
+      "max_threshold": 0.95
+    },
+    "building": {
+      "default_threshold": 0.7,
+      "min_threshold": 0.55,
+      "max_threshold": 0.9
+    },
+    "number": {
+      "default_threshold": 0.9,
+      "min_threshold": 0.8,
+      "max_threshold": 0.95
+    },
+    "postal": {
+      "default_threshold": 0.95,
+      "min_threshold": 0.85,
+      "max_threshold": 0.95
+    },
+    "explanation": {
+      "default_threshold": 0.75,
+      "min_threshold": 0.6,
+      "max_threshold": 0.9
+    }
+  },
+  "learning_settings": {
+    "stability_weight": 0.3,
+    "usage_frequency_weight": 0.2,
+    "recent_performance_weight": 0.5,
+    "trend_analysis_days": 7,
+    "batch_optimization_interval": 100
+  }
+}
