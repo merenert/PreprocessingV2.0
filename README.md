@@ -1,11 +1,12 @@
 # Turkish Address Normalization Tool (addrnorm)
 
-> Advanced Turkish address normalization using ML and rule-based methods.
+> Advanced Turkish address normalization using ML and rule-based methods with landmark explanation parsing.
 
 ## Features
 
 - **ML-powered NER**: spaCy-based named entity recognition (94.6% F-score)
 - **Rule-based Fallback**: Pattern matching and heuristic extraction
+- **Landmark Explanation Parser**: Extract spatial relationships from descriptions like "Migros yanı", "Hotel karşısı"
 - **Geographic Validation**: 81 cities + 897 districts with fuzzy matching
 - **Multiple Output Formats**: JSON Lines, CSV
 - **Parallel Processing**: Batch processing with configurable concurrency
@@ -16,6 +17,8 @@
 ```mermaid
 graph TD
     A[Raw Address] -->|Preprocess| B(Clean Text)
+    A -->|Contains Landmarks| K(Explanation Parser)
+    K -->|Extract| L[Landmark + Spatial Relation]
     B --> C{Pattern Match}
     C -->|High Confidence| G[Structured Address]
     C -->|Low Confidence| D(ML NER Model)
@@ -23,6 +26,7 @@ graph TD
     D -->|Failed| F(Rule-based Fallback)
     F --> E
     E --> G
+    L --> G
     G --> H(Output Format)
     H --> I[JSONL/CSV Output]
 ```
@@ -64,6 +68,34 @@ addrnorm normalize --in large_file.txt --out results.jsonl --jobs 4 --metrics st
 
 # Alternative using Python module directly
 python -m addrnorm.cli normalize --in addresses.txt --out results.jsonl
+```
+
+### Landmark Explanation Processing
+
+```python
+from addrnorm.explanation import parse_explanation
+
+# Parse landmark explanations
+result = parse_explanation("Migros yanı")
+print(result)
+# Output: {
+#   "type": "landmark",
+#   "landmark_name": "Migros", 
+#   "landmark_type": "market",
+#   "spatial_relation": "yanı",
+#   "confidence": 0.92
+# }
+
+# Complex examples
+examples = [
+    "Amorium Hotel karşısı",
+    "Şekerbank ATM yanında", 
+    "Koç Holding binası arkası"
+]
+
+for text in examples:
+    result = parse_explanation(text)
+    print(f"{text} → {result['landmark_name']} ({result['spatial_relation']})")
 ```
 
 ### Advanced Usage
@@ -317,6 +349,106 @@ The normalized address follows this structure:
 ## License
 
 MIT License - see LICENSE file for details.
+
+## Explanation Parser Module
+
+The explanation parser extracts landmark information and spatial relationships from Turkish address descriptions.
+
+### Features
+- **Landmark Detection**: Identifies businesses, institutions, and points of interest
+- **Spatial Relation Extraction**: Finds directional relationships (karşısı, yanı, arkası, etc.)
+- **Turkish Language Support**: Handles Turkish-specific patterns and vocabulary
+- **Confidence Scoring**: Provides reliability scores for detected elements
+
+### Supported Landmarks
+- **Accommodation**: hotel, otel, pansiyon
+- **Commercial**: market, mağaza, alışveriş merkezi
+- **Healthcare**: hastane, klinik, eczane
+- **Education**: okul, üniversite, lise
+- **Financial**: banka, ATM
+- **Transportation**: terminal, istasyon, durak
+- **Business**: şirket, firma, Ltd., A.Ş.
+
+### Supported Spatial Relations
+- **Directional**: karşısı, yanı, arkası, önü, üstü, altı
+- **Proximity**: yakını, çevresinde, bitişiği
+- **Containment**: içinde, dışında, arasında
+
+### Usage Examples
+
+```python
+from addrnorm.explanation import parse_explanation, ExplanationParser
+
+# Simple usage
+result = parse_explanation("Migros yanı")
+print(result)
+# {
+#   "type": "landmark",
+#   "landmark_name": "Migros",
+#   "landmark_type": "market", 
+#   "spatial_relation": "yanı",
+#   "confidence": 0.92
+# }
+
+# Advanced usage with custom configuration
+from addrnorm.explanation import ExplanationConfig
+
+config = ExplanationConfig(
+    min_confidence_threshold=0.5,
+    debug_mode=True
+)
+parser = ExplanationParser(config)
+
+# Parse complex explanations
+examples = [
+    "Amorium Hotel karşısı",
+    "Şekerbank ATM yanında",
+    "Koç Holding A.Ş. binası arkası",
+    "Mall of Istanbul AVM içindeki Starbucks"
+]
+
+for text in examples:
+    result = parser.parse(text)
+    if result.landmark:
+        print(f"Landmark: {result.landmark.name} ({result.landmark.type})")
+    if result.relation:
+        print(f"Relation: {result.relation.relation}")
+    print(f"Confidence: {result.confidence:.2f}")
+```
+
+### Batch Processing
+
+```python
+# Process multiple explanations
+explanations = [
+    "Migros yanı",
+    "Hotel karşısı", 
+    "Hastane önünde",
+    "Okul arkasında"
+]
+
+parser = ExplanationParser()
+results = parser.parse_batch(explanations)
+
+for text, result in zip(explanations, results):
+    landmark = result.landmark.name if result.landmark else "None"
+    relation = result.relation.relation if result.relation else "None"
+    print(f"'{text}' → {landmark} / {relation} ({result.confidence:.2f})")
+```
+
+### Command Line Demo
+
+```bash
+# Run explanation parser examples
+python demo_explanation.py
+
+# This will demonstrate:
+# - Basic landmark detection
+# - Spatial relation extraction  
+# - Complex explanations
+# - Error handling
+# - Performance metrics
+```
 
 ## Contributing
 
