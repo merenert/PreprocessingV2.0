@@ -1,0 +1,4 @@
+# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\ml\ner_baseline.py
+# hypothesis_version: 6.138.2
+
+[0.0, 0.001, 0.2, 1.001, 4.0, 32.0, '\nBIO Format:', 'BLOK', 'BULVAR', 'CADDE', 'DAIRE', 'Extracted entities:', 'IL', 'ILCE', 'KAT', 'MAH', 'NO', 'O', 'POSTA', 'SITE', 'SOKAK', 'Training completed!', '__main__', 'confidence', 'end', 'entities', 'f1', 'label', 'ner', 'precision', 'r', 'recall', 'start', 'text', 'tokens', 'total_correct', 'total_gold', 'total_predicted', 'tr', 'tr_core_news_sm', 'utf-8', 'w']

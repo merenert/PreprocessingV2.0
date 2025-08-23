@@ -90,6 +90,10 @@ pip install -r requirements.txt
 
 # Install CLI tool
 pip install -e .
+
+# Alternative: Use batch wrapper (Windows)
+# The included addrnorm.bat file provides direct CLI access
+./addrnorm.bat --help
 ```
 
 ### Basic Usage
@@ -104,8 +108,11 @@ addrnorm normalize --in addresses.txt --out results.jsonl
 # Export to CSV format
 addrnorm normalize --in data.txt --out output.csv --format csv
 
-# Parallel processing with metrics
+# Parallel processing with metrics (note: currently runs sequentially due to ML model constraints)
 addrnorm normalize --in large_file.txt --out results.jsonl --jobs 4 --metrics stats.json
+
+# Alternative using Python module directly
+python -m addrnorm.cli normalize --in addresses.txt --out results.jsonl
 ```
 
 ### Advanced Usage

@@ -1,0 +1,4 @@
+# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\pipeline\run.py
+# hypothesis_version: 6.138.2
+
+[0.0, 0.4, 0.5, 0.6, 0.7, 0.8, 100, 1000, ', ', 'Adres bilgisi eksik', 'BLOK', 'BULVAR', 'CADDE', 'DAIRE', 'IL', 'ILCE', 'INFO', 'KAT', 'MAH', 'NO', 'Processing failed', 'SOKAK', 'apartment', 'average_confidence', 'average_time_ms', 'block', 'building', 'city', 'components', 'confidence', 'daire', 'district', 'entities', 'entrance', 'error', 'explanation_parsed', 'explanation_raw', 'failed', 'fallback', 'floor', 'kat', 'label', 'mah', 'mahalle', 'method', 'methods_used', 'ml', 'ml_primary', 'ml_validation', 'neighborhood', 'no', 'normalized_address', 'number', 'output_file', 'pattern', 'pattern_high', 'pattern_id', 'pattern_medium', 'postcode', 'processing_method', 'r', 'score', 'slots', 'street', 'success_rate', 'successful', 'text', 'total_processed', 'utf-8', 'w']

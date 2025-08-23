@@ -53,3 +53,7 @@ Thumbs.db
 # Project specific
 .cache/
 *.log
+
+# API test responses
+example_*.json
+test_responses/

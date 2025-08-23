@@ -1,0 +1,4 @@
+# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\preprocess\cli.py
+# hypothesis_version: 6.138.2
+
+[0.85, '--input', '--output', '--stdin', '--text', '-i', '-o', '-t', '__main__', 'r', 'store_true', 'text', 'utf-8', 'w']

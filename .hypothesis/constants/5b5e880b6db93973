@@ -1,0 +1,4 @@
+# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\cli.py
+# hypothesis_version: 6.138.2
+
+[0.0, 0.7, 0.8, 100, '\nInterrupted by user', '\nMethods used:', '%Y-%m-%d %H:%M:%S', '--address', '--batch-size', '--format', '--in', '--input', '--jobs', '--metrics', '--ml-threshold', '--model-path', '--no-ml', '--no-validation', '--out', '--output', '--pattern-threshold', '--pretty', '--quiet', '--stats', '--verbose', '-j', '-q', '-v', '.csv', '=', 'Available commands', 'DEBUG', 'INFO', 'Pipeline ready.', 'Version: 2.0.0', 'WARNING', '__main__', '_processing', 'address', 'addrnorm', 'adres', 'average_confidence', 'command', 'confidence', 'csv', 'error', 'explanation_raw', 'failed', 'input_file', 'jsonl', 'mahalle', 'method', 'methods_used', 'normalize', 'output_file', 'output_format', 'processing_method', 'processing_time_ms', 'r', 'sokak', 'src', 'store_true', 'success_rate', 'successful', 'timestamp', 'total_addresses', 'utf-8', 'version', 'w']

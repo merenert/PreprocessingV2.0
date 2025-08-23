@@ -1,0 +1,4 @@
+# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\validate\__init__.py
+# hypothesis_version: 6.138.2
+
+['ConsistencyResult', 'TurkishGeoValidator', 'ValidationResult', 'create_geo_validator']
