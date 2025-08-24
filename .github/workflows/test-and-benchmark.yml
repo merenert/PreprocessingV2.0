@@ -1,0 +1,251 @@
+name: Test Suite and Benchmarks
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    # Run daily benchmarks at 2 AM UTC
+    - cron: '0 2 * * *'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8, 3.9, "3.10", "3.11"]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Cache pip dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements*.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install pytest pytest-cov pytest-xdist pytest-timeout
+        pip install psutil  # For memory benchmarking
+
+    - name: Run unit tests with coverage
+      run: |
+        pytest tests/unit/ -v --cov=src/addrnorm --cov-report=xml --cov-report=term-missing
+
+    - name: Run integration tests
+      run: |
+        pytest tests/integration/ -v --timeout=300
+
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        file: ./coverage.xml
+        flags: unittests
+        name: codecov-umbrella
+
+  benchmark:
+    runs-on: ubuntu-latest
+    needs: test
+    if: github.event_name == 'schedule' || contains(github.event.head_commit.message, '[benchmark]')
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install pytest pytest-benchmark psutil
+
+    - name: Run performance benchmarks
+      run: |
+        pytest tests/benchmarks/ -v -m benchmark --timeout=600 > benchmark_results.txt 2>&1
+
+    - name: Upload benchmark results
+      uses: actions/upload-artifact@v3
+      with:
+        name: benchmark-results
+        path: |
+          benchmark_results.txt
+          benchmark_results.json
+
+    - name: Comment benchmark results on PR
+      if: github.event_name == 'pull_request'
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const fs = require('fs');
+
+          let results = 'Benchmark results not available';
+          try {
+            results = fs.readFileSync('benchmark_results.txt', 'utf8');
+          } catch (error) {
+            console.log('Could not read benchmark results');
+          }
+
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `## 🚀 Performance Benchmark Results
+
+            \`\`\`
+            ${results}
+            \`\`\`
+
+            *Benchmarks run on Python 3.10*`
+          });
+
+  quality-check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flake8 black isort mypy
+        pip install -r requirements.txt
+
+    - name: Check code formatting with Black
+      run: |
+        black --check --diff src/ tests/
+
+    - name: Check import sorting with isort
+      run: |
+        isort --check-only --diff src/ tests/
+
+    - name: Lint with flake8
+      run: |
+        flake8 src/ tests/ --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 src/ tests/ --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
+    - name: Type check with mypy
+      run: |
+        mypy src/ --ignore-missing-imports
+      continue-on-error: true
+
+  security:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install safety bandit
+        pip install -r requirements.txt
+
+    - name: Check for security vulnerabilities with Safety
+      run: |
+        safety check
+
+    - name: Check for security issues with Bandit
+      run: |
+        bandit -r src/ -f json -o bandit-report.json
+      continue-on-error: true
+
+    - name: Upload security report
+      uses: actions/upload-artifact@v3
+      with:
+        name: security-report
+        path: bandit-report.json
+
+  documentation:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install sphinx sphinx-rtd-theme
+        pip install -r requirements.txt
+
+    - name: Build documentation
+      run: |
+        cd docs
+        make html
+      continue-on-error: true
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      if: success()
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs/_build/html
+
+  release:
+    runs-on: ubuntu-latest
+    needs: [test, quality-check, security]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install build twine
+        pip install -r requirements.txt
+
+    - name: Build package
+      run: |
+        python -m build
+
+    - name: Upload package artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: python-package
+        path: dist/
+
+    - name: Create release tag
+      id: tag
+      run: |
+        VERSION=$(python -c "import src.addrnorm; print(src.addrnorm.__version__)")
+        echo "version=$VERSION" >> $GITHUB_OUTPUT
+        git tag "v$VERSION"
+        git push origin "v$VERSION"
+      continue-on-error: true

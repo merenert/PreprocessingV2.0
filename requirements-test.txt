@@ -1,0 +1,46 @@
+# Test dependencies for the address normalization system
+
+# Core testing framework
+pytest>=7.0.0
+pytest-cov>=4.0.0          # Coverage reporting
+pytest-xdist>=3.0.0        # Parallel test execution
+pytest-timeout>=2.1.0      # Test timeout handling
+pytest-benchmark>=4.0.0    # Performance benchmarking
+pytest-mock>=3.10.0        # Advanced mocking
+
+# Code quality tools
+black>=23.0.0              # Code formatting
+isort>=5.12.0              # Import sorting
+flake8>=6.0.0              # Linting
+mypy>=1.0.0                # Type checking
+
+# Security scanning
+safety>=2.3.0              # Vulnerability scanning
+bandit>=1.7.0              # Security linting
+
+# Performance monitoring
+psutil>=5.9.0              # System resource monitoring
+memory-profiler>=0.60.0    # Memory usage profiling
+
+# Test data and utilities
+Faker>=18.0.0              # Test data generation
+factory-boy>=3.2.0         # Test factories
+hypothesis>=6.70.0         # Property-based testing
+
+# Reporting and visualization
+coverage[toml]>=7.0.0      # Coverage configuration
+pytest-html>=3.1.0        # HTML test reports
+pytest-json-report>=1.5.0 # JSON test reports
+
+# Parallel execution and performance
+pytest-parallel>=0.1.1    # Additional parallel execution support
+pytest-profiling>=1.7.0   # Performance profiling for tests
+
+# Mock external dependencies for testing
+responses>=0.23.0          # HTTP request mocking
+freezegun>=1.2.0           # Time mocking
+testfixtures>=7.1.0       # Test utilities
+
+# Documentation testing
+doctest>=2.7               # Docstring testing
+sphinx>=6.0.0              # Documentation generation (optional)

@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "generated_at": "2025-08-24T02:31:46.195131",
+    "time_window_hours": 24,
+    "total_events_analyzed": 63,
+    "analysis_period": {
+      "start": "2025-08-23T02:31:46.195131",
+      "end": "2025-08-24T02:31:46.195131"
+    }
+  },
+  "summary": {
+    "performance": {
+      "avg_processing_time_ms": 106.95,
+      "median_processing_time_ms": 108.46,
+      "p95_processing_time_ms": 189.84,
+      "p99_processing_time_ms": 197.94,
+      "throughput_per_second": 500.0,
+      "total_processed": 500,
+      "error_rate": 0.292,
+      "memory_usage_mb": 0.0
+    },
+    "high_priority_recommendations": [
+      "[CRITICAL] High error rate detected: 22.2%: Investigate common error causes and improve input validation",
+      "Pattern pattern_8: Review pattern regex for edge cases and improve matching logic; Enhance pattern specificity and add validation rules"
+    ]
+  }
+}

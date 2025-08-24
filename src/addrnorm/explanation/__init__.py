@@ -1,59 +1,62 @@
 """
-Turkish Address Explanation Parser Module
+Simplified Turkish Address Explanation Module
 
-This module provides tools for parsing Turkish address explanations that contain
-landmark references and spatial relationships.
+This module provides simple text processing for Turkish address explanations.
+All explanations are stored as raw text without parsing landmarks or spatial relationships.
 
 Example:
-    >>> from addrnorm.explanation import parse_explanation, ExplanationParser
+    >>> from addrnorm.explanation import process_explanation
     >>>
-    >>> # Quick usage
-    >>> result = parse_explanation("Migros yanı")
-    >>> print(result)
-    >>>
-    >>> # Advanced usage
-    >>> parser = ExplanationParser()
-    >>> result = parser.parse("Amorium Hotel karşısı")
-    >>> print(f"Landmark: {result.landmark.name}")
-    >>> print(f"Relation: {result.relation.relation}")
-
-Main Components:
-    - ExplanationParser: Main parsing class
-    - LandmarkDetector: Detects businesses and points of interest
-    - SpatialRelationExtractor: Extracts spatial relationships
-    - ExplanationResult: Structured result format
+    >>> # Simple usage - just validates and cleans text
+    >>> result = process_explanation("Migros yanı")
+    >>> print(result)  # Returns cleaned text
 """
 
-from .parser import (
-    ExplanationParser,
-    create_parser,
-    parse_explanation,
-    extract_landmark_info,
-)
 
-from .models import ExplanationResult, ExplanationConfig, Landmark, SpatialRelation
+def process_explanation(text: str) -> str:
+    """
+    Process explanation text by cleaning and validating it.
 
-from .landmarks import LandmarkDetector
-from .relations import SpatialRelationExtractor
+    Args:
+        text: Raw explanation text
 
-__version__ = "1.0.0"
+    Returns:
+        Cleaned explanation text
+    """
+    if not text or not isinstance(text, str):
+        return ""
+
+    # Basic cleaning
+    cleaned = text.strip()
+
+    # Remove extra whitespace
+    import re
+
+    cleaned = re.sub(r"\s+", " ", cleaned)
+
+    return cleaned
+
+
+def parse_explanation(text: str) -> str:
+    """
+    Legacy compatibility function - now just returns cleaned text.
+
+    Args:
+        text: Raw explanation text
+
+    Returns:
+        Cleaned explanation text
+    """
+    return process_explanation(text)
+
+
+__version__ = "2.0.0"
 __author__ = "Turkish Address Normalization Team"
 
-# Main exports
+# Simplified exports
 __all__ = [
-    # Main parser
-    "ExplanationParser",
-    "create_parser",
-    "parse_explanation",
-    "extract_landmark_info",
-    # Data models
-    "ExplanationResult",
-    "ExplanationConfig",
-    "Landmark",
-    "SpatialRelation",
-    # Component classes
-    "LandmarkDetector",
-    "SpatialRelationExtractor",
+    "process_explanation",
+    "parse_explanation",  # For backward compatibility
 ]
 
 # Quick usage examples

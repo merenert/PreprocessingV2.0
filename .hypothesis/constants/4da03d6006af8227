@@ -1,0 +1,4 @@
+# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\monitoring\dashboard.py
+# hypothesis_version: 6.138.2
+
+[0.05, 0.15, 0.6, 0.7, 0.8, 0.9, 100, 500, 3600, '%Y%m%d_%H%M%S', '--log-level', '--max-rows', '--no-alerts', '--no-auto-refresh', '--no-patterns', '--output', '--refresh-interval', '--report', '--report-hours', '24', '=', '> ', 'DEBUG', 'ERROR', 'Generating report...', 'Hide alerts section', 'INFO', 'Method Distribution:', 'MockStyle', 'No active alerts', 'Report Generation', 'Reset cancelled', 'WARNING', '\\n', '__getattr__', '__main__', 'alerts', 'clear', 'cls', 'critical', 'csv', 'detailed', 'exit', 'good', 'help', 'high', 'high_priority', 'html', 'impact_level', 'json', 'medium', 'normal', 'nt', 'patterns', 'performance_insights', 'q', 'quit', 'r', 'recommendations', 'refresh', 'report', 'reset', 'store_true', 'utf-8', 'very_high', 'w', 'warning', 'y', 'yes', '─', '📋 TOP PATTERNS', '🔧 SYSTEM METRICS', '🚨 ALERTS']

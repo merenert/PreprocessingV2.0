@@ -1,0 +1,4 @@
+# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\adaptive\learning.py
+# hypothesis_version: 6.138.2
+
+[0.0, 0.01, 0.05, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 1.5, -100, 100, 500, 1000, 'Veri bulunamadı', 'avg_confidence', 'declining', 'error', 'improving', 'insufficient_data', 'last_updated', 'pattern_name', 'recent_success_rate', 'recommendations', 'stability_score', 'stable', 'success_rate', 'total_count', 'trend', 'trend_change', 'unknown', 'usage_count']

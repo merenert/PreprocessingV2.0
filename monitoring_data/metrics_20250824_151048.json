@@ -1,0 +1,27 @@
+{
+  "timestamp": "20250824_151048",
+  "performance": {
+    "avg_processing_time_ms": 0,
+    "median_processing_time_ms": 0,
+    "p95_processing_time_ms": 0,
+    "p99_processing_time_ms": 0,
+    "throughput_per_second": 0.11,
+    "total_processed": 4,
+    "error_rate": 0.0,
+    "memory_usage_mb": 124.3
+  },
+  "patterns": {},
+  "system": {
+    "uptime_seconds": 36.63,
+    "method_distribution": {
+      "pattern_primary": 1,
+      "ml_primary": 1,
+      "hybrid": 1,
+      "fallback": 1
+    },
+    "geographic_validation_rate": 0.0,
+    "confidence_distribution": {},
+    "threshold_adjustments": 0,
+    "cache_hit_rate": 0.8
+  }
+}

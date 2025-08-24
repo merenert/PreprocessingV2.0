@@ -1,0 +1,4 @@
+# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\explanation\landmark_detector.py
+# hypothesis_version: 6.138.2
+
+[0.0, 0.1, 0.15, 0.3, 0.7, 0.8, 0.95, '[^\\w\\sçğıöşüÇĞIÖŞÜ]', '\\s+', 'a101', 'akbank', 'ankara', 'antalya', 'apartman', 'apt', 'banka', 'benzinlik', 'bim', 'blv', 'bp', 'bulvar', 'burger king', 'bursa', 'cad', 'cadde', 'carrefour', 'daire', 'dominos', 'garanti', 'gloria jeans', 'hilton', 'holiday inn', 'hotel', 'istanbul', 'izmir', 'iş bankası', 'kafe', 'kahve dünyası', 'kat', 'kfc', 'mah', 'mahalle', 'market', 'marriott', 'mağaza', 'mcdonald', 'metro', 'migros', 'no', 'numara', 'opet', 'petrol ofisi', 'pizza hut', 'restoran', 'shell', 'sheraton', 'site', 'sok', 'sokak', 'starbucks', 'yapı kredi', '|', 'şirket', 'şok']

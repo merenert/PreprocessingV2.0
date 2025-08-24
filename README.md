@@ -6,7 +6,7 @@
 
 - **ML-powered NER**: spaCy-based named entity recognition (94.6% F-score)
 - **Rule-based Fallback**: Pattern matching and heuristic extraction
-- **Landmark Explanation Parser**: Extract spatial relationships from descriptions like "Migros yanı", "Hotel karşısı"
+- **Simple Explanation Processing**: Clean and validate explanation text for `explanation_raw` field
 - **Adaptive Threshold Management**: Auto-adjust pattern thresholds based on performance
 - **Geographic Validation**: 81 cities + 897 districts with fuzzy matching
 - **Multiple Output Formats**: JSON Lines, CSV
@@ -18,8 +18,8 @@
 ```mermaid
 graph TD
     A[Raw Address] -->|Preprocess| B(Clean Text)
-    A -->|Contains Landmarks| K(Explanation Parser)
-    K -->|Extract| L[Landmark + Spatial Relation]
+    A -->|Extract explanation_raw| K(Simple Text Processing)
+    K -->|Clean & Validate| L[explanation_raw field]
     B --> C{Pattern Match}
     C -->|High Confidence| G[Structured Address]
     C -->|Low Confidence| D(ML NER Model)
@@ -30,7 +30,7 @@ graph TD
     L --> G
     G --> H(Output Format)
     H --> I[JSONL/CSV Output]
-    
+
     %% Adaptive Threshold Management
     C -->|Pattern Performance| AT[Adaptive Threshold Manager]
     AT -->|Adjust Thresholds| C
@@ -78,23 +78,16 @@ addrnorm normalize --in large_file.txt --out results.jsonl --jobs 4 --metrics st
 python -m addrnorm.cli normalize --in addresses.txt --out results.jsonl
 ```
 
-### Landmark Explanation Processing
+### Explanation Text Processing
 
 ```python
-from addrnorm.explanation import parse_explanation
+from addrnorm.explanation import process_explanation
 
-# Parse landmark explanations
-result = parse_explanation("Migros yanı")
-print(result)
-# Output: {
-#   "type": "landmark",
-#   "landmark_name": "Migros",
-#   "landmark_type": "market",
-#   "spatial_relation": "yanı",
-#   "confidence": 0.92
-# }
+# Simple text cleaning
+cleaned = process_explanation("Migros yanı")
+print(cleaned)  # "Migros yanı"
 
-# Complex examples
+# Clean multiple explanations
 examples = [
     "Amorium Hotel karşısı",
     "Şekerbank ATM yanında",
@@ -102,8 +95,9 @@ examples = [
 ]
 
 for text in examples:
-    result = parse_explanation(text)
-    print(f"{text} → {result['landmark_name']} ({result['spatial_relation']})")
+    cleaned = process_explanation(text)
+    print(f"'{text}' → '{cleaned}'")
+```
 ```
 
 ### Advanced Usage
@@ -205,14 +199,14 @@ address,additional_info
 
 ### JSON Lines (JSONL)
 ```json
-{"explanation_raw": "Original address", "il": "ANKARA", "ilce": "ÇANKAYA", ...}
-{"explanation_raw": "Another address", "il": "İSTANBUL", "ilce": "KADIKÖY", ...}
+{"explanation_raw": "Original address", "city": "ANKARA", "district": "ÇANKAYA", ...}
+{"explanation_raw": "Another address", "city": "İSTANBUL", "district": "KADIKÖY", ...}
 ```
 
 ### CSV Format
 ```csv
-explanation_raw,il,ilce,mahalle,sokak,bina_no,daire_no,posta_kodu
-"Original address","ANKARA","ÇANKAYA","ATATÜRK","CUMHURIYET CADDESİ","15","","06100"
+country,city,district,neighborhood,street,building,block,number,entrance,floor,apartment,postcode,relation,explanation_raw,normalized_address,confidence,method,warnings
+"TR","ANKARA","ÇANKAYA","ATATÜRK","CUMHURIYET CADDESİ","","","15","","","","06100","","Original address","ANKARA ÇANKAYA ATATÜRK CUMHURIYET CADDESİ NO:15","0.95","ml","[]"
 ```
 
 ## Processing Methods
@@ -240,19 +234,20 @@ The tool uses a multi-stage pipeline:
 ```bash
 # Basic normalization
 $ addrnorm normalize --address "Gazi Mah. Atatürk Cd. No:123 Ankara"
-{"explanation_raw":"Gazi Mah. Atatürk Cd. No:123 Ankara","il":"ANKARA","ilce":"","mahalle":"GAZİ","sokak":"ATATÜRK CADDESİ","bina_no":"123","daire_no":"","posta_kodu":""}
+{"explanation_raw":"Gazi Mah. Atatürk Cd. No:123 Ankara","city":"ANKARA","district":"","neighborhood":"GAZİ","street":"ATATÜRK CADDESİ","number":"123","apartment":"","postcode":"","normalized_address":"ANKARA GAZİ ATATÜRK CADDESİ NO:123"}
 
 # Pretty printed output
 $ addrnorm normalize --address "Gazi Mah. Atatürk Cd. No:123 Ankara" --pretty
 {
   "explanation_raw": "Gazi Mah. Atatürk Cd. No:123 Ankara",
-  "il": "ANKARA",
-  "ilce": "",
-  "mahalle": "GAZİ",
-  "sokak": "ATATÜRK CADDESİ",
-  "bina_no": "123",
-  "daire_no": "",
-  "posta_kodu": ""
+  "city": "ANKARA",
+  "district": "",
+  "neighborhood": "GAZİ",
+  "street": "ATATÜRK CADDESİ",
+  "number": "123",
+  "apartment": "",
+  "postcode": "",
+  "normalized_address": "ANKARA GAZİ ATATÜRK CADDESİ NO:123"
 }
 ```
 
@@ -343,14 +338,26 @@ The normalized address follows this structure:
 
 ```json
 {
+  "country": "TR",
+  "city": "Province (uppercase)",
+  "district": "District (uppercase)",
+  "neighborhood": "Neighborhood (uppercase)",
+  "street": "Street name (uppercase)",
+  "building": "Building name/identifier",
+  "block": "Block identifier",
+  "number": "Building number",
+  "entrance": "Entrance identifier",
+  "floor": "Floor number",
+  "apartment": "Apartment number",
+  "postcode": "5-digit postal code",
+  "relation": "Spatial relation (karsisi, yani, etc.)",
   "explanation_raw": "Original input address",
-  "il": "Province (uppercase)",
-  "ilce": "District (uppercase)",
-  "mahalle": "Neighborhood (uppercase)",
-  "sokak": "Street name (uppercase)",
-  "bina_no": "Building number",
-  "daire_no": "Apartment number",
-  "posta_kodu": "Postal code"
+  "normalized_address": "Complete formatted address",
+  "explanation_parsed": {
+    "confidence": 0.95,
+    "method": "ml",
+    "warnings": []
+  }
 }
 ```
 
@@ -358,96 +365,49 @@ The normalized address follows this structure:
 
 MIT License - see LICENSE file for details.
 
-## Explanation Parser Module
+## Explanation Processing
 
-The explanation parser extracts landmark information and spatial relationships from Turkish address descriptions.
+Simple text processing for Turkish address explanations. The system stores explanations as raw text (`explanation_raw`) without complex parsing.
 
-### Features
-- **Landmark Detection**: Identifies businesses, institutions, and points of interest
-- **Spatial Relation Extraction**: Finds directional relationships (karşısı, yanı, arkası, etc.)
-- **Turkish Language Support**: Handles Turkish-specific patterns and vocabulary
-- **Confidence Scoring**: Provides reliability scores for detected elements
-
-### Supported Landmarks
-- **Accommodation**: hotel, otel, pansiyon
-- **Commercial**: market, mağaza, alışveriş merkezi
-- **Healthcare**: hastane, klinik, eczane
-- **Education**: okul, üniversite, lise
-- **Financial**: banka, ATM
-- **Transportation**: terminal, istasyon, durak
-- **Business**: şirket, firma, Ltd., A.Ş.
-
-### Supported Spatial Relations
-- **Directional**: karşısı, yanı, arkası, önü, üstü, altı
-- **Proximity**: yakını, çevresinde, bitişiği
-- **Containment**: içinde, dışında, arasında
-
-### Usage Examples
+### Usage
 
 ```python
-from addrnorm.explanation import parse_explanation, ExplanationParser
+from addrnorm.explanation import process_explanation
 
-# Simple usage
-result = parse_explanation("Migros yanı")
-print(result)
-# {
-#   "type": "landmark",
-#   "landmark_name": "Migros",
-#   "landmark_type": "market",
-#   "spatial_relation": "yanı",
-#   "confidence": 0.92
-# }
+# Simple text cleaning and validation
+cleaned_text = process_explanation("Migros yanı")
+print(cleaned_text)  # "Migros yanı"
 
-# Advanced usage with custom configuration
-from addrnorm.explanation import ExplanationConfig
-
-config = ExplanationConfig(
-    min_confidence_threshold=0.5,
-    debug_mode=True
-)
-parser = ExplanationParser(config)
-
-# Parse complex explanations
+# Handles various inputs
 examples = [
     "Amorium Hotel karşısı",
-    "Şekerbank ATM yanında",
-    "Koç Holding A.Ş. binası arkası",
-    "Mall of Istanbul AVM içindeki Starbucks"
+    "  Şekerbank   ATM yanında  ",  # Extra spaces
+    "Koç Holding binası arkası"
 ]
 
 for text in examples:
-    result = parser.parse(text)
-    if result.landmark:
-        print(f"Landmark: {result.landmark.name} ({result.landmark.type})")
-    if result.relation:
-        print(f"Relation: {result.relation.relation}")
-    print(f"Confidence: {result.confidence:.2f}")
+    cleaned = process_explanation(text)
+    print(f"'{text}' → '{cleaned}'")
 ```
 
-### Batch Processing
+### Integration with Main System
 
 ```python
-# Process multiple explanations
-explanations = [
-    "Migros yanı",
-    "Hotel karşısı",
-    "Hastane önünde",
-    "Okul arkasında"
-]
+from addrnorm import AddressNormalizer
+from addrnorm.explanation import process_explanation
 
-parser = ExplanationParser()
-results = parser.parse_batch(explanations)
+normalizer = AddressNormalizer()
 
-for text, result in zip(explanations, results):
-    landmark = result.landmark.name if result.landmark else "None"
-    relation = result.relation.relation if result.relation else "None"
-    print(f"'{text}' → {landmark} / {relation} ({result.confidence:.2f})")
+def normalize_with_explanation(address_text):
+    # Clean explanation text
+    explanation_cleaned = process_explanation(address_text)
+
+    # Normalize address with cleaned explanation as reference
+    result = normalizer.normalize(address_text)
+    result["explanation_raw"] = explanation_cleaned
+
+    return result
 ```
-
-### Command Line Demo
-
-```bash
-# Run explanation parser examples
 python demo_explanation.py
 
 # Run adaptive threshold management demo
@@ -524,10 +484,10 @@ for pattern, (new_threshold, reason) in optimizations.items():
 def process_address_with_adaptive(address_text, pattern_name):
     # Get current threshold
     threshold = manager.get_threshold(pattern_name)
-    
+
     # Apply pattern matching
     pattern_score = apply_pattern(address_text, pattern_name)
-    
+
     # Check against adaptive threshold
     if pattern_score >= threshold:
         success = True
@@ -535,14 +495,14 @@ def process_address_with_adaptive(address_text, pattern_name):
     else:
         success = False
         result = fallback_processing(address_text)
-    
+
     # Report performance back to adaptive manager
     manager.update_performance(
         pattern_name=pattern_name,
         success=success,
         confidence=pattern_score
     )
-    
+
     return result
 ```
 

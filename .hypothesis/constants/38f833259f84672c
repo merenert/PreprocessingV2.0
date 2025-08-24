@@ -1,0 +1,4 @@
+# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\explanation\parser.py
+# hypothesis_version: 6.138.2
+
+[0.0, 0.1, 0.2, 0.3, 0.4, 0.6, 1.0, 1.1, 3.0, 100.0, 1000, '=', 'Cache cleared', 'Eczane bitişiği', 'Garanti Bankası üstü', 'Hastane arkası', 'Migros yanı', 'Park yakını', '[^\\w\\sğüşıöçĞÜŞIÖÇ]', '\\s+', '__main__', '_cache_hits', '_cache_misses', 'cache_enabled', 'cache_hits', 'cache_misses', 'cache_size', 'complexity_score', 'confidence', 'config', 'detected_landmarks', 'detected_relations', 'error', 'has_landmarks', 'landmark', 'landmark_count', 'name', 'original_text', 'overall_complexity', 'preprocessed_text', 'relation', 'spatial_complexity', 'spatial_relation', 'text_length', 'type', 'unrecognized', 'word_count', '|']

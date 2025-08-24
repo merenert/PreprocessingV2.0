@@ -1,0 +1,54 @@
+{
+  "review_id": "review_20250825_021725",
+  "reviewer_id": "demo_user",
+  "priority": "normal",
+  "submitted_at": "2025-08-25T02:17:25.248437",
+  "status": "pending",
+  "pattern_suggestions": [
+    {
+      "pattern_id": "ml_pattern_9706d643",
+      "regex_pattern": "(?P<mahalle>\\w+)\\s*(mahalle|mah)\\.?\\s*[,\\-\\s]*\\s*(?P<cadde>\\w+)\\s*(cadde|cad)\\.?\\s*[,\\-\\s]*\\s*no:?\\s*(?P<no>\\d+)",
+      "description": "ML-generated pattern from regex",
+      "confidence_score": 0.311,
+      "expected_fields": [],
+      "sample_matches": [
+        "Yenişehir Mahallesi Gazi Bulvarı 42",
+        "Atatürk Mahallesi Vatan Caddesi 67/2",
+        "Merkez Mahallesi Özgürlük Sokağı No:12"
+      ],
+      "quality_metrics": {},
+      "generated_at": "2025-08-25T02:17:25.245429"
+    },
+    {
+      "pattern_id": "ml_pattern_06fed7d6",
+      "regex_pattern": "(?P<mahalle>\\w+)\\s*(mahalle|mah)\\.?\\s*[,\\-\\s]*\\s*(?P<sokak>\\w+)\\s*(sokak|sok)\\.?\\s*[,\\-\\s]*\\s*(?P<cadde>\\w+)\\s*(cadde|cad)\\.?\\s*[,\\-\\s]*\\s*no:?\\s*(?P<no>\\d+)",
+      "description": "ML-generated pattern from regex",
+      "confidence_score": 0.219,
+      "expected_fields": [],
+      "sample_matches": [
+        "Atatürk Mahallesi, Cumhuriyet Caddesi No:25 Daire:3",
+        "Bahçelievler Mahallesi 15. Sokak No:23 Daire:4"
+      ],
+      "quality_metrics": {},
+      "generated_at": "2025-08-25T02:17:25.245429"
+    },
+    {
+      "pattern_id": "ml_pattern_ba950774",
+      "regex_pattern": "no:?\\s*(?P<no>\\d+)",
+      "description": "ML-generated pattern from regex",
+      "confidence_score": 0.212,
+      "expected_fields": [],
+      "sample_matches": [
+        "Merkez Mah. İstiklal Sok. 15/4",
+        "Kültür Mah, Barış Sk, No:8"
+      ],
+      "quality_metrics": {},
+      "generated_at": "2025-08-25T02:17:25.245429"
+    }
+  ],
+  "conflicts": [],
+  "review_decisions": {},
+  "conflict_resolutions": {},
+  "reviewer_notes": "",
+  "completion_time": null
+}

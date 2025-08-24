@@ -1,0 +1,4 @@
+# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\api\models.py
+# hypothesis_version: 6.138.2
+
+[0.0, 1.0, 100, 1000, 'Application version', 'Component status', 'Confidence score', 'Original input text', 'Service status']

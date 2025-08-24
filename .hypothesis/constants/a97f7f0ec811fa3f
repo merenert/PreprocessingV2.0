@@ -1,0 +1,4 @@
+# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\monitoring\metrics_collector.py
+# hypothesis_version: 6.138.2
+
+[0.0, 0.4, 0.6, 0.75, 0.8, 0.9, 0.95, 0.99, 1000, 1024, 10000, '%Y%m%d_%H%M%S', 'All metrics reset', 'address_length', 'avg_confidence', 'cache_hit_rate', 'common_failures', 'components_extracted', 'confidence', 'error', 'error_rate', 'error_type', 'export_timestamp', 'fallback', 'geographic', 'high', 'hybrid', 'json', 'last_used', 'low', 'medium', 'memory_usage_mb', 'metadata', 'method', 'method_distribution', 'metric_type', 'metrics_*.json', 'ml_primary', 'ml_secondary', 'monitoring_data', 'new_value', 'old_value', 'pattern_id', 'pattern_primary', 'pattern_secondary', 'pattern_usage', 'patterns', 'performance', 'processing_time_ms', 'reason', 'success', 'success_rate', 'system', 'threshold', 'threshold_type', 'timestamp', 'total_processed', 'uptime_seconds', 'usage_count', 'utf-8', 'very_high', 'very_low', 'w']

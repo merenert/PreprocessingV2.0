@@ -1,0 +1,58 @@
+=== PERFORMANCE METRICS ===\nMetric,Value
+Avg Processing Time Ms,103.87
+Median Processing Time Ms,103.99
+P95 Processing Time Ms,194.01
+P99 Processing Time Ms,198.18
+Throughput Per Second,500.0
+Total Processed,500
+Error Rate,0.306
+Memory Usage Mb,0.0
+\n=== PATTERN ANALYSIS ===\nPattern ID,Usage Rank,Success Rate,Avg Confidence,Performance Score,Optimization Potential
+pattern_6,1,1.0,0.787,0.899,0.101
+pattern_13,2,1.0,0.77,0.888,0.112
+pattern_19,3,1.0,0.774,0.883,0.117
+pattern_14,4,1.0,0.748,0.881,0.119
+pattern_18,5,1.0,0.749,0.873,0.127
+pattern_9,6,0.714,0.702,0.745,0.255
+pattern_17,7,0.75,0.633,0.743,0.257
+pattern_1,8,0.714,0.691,0.73,0.27
+pattern_12,9,0.75,0.616,0.729,0.271
+pattern_20,10,0.667,0.667,0.712,0.288
+pattern_15,11,0.667,0.66,0.705,0.295
+pattern_7,12,0.5,0.583,0.613,0.387
+pattern_5,13,0.5,0.567,0.604,0.396
+pattern_8,14,0.5,0.569,0.604,0.396
+pattern_10,15,0.5,0.524,0.598,0.402
+pattern_16,16,0.5,0.567,0.597,0.403
+pattern_3,17,0.5,0.492,0.584,0.416
+pattern_4,18,0.5,0.521,0.577,0.423
+pattern_11,19,0.4,0.544,0.548,0.452
+pattern_2,20,0.0,0.295,0.295,0.705
+\n=== TREND ANALYSIS ===\nMetric,Direction,Change %,Confidence,Time Period
+processing_time_ms,improving,-7.31,0.444,24h
+success_rate,declining,-16.52,0.8,24h
+confidence_score,declining,-10.06,0.748,24h
+throughput,improving,16.28,0.7,24h
+processing_time_ms,improving,-7.31,0.444,7d
+success_rate,declining,-16.52,0.8,7d
+confidence_score,declining,-10.06,0.748,7d
+throughput,improving,16.28,0.7,7d
+processing_time_ms,improving,-7.31,0.444,30d
+success_rate,declining,-16.52,0.8,30d
+confidence_score,declining,-10.06,0.748,30d
+throughput,improving,16.28,0.7,30d
+\n=== RECOMMENDATIONS ===\nPriority,Recommendation
+High,[CRITICAL] High error rate detected: 32.3%: Investigate common error causes and improve input validation
+High,Pattern pattern_2: Review pattern regex for edge cases and improve matching logic; Enhance pattern specificity and add validation rules
+Medium,[WARNING] High variance in processing times detected (std: 57.2ms): Investigate outliers and consider implementing caching for common patterns
+Medium,[WARNING] Average processing time is high: 106.9ms: Optimize pattern matching algorithms and consider parallel processing
+Medium,[WARNING] Significant performance gap between methods: pattern_secondary vs fallback: Consider optimizing underperforming methods or adjusting method selection logic
+Medium,"[WARNING] High rate of low-confidence results: 35.5%: Review and improve pattern quality, consider additional training data"
+Medium,Pattern pattern_7: Review pattern regex for edge cases and improve matching logic; Enhance pattern specificity and add validation rules
+Medium,Pattern pattern_5: Review pattern regex for edge cases and improve matching logic; Enhance pattern specificity and add validation rules
+Medium,Pattern pattern_8: Review pattern regex for edge cases and improve matching logic; Enhance pattern specificity and add validation rules
+Medium,Pattern pattern_10: Review pattern regex for edge cases and improve matching logic; Enhance pattern specificity and add validation rules
+Medium,Pattern pattern_16: Review pattern regex for edge cases and improve matching logic; Enhance pattern specificity and add validation rules
+Medium,Pattern pattern_3: Review pattern regex for edge cases and improve matching logic; Enhance pattern specificity and add validation rules
+Medium,Pattern pattern_4: Review pattern regex for edge cases and improve matching logic; Enhance pattern specificity and add validation rules
+Medium,Pattern pattern_11: Review pattern regex for edge cases and improve matching logic; Enhance pattern specificity and add validation rules

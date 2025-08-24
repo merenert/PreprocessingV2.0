@@ -1,0 +1,4 @@
+# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\adaptive\models.py
+# hypothesis_version: 6.138.2
+
+[0.0, 0.01, 0.05, 0.2, 0.6, 0.7, 0.8, 0.95, 1.0, 'PerformanceStats', 'avg_confidence', 'building', 'city', 'confidence_sum', 'default_threshold', 'district', 'explanation', 'max_threshold', 'min_threshold', 'number', 'postal', 'street', 'success_count', 'success_rate', 'total_count']

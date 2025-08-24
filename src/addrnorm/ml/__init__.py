@@ -1,7 +1,8 @@
 """
 Machine Learning module for Turkish address parsing.
 
-This module provides NER-based fallback when pattern matching fails.
+This module provides NER-based fallback when pattern matching fails,
+advanced models, and hybrid processing with adaptive thresholds.
 """
 
 from .infer import (
@@ -11,6 +12,19 @@ from .infer import (
     normalize_with_ml_fallback,
 )
 from .ner_baseline import TurkishAddressNER, load_training_data, save_training_data
+from .models import (
+    ModelType,
+    ProcessingMethod,
+    ConfidenceScore,
+    AddressComponent,
+    NormalizationResult,
+    SequenceLabelingModel,
+    FeatureExtractor,
+    AdaptiveThresholdCalculator,
+    HybridProcessor,
+    ModelTrainer,
+    ModelEvaluator,
+)
 
 __all__ = [
     "TurkishAddressNER",
@@ -20,4 +34,16 @@ __all__ = [
     "get_ml_normalizer",
     "normalize_with_ml_fallback",
     "is_ml_available",
+    # Advanced ML models
+    "ModelType",
+    "ProcessingMethod",
+    "ConfidenceScore",
+    "AddressComponent",
+    "NormalizationResult",
+    "SequenceLabelingModel",
+    "FeatureExtractor",
+    "AdaptiveThresholdCalculator",
+    "HybridProcessor",
+    "ModelTrainer",
+    "ModelEvaluator",
 ]

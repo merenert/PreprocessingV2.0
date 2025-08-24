@@ -1,0 +1,4 @@
+# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\explanation\__init__.py
+# hypothesis_version: 6.138.2
+
+['1.0.0', 'Amorium Hotel', 'ExplanationConfig', 'ExplanationParser', 'ExplanationResult', 'Koç Holding', 'Landmark', 'LandmarkDetector', 'Migros', 'Migros yanı', 'SpatialRelation', 'arkasında', 'banka', 'business_example', 'complex_example', 'create_parser', 'expected', 'hotel', 'hotel_example', 'input', 'karşısı', 'landmark', 'landmark_name', 'landmark_type', 'market', 'parse_explanation', 'simple_landmark', 'spatial_relation', 'type', 'yanı', 'yanında', 'Şekerbank', 'Şekerbank yanında', 'şirket']

@@ -1,0 +1,4 @@
+# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\api\server.py
+# hypothesis_version: 6.138.2
+
+['*', '/docs', '/health', '/normalize', '/normalize/batch', '/redoc', '0.0.0.0', '1', '2.0.0', '30', '8000', 'GEO_DATA_DIR', 'INFO', 'ML_MODEL_PATH', 'PORT', 'TIMEOUT', 'WORKERS', '__main__', 'address_out', 'confidence', 'detail', 'error', 'geo_validator', 'healthy', 'info', 'ml_model', 'pattern_matcher', 'pipeline', 'processing_method', 'processing_time_ms', 'raw_input', 'shutdown', 'startup', 'success', 'unhealthy']
