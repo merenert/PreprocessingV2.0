@@ -84,6 +84,95 @@ patterns:
       - "1771 sokak no 5"
       - "4632 sokak no 16"
 
+  # Real-world patterns from CSV data
+  - id: "mahalle_sokak_no_colon"
+    priority: 88
+    pattern: "<Mahalle> <n> sokak no <n2>"
+    description: "Mahalle + numbered street + no"
+    examples:
+      - "ergene mahalle 534 sokak no 1"
+      - "kalabak mah 3328 sokak no 8"
+
+  - id: "mahalle_sokak_no_slash"
+    priority: 87
+    pattern: "<Mahalle> <Sokak> no <n>/<text>"
+    description: "Address with apartment indicator (/A, /b)"
+    examples:
+      - "ergene mahalle 534 sokak no 1/b"
+      - "yeni mah 618 sok no 5/A"
+
+  - id: "mahalle_site_sokak_no"
+    priority: 86
+    pattern: "<Mahalle> <Site> <Sokak> no <n>"
+    description: "Mahalle + site/complex + sokak + no"
+    examples:
+      - "karaova mahalle idareciler sitesi lale sokak no 27"
+      - "mordogan mahalle doga evleri 12 sokak no 28"
+
+  - id: "mahalle_sk_abbreviation"
+    priority: 84
+    pattern: "<Mahalle> <n> sk no <n2>"
+    description: "Mahalle with sokak abbreviated as 'sk'"
+    examples:
+      - "zafer mah 114 sk no 1"
+      - "başka mah 522 sk no 49"
+
+  - id: "mahalle_full_apartment"
+    priority: 83
+    pattern: "<Mahalle> <Sokak> no <n> kat <Kat> daire <Daire> <text?>"
+    description: "Complete apartment address with building name"
+    examples:
+      - "zafer mah 114 sk no 1 kat 3 daire 32 başar suites apartmanı"
+      - "çırkan mahalle başaran sokak no 11 kat 2 daire 5"
+
+  - id: "comma_separated_address"
+    priority: 82
+    pattern: "<Mahalle>, <text>, <n> sokak, no <n2>"
+    description: "Comma-separated address format"
+    examples:
+      - "mordogan mahalle, doga evleri, 12 sokak, no 28"
+      - "kalabak mah, site adi, 3328 sokak, no 8"
+
+  - id: "city_district_pattern"
+    priority: 81
+    pattern: "<Mahalle> <Sokak> no <n> <İlçe>/<İl>"
+    description: "Address with district/city suffix"
+    examples:
+      - "konacık çırkan mahalle başaran sokak no 11 bodrum/muğla"
+      - "zafer mah sokak no 1 efeler/aydın"
+
+  - id: "informal_business_address"
+    priority: 79
+    pattern: "<text> <Mahalle> <n> sok no <n2>"
+    description: "Business name + address format"
+    examples:
+      - "bosch siemens profilo yetkili servisi yeni mah 618 sok no 5"
+      - "akın sigorta ergene mahalle 534 sok no 1"
+
+  - id: "apartment_building_name"
+    priority: 78
+    pattern: "<Sokak> <text> no <n> daire <Daire> kat <Kat>"
+    description: "Street + building name + details"
+    examples:
+      - "ekrem karabaş sokak aysima apy no 20 daire 2 kat 1"
+      - "başaran sokak residence no 11 daire 5 kat 3"
+
+  - id: "numbered_street_simple"
+    priority: 77
+    pattern: "<n>/<n2> sokak no <n3>"
+    description: "Numbered street format"
+    examples:
+      - "522/56 sokak no 49"
+      - "1234/78 sokak no 12"
+
+  - id: "site_block_apartment"
+    priority: 76
+    pattern: "<Mahalle> <Site> <Blok?> no <n> daire <Daire>"
+    description: "Site with optional block and apartment"
+    examples:
+      - "konacık mahalle başaran sitesi a blok no 11 daire 2"
+      - "karaova mahalle idareciler sitesi no 27 daire 5"
+
   # Loose patterns (lower confidence)
   - id: "loose_mahalle_only"
     priority: 50
@@ -98,6 +187,109 @@ keywords:
   location_indicators:
     - "mahalle"
     - "mah"
+    - "sitesi"
+    - "evleri"
+    - "apartmanı"
+    - "apy"
+    - "residence"
+    - "complex"
+
+  street_indicators:
+    - "sokak"
+    - "sok"
+    - "sk"
+    - "cadde"
+    - "cad"
+    - "cd"
+    - "bulvar"
+    - "blv"
+    - "blvr"
+
+  building_indicators:
+    - "no"
+    - "numara"
+    - "num"
+    - ":"
+
+  apartment_indicators:
+    - "daire"
+    - "dair"
+    - "dr"
+    - "kat"
+    - "floor"
+    - "blok"
+    - "block"
+
+  city_indicators:
+    - "istanbul"
+    - "ankara"
+    - "izmir"
+    - "bursa"
+    - "antalya"
+    - "adana"
+    - "konya"
+    - "gaziantep"
+    - "mersin"
+    - "kayseri"
+    - "eskişehir"
+    - "diyarbakır"
+    - "samsun"
+    - "denizli"
+    - "şanlıurfa"
+    - "adapazarı"
+    - "malatya"
+    - "kahramanmaraş"
+    - "erzurum"
+    - "van"
+    - "batman"
+    - "elazığ"
+    - "iğdır"
+    - "tokat"
+    - "trabzon"
+    - "kocaeli"
+    - "manisa"
+    - "rize"
+    - "aydın"
+    - "tekirdağ"
+    - "balıkesir"
+    - "kütahya"
+    - "muğla"
+    - "afyon"
+    - "uşak"
+    - "çanakkale"
+    - "bodrum"
+    - "kuşadası"
+    - "karaburun"
+    - "urla"
+    - "efeler"
+
+# Scoring configuration
+scoring:
+  # Base confidence scores for different slot types
+  slot_weights:
+    Mahalle: 0.25      # District/neighborhood
+    Sokak: 0.20        # Street
+    Cadde: 0.20        # Avenue
+    n: 0.15            # Building number
+    Daire: 0.10        # Apartment number
+    Kat: 0.05          # Floor
+    Site: 0.15         # Complex/site
+    Blok: 0.05         # Block
+    İl: 0.10           # Province
+    İlçe: 0.10         # District
+    text: 0.05         # Generic text
+
+  # Minimum confidence threshold for accepting matches
+  min_confidence_threshold: 0.3
+
+  # Threshold for considering a match "good"
+  good_match_threshold: 0.6
+
+  # Penalty for missing required slots
+  missing_slot_penalty: 0.2
+
+  # Bonus for exact keyword matches
+  keyword_match_bonus: 0.1
     - "sokak"
     - "sok"
     - "cadde"

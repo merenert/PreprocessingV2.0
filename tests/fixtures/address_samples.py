@@ -441,6 +441,16 @@ def generate_performance_samples(count: int = 1000) -> List[AddressSample]:
 
 
 # Combine all sample categories
+def get_test_addresses() -> List[AddressSample]:
+    """Get standard test addresses for regular testing"""
+    return RESIDENTIAL_ADDRESSES[:10] + COMMERCIAL_ADDRESSES[:5] + LANDMARK_ADDRESSES[:5]
+
+
+def get_edge_case_data() -> List[AddressSample]:
+    """Get edge case test data for comprehensive testing"""
+    return EDGE_CASES
+
+
 def get_all_samples() -> List[AddressSample]:
     """Get all address samples"""
     return (

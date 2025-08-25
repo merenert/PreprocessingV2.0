@@ -1,4 +1,0 @@
-# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\patterns\compiler.py
-# hypothesis_version: 6.138.2
-
-[1.0, '(\\S+(?:\\s+\\S+)*?)', '(\\d+(?:[a-z])?)', '-', '<', '<[^>]+>|[^\\s<]+|\\s+', '>', '?', '[optional]', '[required]', '\\b', '\\s+', '__main__', 'data', 'description', 'examples', 'id', 'keywords', 'n', 'named', 'number', 'pattern', 'patterns', 'priority', 'r', 'scoring', 'slot_weights', 'text', 'tr.yml', 'utf-8']

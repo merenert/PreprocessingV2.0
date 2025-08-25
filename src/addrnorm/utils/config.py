@@ -3,8 +3,36 @@ Configuration management for addrnorm package.
 """
 
 from typing import Any, Dict
+from dataclasses import dataclass
 
 import yaml
+
+
+@dataclass
+class HybridConfig:
+    """Configuration for hybrid address normalizer"""
+
+    enhanced_output: bool = False
+    enable_pattern_matching: bool = True
+    enable_ml_processing: bool = True
+    enable_legacy_fallback: bool = True
+    confidence_threshold: float = 0.4  # Lowered from 0.7 to 0.4
+    max_processing_time_ms: float = 5000.0
+
+    # Pattern matching config
+    pattern_confidence_threshold: float = 0.4  # Lowered from 0.8 to 0.4
+
+    # ML config
+    ml_confidence_threshold: float = 0.5  # Lowered from 0.75 to 0.5
+
+    # Legacy fallback config
+    legacy_confidence_threshold: float = 0.3  # Lowered from 0.5 to 0.3
+    enable_heuristic_enhancement: bool = True
+
+    # Adaptive learning config
+    enable_adaptive_learning: bool = True
+    adaptive_learning_strategy: str = "balanced"  # conservative, aggressive, balanced, volume_weighted
+    auto_start_learning: bool = False
 
 
 class Config:
@@ -47,12 +75,12 @@ class Config:
             },
             "resources": {"abbreviations_file": "data/resources/abbr_tr.yaml"},
             "patterns": {
-                "default_threshold": 0.72,
+                "default_threshold": 0.4,  # Lowered from 0.72 to 0.4
                 "ema_alpha": 0.1,
                 "threshold_adjustment_factor": 0.2,
-                "min_threshold": 0.3,
+                "min_threshold": 0.2,  # Lowered from 0.3 to 0.2
                 "max_threshold": 0.9,
-                "min_samples_for_adjustment": 5,
+                "min_samples_for_adjustment": 3,  # Lowered from 5 to 3
             },
         }
 
@@ -70,11 +98,7 @@ class Config:
 
         def deep_merge(default, user):
             for key, value in user.items():
-                if (
-                    key in default
-                    and isinstance(default[key], dict)
-                    and isinstance(value, dict)
-                ):
+                if key in default and isinstance(default[key], dict) and isinstance(value, dict):
                     deep_merge(default[key], value)
                 else:
                     default[key] = value

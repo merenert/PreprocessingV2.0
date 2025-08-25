@@ -1,0 +1,123 @@
+{
+  "test_timestamp": "2025-08-25T18:24:45.936887",
+  "test_type": "Adaptive Learning Integration - Phase 4",
+  "total_samples": 30,
+  "overall_success_rate": 0.9666666666666667,
+  "learning_progression": [
+    {
+      "batch_num": 1,
+      "successful": 10,
+      "total": 10,
+      "avg_confidence": 0.724,
+      "method_usage": {
+        "phase1_pattern": 3,
+        "phase3_ml": 4,
+        "legacy_fallback": 3
+      }
+    },
+    {
+      "batch_num": 2,
+      "successful": 10,
+      "total": 10,
+      "avg_confidence": 0.6610000000000001,
+      "method_usage": {
+        "legacy_fallback": 6,
+        "phase3_ml": 4
+      }
+    },
+    {
+      "batch_num": 3,
+      "successful": 9,
+      "total": 10,
+      "avg_confidence": 0.75,
+      "method_usage": {
+        "phase3_ml": 6,
+        "legacy_fallback": 3,
+        "phase1_pattern": 1
+      }
+    }
+  ],
+  "threshold_evolution": [
+    {
+      "batch": 1,
+      "thresholds": {
+        "pattern": 0.29999999999999993,
+        "ml": 0.42999999999999994,
+        "legacy": 0.26999999999999996
+      },
+      "success_rate": 1.0
+    },
+    {
+      "batch": 2,
+      "thresholds": {
+        "pattern": 0.2,
+        "ml": 0.32999999999999985,
+        "legacy": 0.2
+      },
+      "success_rate": 1.0
+    },
+    {
+      "batch": 3,
+      "thresholds": {
+        "pattern": 0.2,
+        "ml": 0.22999999999999976,
+        "legacy": 0.2
+      },
+      "success_rate": 0.9666666666666667
+    }
+  ],
+  "final_adaptive_stats": {
+    "total_processed": 30,
+    "success_rate": 0.9666666666666667,
+    "dynamic_thresholds": {
+      "pattern": 0.2,
+      "ml": 0.22999999999999976,
+      "legacy": 0.2
+    },
+    "pattern_performance": {
+      "phase1_pattern": {
+        "total_attempts": 4,
+        "successful": 4,
+        "avg_confidence": 0.9400000000000001,
+        "avg_processing_time": 0.24569034576416016
+      },
+      "phase3_ml": {
+        "total_attempts": 14,
+        "successful": 14,
+        "avg_confidence": 0.7957142857142857,
+        "avg_processing_time": 0.03589902605329241
+      },
+      "legacy_fallback": {
+        "total_attempts": 12,
+        "successful": 11,
+        "avg_confidence": 0.5375000000000002,
+        "avg_processing_time": 0.0
+      }
+    },
+    "learned_success_patterns": 10,
+    "learned_failure_patterns": 2,
+    "pattern_weights": {
+      "has_building_number": 2.0,
+      "medium_address": 2.0,
+      "has_mahalle": 2.0,
+      "has_sokak": 1.4000000000000004,
+      "has_complex": 1.2000000000000002,
+      "single_number": 1.2000000000000002,
+      "multiple_numbers": 2.0,
+      "has_floor": 1.4000000000000004,
+      "has_apartment": 1.3000000000000003,
+      "long_address": 1.2000000000000002,
+      "no_numbers": 0.9
+    },
+    "learning_rate": 0.1
+  },
+  "optimal_strategy": "aggressive",
+  "improvement_analysis": {
+    "baseline_success": 0.05,
+    "phase3_success": 0.5,
+    "adaptive_success": 0.9666666666666667,
+    "adaptive_improvement": 0.4666666666666667,
+    "total_improvement": 0.9166666666666666,
+    "improvement_factor": 18.333333333333332
+  }
+}

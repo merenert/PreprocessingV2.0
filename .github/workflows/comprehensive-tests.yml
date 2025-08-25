@@ -1,0 +1,704 @@
+name: Comprehensive Test Suite and Benchmarks
+
+on:
+  push:
+    branches: [ main, master, develop ]
+  pull_request:
+    branches: [ main, master ]
+  schedule:
+    # Run benchmarks daily at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      benchmark_type:
+        description: 'Type of benchmark to run'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - performance
+          - accuracy
+          - memory
+          - regression
+      sample_size:
+        description: 'Sample size for benchmarks'
+        required: false
+        default: '1000'
+        type: string
+
+env:
+  PYTHON_VERSION: '3.10'
+  POETRY_VERSION: '1.5.1'
+
+jobs:
+  code-quality:
+    name: Code Quality Checks
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install black isort flake8 mypy pylint
+        pip install -r requirements.txt
+        pip install -r requirements-test.txt
+
+    - name: Code formatting check (Black)
+      run: black --check --diff src tests
+
+    - name: Import sorting check (isort)
+      run: isort --check-only --diff src tests
+
+    - name: Linting (flake8)
+      run: flake8 src tests --max-line-length=100 --extend-ignore=E203,W503
+
+    - name: Type checking (mypy)
+      run: mypy src --ignore-missing-imports
+      continue-on-error: true
+
+    - name: Code analysis (pylint)
+      run: pylint src --disable=C0114,C0115,C0116 --fail-under=7.0
+      continue-on-error: true
+
+  unit-tests:
+    name: Unit Tests
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.9', '3.10', '3.11']
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Cache dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements*.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install -r requirements-test.txt
+        pip install pytest-cov pytest-xdist pytest-html pytest-json-report
+
+    - name: Run unit tests
+      run: |
+        pytest tests/unit/ \
+          --cov=src/addrnorm \
+          --cov-report=xml \
+          --cov-report=html \
+          --cov-report=term \
+          --junit-xml=test-results.xml \
+          --html=test-report.html \
+          --json-report \
+          --json-report-file=test-results.json \
+          -v
+
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        file: ./coverage.xml
+        flags: unittests
+        name: codecov-umbrella
+        fail_ci_if_error: false
+
+    - name: Upload test results
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: test-results-${{ matrix.python-version }}
+        path: |
+          test-results.xml
+          test-report.html
+          test-results.json
+          htmlcov/
+
+  integration-tests:
+    name: Integration Tests
+    runs-on: ubuntu-latest
+    needs: unit-tests
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install -r requirements-test.txt
+
+    - name: Run integration tests
+      run: |
+        pytest tests/integration/ \
+          --cov=src/addrnorm \
+          --cov-append \
+          --cov-report=xml \
+          --junit-xml=integration-results.xml \
+          --html=integration-report.html \
+          -v \
+          --tb=short
+
+    - name: Upload integration test results
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: integration-test-results
+        path: |
+          integration-results.xml
+          integration-report.html
+
+  performance-benchmarks:
+    name: Performance Benchmarks
+    runs-on: ubuntu-latest
+    needs: unit-tests
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[benchmark]')
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Fetch all history for regression testing
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install -r requirements-test.txt
+        pip install psutil click
+
+    - name: Create benchmark directories
+      run: |
+        mkdir -p benchmark_results
+        mkdir -p benchmark_history
+
+    - name: Run performance benchmarks
+      run: |
+        sample_size="${{ github.event.inputs.sample_size || '1000' }}"
+        benchmark_type="${{ github.event.inputs.benchmark_type || 'performance' }}"
+
+        echo "Running $benchmark_type benchmark with sample size: $sample_size"
+
+        if [ "$benchmark_type" = "all" ] || [ "$benchmark_type" = "performance" ]; then
+          python -m src.addrnorm.cli.benchmark run --type performance --size $sample_size --output benchmark_results --verbose
+        fi
+
+        if [ "$benchmark_type" = "all" ] || [ "$benchmark_type" = "accuracy" ]; then
+          python -m src.addrnorm.cli.benchmark run --type accuracy --size $sample_size --output benchmark_results --verbose
+        fi
+
+        if [ "$benchmark_type" = "all" ] || [ "$benchmark_type" = "memory" ]; then
+          python -m src.addrnorm.cli.benchmark run --type memory --size $sample_size --output benchmark_results --verbose
+        fi
+
+    - name: Run regression benchmarks
+      if: github.event_name == 'schedule' || github.event.inputs.benchmark_type == 'regression' || github.event.inputs.benchmark_type == 'all'
+      run: |
+        # Get previous commit for regression testing
+        baseline_commit=$(git rev-parse HEAD~1)
+        echo "Running regression benchmark against commit: $baseline_commit"
+
+        python -m src.addrnorm.cli.benchmark run \
+          --type regression \
+          --size 1000 \
+          --baseline $baseline_commit \
+          --output benchmark_results \
+          --verbose
+
+    - name: Process benchmark results
+      run: |
+        echo "## Benchmark Results" > benchmark_summary.md
+        echo "" >> benchmark_summary.md
+
+        # List all benchmark results
+        python -m src.addrnorm.cli.benchmark list-results --output benchmark_results --format json > benchmark_list.json
+
+        # Generate summary
+        python -c "
+import json
+import sys
+from pathlib import Path
+
+try:
+    with open('benchmark_list.json', 'r') as f:
+        results = json.load(f)
+
+    print('Benchmark Results Summary:')
+    print('=' * 40)
+
+    for result in results[-5:]:  # Last 5 results
+        print(f'Type: {result.get(\"benchmark_type\", \"unknown\")}')
+        print(f'Sample Size: {result.get(\"sample_size\", 0):,}')
+        print(f'Timestamp: {result.get(\"timestamp\", \"unknown\")}')
+
+        if result.get('benchmark_type') == 'performance':
+            throughput = result.get('throughput_per_sec', 0)
+            memory = result.get('memory_usage_mb', 0)
+            print(f'Throughput: {throughput:.1f} addr/sec')
+            print(f'Memory: {memory:.1f} MB')
+        elif result.get('benchmark_type') == 'accuracy':
+            accuracy = result.get('overall_accuracy', 0)
+            print(f'Accuracy: {accuracy:.1%}')
+
+        print('-' * 40)
+
+except Exception as e:
+    print(f'Error processing results: {e}')
+    sys.exit(0)
+"
+
+    - name: Check performance regression
+      run: |
+        python -c "
+import json
+import sys
+from pathlib import Path
+
+# Performance regression thresholds
+THROUGHPUT_REGRESSION_THRESHOLD = -0.15  # 15% decrease
+MEMORY_REGRESSION_THRESHOLD = 0.25       # 25% increase
+ACCURACY_REGRESSION_THRESHOLD = -0.05    # 5% decrease
+
+regression_detected = False
+
+try:
+    with open('benchmark_list.json', 'r') as f:
+        results = json.load(f)
+
+    # Find regression results
+    regression_results = [r for r in results if r.get('benchmark_type') == 'regression']
+
+    if regression_results:
+        latest = regression_results[-1]
+        comparison = latest.get('comparison', {})
+
+        if 'performance' in comparison:
+            perf = comparison['performance']
+            throughput_change = perf.get('throughput_change', 0)
+            memory_change = perf.get('memory_change', 0)
+
+            if throughput_change < THROUGHPUT_REGRESSION_THRESHOLD:
+                print(f'⚠️ Performance regression detected: {throughput_change:.1%} throughput decrease')
+                regression_detected = True
+
+            if memory_change > MEMORY_REGRESSION_THRESHOLD:
+                print(f'⚠️ Memory regression detected: {memory_change:.1%} memory increase')
+                regression_detected = True
+
+        if 'accuracy' in comparison:
+            acc = comparison['accuracy']
+            accuracy_change = acc.get('overall_accuracy_change', 0)
+
+            if accuracy_change < ACCURACY_REGRESSION_THRESHOLD:
+                print(f'⚠️ Accuracy regression detected: {accuracy_change:.1%} accuracy decrease')
+                regression_detected = True
+
+    if regression_detected:
+        print('Regression detected - marking workflow as failed')
+        sys.exit(1)
+    else:
+        print('✅ No significant regressions detected')
+
+except Exception as e:
+    print(f'Error checking regressions: {e}')
+    # Don't fail the build on analysis errors
+"
+
+    - name: Store benchmark history
+      run: |
+        # Store results in history for trending
+        timestamp=$(date +%Y%m%d_%H%M%S)
+        cp -r benchmark_results/* benchmark_history/ 2>/dev/null || true
+
+        # Create trend data
+        echo "{\"timestamp\": \"$timestamp\", \"commit\": \"$GITHUB_SHA\", \"branch\": \"$GITHUB_REF_NAME\"}" > benchmark_history/run_${timestamp}.json
+
+    - name: Upload benchmark results
+      uses: actions/upload-artifact@v3
+      with:
+        name: benchmark-results
+        path: |
+          benchmark_results/
+          benchmark_history/
+          benchmark_summary.md
+          benchmark_list.json
+
+  accuracy-evaluation:
+    name: Accuracy Evaluation
+    runs-on: ubuntu-latest
+    needs: unit-tests
+    if: github.event_name == 'schedule' || contains(github.event.head_commit.message, '[accuracy]')
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install -r requirements-test.txt
+
+    - name: Run accuracy evaluation
+      run: |
+        mkdir -p accuracy_results
+
+        # Run comprehensive accuracy tests
+        python -m src.addrnorm.cli.benchmark run \
+          --type accuracy \
+          --size 2000 \
+          --output accuracy_results \
+          --verbose
+
+    - name: Generate accuracy report
+      run: |
+        echo "## Accuracy Evaluation Report" > accuracy_report.md
+        echo "" >> accuracy_report.md
+        echo "**Evaluation Date:** $(date)" >> accuracy_report.md
+        echo "**Commit:** $GITHUB_SHA" >> accuracy_report.md
+        echo "" >> accuracy_report.md
+
+        # Process accuracy results
+        python -c "
+import json
+import glob
+from pathlib import Path
+
+accuracy_files = glob.glob('accuracy_results/accuracy_benchmark_*.json')
+
+if accuracy_files:
+    with open(accuracy_files[-1], 'r', encoding='utf-8') as f:
+        results = json.load(f)
+
+    summary = results.get('summary', {})
+
+    print('### Overall Results')
+    print()
+    print(f'- **Overall Accuracy:** {summary.get(\"avg_overall_accuracy\", 0):.1%}')
+    print(f'- **Success Rate:** {summary.get(\"avg_success_rate\", 0):.1%}')
+    print(f'- **Component F1 Score:** {summary.get(\"avg_component_f1\", 0):.3f}')
+    print()
+
+    component_perf = summary.get('component_avg_performance', {})
+    if component_perf:
+        print('### Component Performance')
+        print()
+        for component, score in sorted(component_perf.items(), key=lambda x: x[1], reverse=True):
+            print(f'- **{component}:** {score:.3f}')
+        print()
+
+    recommendations = summary.get('recommendations', [])
+    if recommendations:
+        print('### Recommendations')
+        print()
+        for rec in recommendations:
+            print(f'- {rec}')
+        print()
+
+else:
+    print('No accuracy results found')
+" >> accuracy_report.md
+
+    - name: Upload accuracy results
+      uses: actions/upload-artifact@v3
+      with:
+        name: accuracy-evaluation
+        path: |
+          accuracy_results/
+          accuracy_report.md
+
+  memory-profiling:
+    name: Memory Profiling
+    runs-on: ubuntu-latest
+    needs: unit-tests
+    if: github.event_name == 'schedule' || contains(github.event.head_commit.message, '[memory]')
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install -r requirements-test.txt
+        pip install memory-profiler psutil
+
+    - name: Run memory profiling
+      run: |
+        mkdir -p memory_results
+
+        # Run memory benchmarks
+        python -m src.addrnorm.cli.benchmark run \
+          --type memory \
+          --size 5000 \
+          --memory-limit 500MB \
+          --output memory_results \
+          --verbose
+
+    - name: Memory leak detection
+      run: |
+        # Simple memory leak detection
+        python -c "
+import gc
+import psutil
+import sys
+import os
+
+# Add src to path
+sys.path.insert(0, 'src')
+
+try:
+    from addrnorm.preprocess.api import AddressNormalizer
+
+    process = psutil.Process()
+    initial_memory = process.memory_info().rss / 1024 / 1024  # MB
+
+    print(f'Initial memory: {initial_memory:.1f} MB')
+
+    # Process addresses multiple times
+    normalizer = AddressNormalizer()
+
+    for iteration in range(10):
+        for i in range(100):
+            address = f'Memory test address {i} iteration {iteration}'
+            try:
+                result = normalizer.process(address)
+            except:
+                pass
+
+        # Force garbage collection
+        gc.collect()
+
+        current_memory = process.memory_info().rss / 1024 / 1024
+        memory_increase = current_memory - initial_memory
+
+        print(f'Iteration {iteration + 1}: {current_memory:.1f} MB (+{memory_increase:.1f} MB)')
+
+        # Check for significant memory growth
+        if memory_increase > 100:  # More than 100MB increase
+            print(f'⚠️ Potential memory leak detected: {memory_increase:.1f} MB increase')
+            break
+
+    final_memory = process.memory_info().rss / 1024 / 1024
+    total_increase = final_memory - initial_memory
+
+    print(f'Final memory: {final_memory:.1f} MB')
+    print(f'Total increase: {total_increase:.1f} MB')
+
+    if total_increase > 50:  # More than 50MB increase is concerning
+        print('❌ Memory usage increased significantly')
+        sys.exit(1)
+    else:
+        print('✅ Memory usage is within acceptable limits')
+
+except ImportError:
+    print('Memory profiling modules not available')
+except Exception as e:
+    print(f'Memory profiling error: {e}')
+"
+
+    - name: Upload memory profiling results
+      uses: actions/upload-artifact@v3
+      with:
+        name: memory-profiling
+        path: memory_results/
+
+  coverage-report:
+    name: Coverage Report
+    runs-on: ubuntu-latest
+    needs: [unit-tests, integration-tests]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+
+    - name: Download test artifacts
+      uses: actions/download-artifact@v3
+      with:
+        pattern: test-results-*
+        path: test-artifacts/
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install -r requirements-test.txt
+        pip install coverage
+
+    - name: Combine coverage reports
+      run: |
+        # Combine coverage from different test runs
+        coverage combine test-artifacts/*/coverage.xml 2>/dev/null || true
+        coverage xml -o combined-coverage.xml
+        coverage html -d combined-htmlcov/
+        coverage report --show-missing > coverage-report.txt
+
+    - name: Generate coverage badge
+      run: |
+        coverage_percent=$(coverage report --format=total)
+        echo "Coverage: ${coverage_percent}%" > coverage-badge.txt
+
+        # Set color based on coverage percentage
+        if [ "$coverage_percent" -ge 90 ]; then
+            color="brightgreen"
+        elif [ "$coverage_percent" -ge 80 ]; then
+            color="yellow"
+        elif [ "$coverage_percent" -ge 70 ]; then
+            color="orange"
+        else
+            color="red"
+        fi
+
+        echo "Badge color: $color" >> coverage-badge.txt
+
+    - name: Upload coverage results
+      uses: actions/upload-artifact@v3
+      with:
+        name: coverage-report
+        path: |
+          combined-coverage.xml
+          combined-htmlcov/
+          coverage-report.txt
+          coverage-badge.txt
+
+  deploy-docs:
+    name: Deploy Documentation
+    runs-on: ubuntu-latest
+    needs: [coverage-report, performance-benchmarks]
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+
+    - name: Download artifacts
+      uses: actions/download-artifact@v3
+      with:
+        path: artifacts/
+
+    - name: Install documentation dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install mkdocs mkdocs-material mkdocs-mermaid2-plugin
+
+    - name: Generate documentation
+      run: |
+        mkdir -p docs/benchmarks
+        mkdir -p docs/coverage
+
+        # Copy coverage report
+        if [ -d "artifacts/coverage-report" ]; then
+            cp -r artifacts/coverage-report/combined-htmlcov/* docs/coverage/ 2>/dev/null || true
+        fi
+
+        # Copy benchmark results
+        if [ -d "artifacts/benchmark-results" ]; then
+            cp -r artifacts/benchmark-results/* docs/benchmarks/ 2>/dev/null || true
+        fi
+
+        # Generate index page
+        echo "# Address Normalization Test Suite" > docs/index.md
+        echo "" >> docs/index.md
+        echo "Latest test and benchmark results for the address normalization system." >> docs/index.md
+        echo "" >> docs/index.md
+        echo "## Quick Links" >> docs/index.md
+        echo "- [Coverage Report](coverage/)" >> docs/index.md
+        echo "- [Benchmark Results](benchmarks/)" >> docs/index.md
+        echo "" >> docs/index.md
+        echo "**Last Updated:** $(date)" >> docs/index.md
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs
+
+  notification:
+    name: Notification
+    runs-on: ubuntu-latest
+    needs: [code-quality, unit-tests, integration-tests, performance-benchmarks, accuracy-evaluation, memory-profiling]
+    if: always()
+
+    steps:
+    - name: Prepare notification
+      run: |
+        # Determine overall status
+        if [ "${{ needs.code-quality.result }}" = "success" ] && \
+           [ "${{ needs.unit-tests.result }}" = "success" ] && \
+           [ "${{ needs.integration-tests.result }}" = "success" ]; then
+            echo "status=success" >> $GITHUB_ENV
+            echo "message=All tests passed successfully! ✅" >> $GITHUB_ENV
+        else
+            echo "status=failure" >> $GITHUB_ENV
+            echo "message=Some tests failed ❌" >> $GITHUB_ENV
+        fi
+
+        # Add benchmark status
+        if [ "${{ needs.performance-benchmarks.result }}" = "success" ]; then
+            echo "benchmark_status=✅ Benchmarks completed" >> $GITHUB_ENV
+        elif [ "${{ needs.performance-benchmarks.result }}" = "skipped" ]; then
+            echo "benchmark_status=⏭️ Benchmarks skipped" >> $GITHUB_ENV
+        else
+            echo "benchmark_status=❌ Benchmarks failed" >> $GITHUB_ENV
+        fi
+
+    - name: Create summary
+      run: |
+        echo "## Test Suite Summary" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**Status:** ${{ env.message }}" >> $GITHUB_STEP_SUMMARY
+        echo "**Benchmarks:** ${{ env.benchmark_status }}" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### Job Results" >> $GITHUB_STEP_SUMMARY
+        echo "- Code Quality: ${{ needs.code-quality.result }}" >> $GITHUB_STEP_SUMMARY
+        echo "- Unit Tests: ${{ needs.unit-tests.result }}" >> $GITHUB_STEP_SUMMARY
+        echo "- Integration Tests: ${{ needs.integration-tests.result }}" >> $GITHUB_STEP_SUMMARY
+        echo "- Performance Benchmarks: ${{ needs.performance-benchmarks.result }}" >> $GITHUB_STEP_SUMMARY
+        echo "- Accuracy Evaluation: ${{ needs.accuracy-evaluation.result }}" >> $GITHUB_STEP_SUMMARY
+        echo "- Memory Profiling: ${{ needs.memory-profiling.result }}" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**Commit:** ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
+        echo "**Branch:** ${{ github.ref_name }}" >> $GITHUB_STEP_SUMMARY

@@ -21,7 +21,7 @@ from .models import (
 )
 from .ml_suggester import MLPatternSuggester
 from .validator import PatternValidator
-from .conflict_detector import ConflictDetector
+from .conflict_detector import PatternConflictDetector as ConflictDetector
 from .review_interface import PatternReviewInterface
 
 

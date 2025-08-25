@@ -1,4 +1,0 @@
-# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\patterns\thresholds.py
-# hypothesis_version: 6.138.2
-
-[0.0, 0.1, 0.2, 0.3, 0.5, 0.72, 0.9, 1.0, '.cache', '.tmp', 'PatternStats', 'adjustment_factor', 'current_threshold', 'default_threshold', 'ema_alpha', 'ema_success', 'has_enough_samples', 'is_adjusted', 'last_updated', 'max_threshold', 'min_threshold', 'nt', 'pattern_name', 'pattern_stats.json', 'patterns', 'r', 'seen', 'utf-8', 'w']

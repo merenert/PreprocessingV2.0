@@ -1,0 +1,5 @@
+# Enhanced CLI Dependencies
+rich>=13.0.0
+click>=8.0.0
+prompt-toolkit>=3.0.0
+typer>=0.9.0

@@ -1,4 +1,0 @@
-# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\utils\contracts.py
-# hypothesis_version: 6.138.2
-
-[0.0, 1.0, 100, 200, '5-digit postal code', 'AddressOut', 'Warning messages', '^[0-9-]+$', '^[0-9A-Za-z/-]+$', '^[0-9A-Za-z]+$', '^[0-9]{5}$', '^[A-Z]{2}$', '^[A-Za-z0-9]+$', 'alti', 'apartment', 'arkasi', 'block', 'building', 'city', 'confidence', 'country', 'district', 'entrance', 'explanation_raw', 'fallback', 'floor', 'ici', 'karsisi', 'method', 'ml', 'neighborhood', 'normalized_address', 'number', 'pattern', 'postcode', 'relation', 'street', 'ustu', 'warnings', 'yani', 'yaninda']

@@ -1,0 +1,276 @@
+{
+  "test_timestamp": "2025-08-25T17:55:57.379033",
+  "system_version": "Advanced Hybrid Address Normalizer v2.0",
+  "test_results": {
+    "csv_samples": {
+      "total_tested": 20,
+      "successful": 1,
+      "failed": 19,
+      "confidence_scores": [
+        0.0,
+        0.0,
+        0.7650867606173906,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "processing_times": [
+        1.4815330505371094,
+        1.5232563018798828,
+        3.538370132446289,
+        0.0,
+        1.4960765838623047,
+        0.9849071502685547,
+        1.0006427764892578,
+        2.0651817321777344,
+        0.9863376617431641,
+        0.9667873382568359,
+        0.49996376037597656,
+        0.5156993865966797,
+        0.4832744598388672,
+        0.7443428039550781,
+        0.5254745483398438,
+        0.9801387786865234,
+        0.5004405975341797,
+        1.392364501953125,
+        0.4985332489013672,
+        1.004934310913086
+      ],
+      "method_usage": {
+        "pattern": 1,
+        "ml": 0,
+        "legacy": 0,
+        "fallback": 19
+      }
+    },
+    "success_rate": 0.05,
+    "avg_confidence": 0.03825433803086953,
+    "avg_processing_time": 1.059412956237793
+  },
+  "system_metrics": {
+    "performance_stats": {
+      "basic_stats": {
+        "total_processed": 20,
+        "pattern_used": 1,
+        "ml_used": 0,
+        "legacy_used": 0,
+        "failed": 19,
+        "adaptive_optimizations": 1
+      },
+      "fallback_metrics": {
+        "pattern_success_rate": 0.05,
+        "ml_success_rate": 0.0,
+        "legacy_success_rate": 0.0,
+        "fallback_rate": 0.0,
+        "average_processing_time": 0.3483089907415982,
+        "total_processed": 20,
+        "layer_usage": {
+          "pattern": 1,
+          "ml": 0,
+          "legacy": 0,
+          "failed": 19
+        }
+      },
+      "layer_performance": {
+        "recent_success_rate": 0.05,
+        "average_layers_used": 2.9,
+        "total_recent_processed": 20
+      },
+      "adaptive_status": {
+        "enabled": true,
+        "error": "'LearningConfig' object has no attribute 'strategy'"
+      },
+      "threshold_history": [
+        {
+          "timestamp": "2025-08-25T17:55:57.315399",
+          "thresholds": {
+            "pattern": 0.8,
+            "ml": 0.75,
+            "legacy": 0.5
+          },
+          "trigger": "initialization"
+        },
+        {
+          "timestamp": "2025-08-25T17:55:57.353405",
+          "thresholds": {
+            "pattern": 0.7,
+            "ml": 0.7,
+            "legacy": 0.7
+          },
+          "trigger": "adaptive_optimization"
+        }
+      ]
+    },
+    "fallback_metrics": {
+      "pattern_success_rate": 0.05,
+      "ml_success_rate": 0.0,
+      "legacy_success_rate": 0.0,
+      "fallback_rate": 0.0,
+      "average_processing_time": 0.3483089907415982,
+      "total_processed": 20,
+      "layer_usage": {
+        "pattern": 1,
+        "ml": 0,
+        "legacy": 0,
+        "failed": 19
+      }
+    },
+    "compliance": {
+      "compliance_score": 1.0,
+      "details": {
+        "legacy_fallback": {
+          "implemented": true,
+          "zero_data_loss": true,
+          "fallback_metrics_available": true
+        },
+        "adaptive_learning": {
+          "implemented": true,
+          "threshold_optimization": true,
+          "performance_tracking": true,
+          "learning_feedback_loop": true
+        },
+        "hybrid_processing": {
+          "three_layer_fallback": true,
+          "pattern_ml_legacy_chain": true,
+          "metrics_collection": true,
+          "monitoring_enabled": true
+        },
+        "production_ready": {
+          "error_handling": true,
+          "performance_monitoring": true,
+          "threshold_history": true,
+          "statistics_tracking": true
+        }
+      },
+      "recommendations": [
+        "Process more addresses to build threshold optimization history"
+      ]
+    },
+    "adaptive_status": {
+      "enabled": true,
+      "performance_report": {
+        "system_overview": {
+          "auto_learning_enabled": true,
+          "total_patterns": 1,
+          "tracking_enabled": true,
+          "scheduler_running": true,
+          "report_timestamp": "2025-08-25T17:55:57.375522"
+        },
+        "learning_engine": {
+          "system_overview": {
+            "total_patterns_tracked": 1,
+            "total_processed": 1,
+            "overall_success_rate": 1.0,
+            "average_confidence": 0.07650867606173906,
+            "average_processing_time": 0.3538370132446289
+          },
+          "pattern_trends": {
+            "improving": 0,
+            "declining": 0,
+            "stable": 1,
+            "volatile": 0
+          },
+          "performance_by_type": {
+            "pattern": {
+              "count": 1,
+              "success_rate": 1.0,
+              "confidence": 0.07650867606173906
+            }
+          },
+          "optimization_stats": {
+            "total_optimizations": 0,
+            "recent_optimizations": 0,
+            "average_improvement": 0.0,
+            "last_optimization": null
+          },
+          "learning_state": {
+            "total_patterns_tracked": 0,
+            "total_optimizations": 0,
+            "average_improvement": 0.0,
+            "last_optimization_run": null,
+            "active_patterns": 0,
+            "system_performance": 0.0
+          }
+        },
+        "performance_tracker": {
+          "real_time_metrics": {
+            "total_patterns": 1,
+            "total_processed": 1,
+            "overall_success_rate": 1.0,
+            "average_confidence": 0.07650867606173906,
+            "average_processing_time": 0.3538370132446289,
+            "active_alerts": 0,
+            "tracking_enabled": true
+          },
+          "alerts": [],
+          "trends": {
+            "lookback_hours": 24,
+            "pattern_trends": {
+              "pattern_processing": {
+                "trend": "insufficient_data",
+                "events": 1
+              }
+            },
+            "system_trend": {
+              "trend": "insufficient_data",
+              "events": 1
+            },
+            "total_events": 1
+          }
+        },
+        "auto_updater": {
+          "is_running": true,
+          "enabled_schedules": [
+            "daily",
+            "weekly"
+          ],
+          "next_scheduled_runs": {
+            "daily": "Tomorrow at midnight",
+            "weekly": "Next Sunday at midnight"
+          },
+          "statistics": {
+            "total_runs": 0,
+            "successful_runs": 0,
+            "failed_runs": 0,
+            "total_patterns_optimized": 0,
+            "average_improvement": 0.0,
+            "last_run_time": null,
+            "next_scheduled_run": null
+          },
+          "active_threads": 2,
+          "executor_active": true
+        },
+        "optimization_recommendations": []
+      },
+      "current_thresholds": {
+        "pattern": 0.7,
+        "ml": 0.7,
+        "legacy": 0.7
+      },
+      "optimization_count": 1
+    }
+  },
+  "production_assessment": {
+    "ready": false,
+    "criteria_met": {
+      "success_rate": false,
+      "compliance": true,
+      "adaptive_learning": true,
+      "processing_speed": true
+    }
+  }
+}

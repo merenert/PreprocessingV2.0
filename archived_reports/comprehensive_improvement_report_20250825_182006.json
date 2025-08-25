@@ -1,0 +1,122 @@
+{
+  "test_timestamp": "2025-08-25T18:20:06.980817",
+  "test_type": "Direct Pattern Enhancement + Hybrid Integration",
+  "baseline_performance": {
+    "success_rate": 0.05,
+    "method": "original_hybrid_system"
+  },
+  "enhanced_performance": {
+    "success_rate": 0.4,
+    "avg_confidence": 0.3765,
+    "avg_processing_time": 0.1000523567199707,
+    "improvement_factor": 8.0
+  },
+  "combined_performance": {
+    "success_rate": 1.0,
+    "synergy_effective": true
+  },
+  "production_assessment": {
+    "criteria": {
+      "success_rate_70": false,
+      "confidence_60": false,
+      "processing_fast": true,
+      "significant_improvement": false
+    },
+    "ready": false,
+    "recommendation": "Major improvement achieved"
+  },
+  "successful_examples": [
+    {
+      "address": "Ergene Mahallesi 534 Sokak No:1/b İzmir Akın Sigorta",
+      "pattern": "mahalle_numeric_street",
+      "confidence": 0.95,
+      "normalized": "Ergene Mahallesi 534. Sokak No: 1",
+      "components": {
+        "neighborhood": "Ergene Mahallesi",
+        "street_number": "534",
+        "building_number": "1"
+      }
+    },
+    {
+      "address": "Bosch Siemens profilo yetkili servisi Yeni mah 618 sok no:5/...",
+      "pattern": "mahalle_numeric_street",
+      "confidence": 0.95,
+      "normalized": "Yeni Mah 618. Sokak No: 5",
+      "components": {
+        "neighborhood": "Yeni Mah",
+        "street_number": "618",
+        "building_number": "5"
+      }
+    },
+    {
+      "address": "Karaova mahallesi idareciler sitesi Lale sokak no 27 Kuşadas...",
+      "pattern": "mahalle_site_sokak",
+      "confidence": 0.95,
+      "normalized": "Karaova Mahallesi Lale Sokak No: 27 Idareciler Sitesi",
+      "components": {
+        "neighborhood": "Karaova Mahallesi",
+        "complex": "Idareciler Sitesi",
+        "street": "Lale Sokak",
+        "building_number": "27"
+      }
+    },
+    {
+      "address": "Kalabak Mah 3328 sokak, No 8, 35430 ,Urla",
+      "pattern": "mahalle_numeric_street",
+      "confidence": 0.95,
+      "normalized": "Kalabak Mah 3328. Sokak No: 8",
+      "components": {
+        "neighborhood": "Kalabak Mah",
+        "street_number": "3328",
+        "building_number": "8"
+      }
+    },
+    {
+      "address": "Zafer mah. 114.sk no:1 kat:3 daire:32 başar suites apartmanı...",
+      "pattern": "mah_sk_abbreviation",
+      "confidence": 0.8800000000000001,
+      "normalized": "Zafer Mah 114. Sokak No: 1",
+      "components": {
+        "neighborhood": "Zafer Mah",
+        "street_number": "114",
+        "building_number": "1"
+      }
+    },
+    {
+      "address": "Mordoğan mahallesi, Doğa evleri, 12.sokak, no:28 Karaburun",
+      "pattern": "mahalle_site_sokak",
+      "confidence": 0.95,
+      "normalized": "Mordoğan Mahallesi 12 Sokak No: 28 Doğa Evleri",
+      "components": {
+        "neighborhood": "Mordoğan Mahallesi",
+        "complex": "Doğa Evleri",
+        "street": "12 Sokak",
+        "building_number": "28"
+      }
+    },
+    {
+      "address": "Adnan Menderes Mahallesi 510. Sokak No 8 Efeler Aydin Daire ...",
+      "pattern": "mahalle_numeric_street",
+      "confidence": 0.95,
+      "normalized": "Menderes Mahallesi 510. Sokak No: 8",
+      "components": {
+        "neighborhood": "Menderes Mahallesi",
+        "street_number": "510",
+        "building_number": "8"
+      }
+    },
+    {
+      "address": "Erzene Mahallesi / 72.sokak/ no:3/ daire:2",
+      "pattern": "mahalle_numeric_street",
+      "confidence": 0.95,
+      "normalized": "Erzene Mahallesi 72. Sokak No: 3",
+      "components": {
+        "neighborhood": "Erzene Mahallesi",
+        "street_number": "72",
+        "building_number": "3"
+      }
+    }
+  ],
+  "patterns_tested": 5,
+  "total_samples": 20
+}

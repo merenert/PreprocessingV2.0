@@ -1,4 +1,0 @@
-# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\patterns\__init__.py
-# hypothesis_version: 6.138.2
-
-['CompiledPattern', 'CompiledSlot', 'MatchResult', 'PatternCompiler', 'PatternMatcher', 'PatternStats', 'ThresholdManager']

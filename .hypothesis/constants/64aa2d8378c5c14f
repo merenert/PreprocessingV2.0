@@ -1,4 +1,0 @@
-# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\validate\geo.py
-# hypothesis_version: 6.138.2
-
-[0.0, 0.6, 0.8, 1.0, 1000, 81999, '..', 'Empty city name', 'Empty district name', 'Empty postal code', 'Mn', 'NFD', '\\D', 'a', 'c', 'cities_count', 'cities_tr.csv', 'city_validation', 'data', 'data_source', 'district_validation', 'districts_count', 'districts_tr.json', 'fuzzy_matching', 'g', 'i', 'name', 'o', 'r', 'resources', 's', 'u', 'utf-8', 'â', 'ç', 'î', 'ö', 'û', 'ü', 'ğ', 'ı', 'ş']

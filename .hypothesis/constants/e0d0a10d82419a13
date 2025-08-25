@@ -1,4 +1,0 @@
-# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\explanation\spatial_analyzer.py
-# hypothesis_version: 6.138.2
-
-[0.0, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.95, 1.0, 3.0, '\\s+', 'avg_confidence', 'banka', 'benzinlik', 'biraz', 'complexity_score', 'direkt', 'eczane', 'first', 'gerçekten', 'hastane', 'hemen', 'hotel', 'ilk', 'kafe', 'last', 'little', 'market', 'max_confidence', 'okul', 'oldukça', 'otel', 'park', 'quite', 'really', 'relation_count', 'relation_types', 'restoran', 'son', 'tam', 'terminal', 'very', 'yaklaşık', '|', 'çok']

@@ -1,4 +1,0 @@
-# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\fallback\apply.py
-# hypothesis_version: 6.138.2
-
-[0.0, 0.2, 0.3, 0.8, 1.0, ' Mahallesi', ', ', 'Adres bilgisi eksik', 'FALLBACK', 'TurkishAddressRules', 'apartment', 'block', 'blok', 'building', 'city', 'components', 'confidence', 'confidence_range', 'daire', 'district', 'entrance', 'explanation_parsed', 'explanation_raw', 'fallback', 'floor', 'kat', 'mahalle', 'mahallesi', 'method', 'neighborhood', 'no', 'normalized_address', 'normalizer_type', 'number', 'pattern_stats', 'postcode', 'rule_engine', 'street', 'supported_fields', 'warnings']

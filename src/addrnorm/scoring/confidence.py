@@ -261,6 +261,43 @@ class ConfidenceCalculator:
         # Confidence calculation cache
         self._confidence_cache: Dict[str, ConfidenceScores] = {}
 
+    def calculate_confidence(self, result: Dict[str, Any], context: "ProcessingContext") -> ConfidenceScores:
+        """
+        Calculate confidence for processing result (legacy interface)
+
+        Args:
+            result: Processing result dictionary
+            context: Processing context
+
+        Returns:
+            ConfidenceScores with calculated confidence values
+        """
+        # Extract values from result
+        components = result.get("components", {})
+        success = result.get("success", True)
+
+        # Calculate detailed confidence metrics
+        result_dict = {"components": components, "success": success}
+        context_dict = {"pattern_match_score": 0.8 if success else 0.3, "pattern_quality": 0.7}
+        pattern_details = self._calculate_pattern_confidence(result_dict, context_dict)
+        ml_details = self._calculate_ml_confidence(result_dict, context_dict)
+
+        pattern_conf = pattern_details.overall if pattern_details else (0.8 if success else 0.3)
+        ml_conf = ml_details.overall if ml_details else (0.7 if success else 0.2)
+
+        # Use enhanced calculation method
+        return self.calculate_enhanced_confidence(
+            extracted_components=components,
+            pattern_confidence=pattern_conf,
+            ml_confidence=ml_conf,
+            processing_method=getattr(context, "method", "hybrid"),
+            input_text=result.get("original_text", ""),
+            processing_time_ms=getattr(context, "processing_time_ms", None),
+            pattern_details=pattern_details,
+            ml_details=ml_details,
+            pattern_id=getattr(context, "pattern_id", None),
+        )
+
     def calculate_enhanced_confidence(
         self,
         extracted_components: Dict[str, str],
@@ -270,6 +307,8 @@ class ConfidenceCalculator:
         input_text: str = "",
         processing_time_ms: Optional[float] = None,
         pattern_id: Optional[str] = None,
+        pattern_details: Optional[PatternConfidence] = None,
+        ml_details: Optional[MLConfidence] = None,
     ) -> ConfidenceScores:
         """
         Calculate confidence scores for enhanced output format
@@ -327,29 +366,18 @@ class ConfidenceCalculator:
 
         # Create confidence scores
         confidence_scores = ConfidenceScores(
-            pattern_confidence=pattern_conf,
-            ml_confidence=ml_conf,
-            overall_confidence=overall_conf,
-            method_confidence=overall_conf,
-            component_confidence={},
+            pattern=pattern_conf,
+            ml=ml_conf,
+            overall=overall_conf,
+            primary_method_confidence=overall_conf,
             processing_method=(
                 ProcessingMethod(processing_method)
                 if processing_method
                 in ["pattern_primary", "pattern_secondary", "ml_primary", "ml_secondary", "hybrid", "fallback"]
                 else ProcessingMethod.FALLBACK
             ),
-            calculation_details=(
-                {
-                    "pattern_weight": self.pattern_weight,
-                    "ml_weight": self.ml_weight,
-                    "completeness_bonus": completeness_bonus,
-                    "consistency_modifier": consistency_modifier,
-                    "processing_time_ms": processing_time_ms,
-                    "pattern_id": pattern_id,
-                }
-                if self.enable_detailed_breakdown
-                else {}
-            ),
+            pattern_details=pattern_details,
+            ml_details=ml_details,
         )
 
         return confidence_scores

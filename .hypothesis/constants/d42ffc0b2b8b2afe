@@ -1,4 +1,0 @@
-# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\patterns\matcher.py
-# hypothesis_version: 6.138.2
-
-[0.0, 0.05, 0.1, 0.2, 0.3, 0.6, 0.7, 0.8, 0.9, 1.0, '  No matches found', '-', '=', '__main__', 'coverage', 'edit_distance', 'exact_match_weight', 'extra_text_penalty', 'good_match_threshold', 'keywords', 'location_indicators', 'low_importance', 'named', 'number', 'patterns_by_priority', 'slot_types', 'slot_weights', 'slots', 'text', 'token_overlap', 'token_overlap_weight', 'total_patterns']

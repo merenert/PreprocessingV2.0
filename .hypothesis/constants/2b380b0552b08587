@@ -1,4 +1,0 @@
-# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\ml\infer.py
-# hypothesis_version: 6.138.2
-
-[0.0, 0.5, 0.8, 'BULVAR', 'CADDE', 'DAIRE', 'IL', 'ILCE', 'KAT', 'MAH', 'NO', 'SOKAK', 'Unknown error', 'bulvar', 'cadde', 'confidence', 'confidence_threshold', 'daire', 'end', 'entities', 'entity_count', 'error', 'fallback_used', 'il', 'ilce', 'is_available', 'kat', 'label', 'mahalle', 'method', 'ml_details', 'ml_error', 'ml_fallback', 'model_loaded', 'model_path', 'normalized', 'numara', 'original_address', 'original_text', 'pattern_matching', 'processed_text', 'score', 'sokak', 'spacy_available', 'start', 'success', 'text', 'unknown']

@@ -1,4 +1,0 @@
-# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\explanation\relations.py
-# hypothesis_version: 6.138.2
-
-[0.0, 0.05, 0.1, 0.2, 0.3, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1.0, '.*\\d+', '\\d+.*', 'alt', 'altı', 'altında', 'arası', 'arasında', 'arka', 'arkası', 'arkasında', 'aşağısında', 'banka', 'bitişik', 'bitişiği', 'bitişiğinde', 'cami', 'civarda', 'civarında', 'dahilinde', 'dış', 'dışı', 'dışında', 'etrafı', 'etrafında', 'geri', 'gerisinde', 'haricinde', 'hastane', 'hotel', 'iç', 'içi', 'içinde', 'karşı', 'karşısı', 'karşısında', 'kenarı', 'kenarında', 'market', 'okul', 'orta', 'ortasında', 'park', 'yakını', 'yakınında', 'yan', 'yanı', 'yanında', 'yukarısında', '|', 'çevresi', 'çevresinde', 'ön', 'önde', 'önü', 'önünde', 'üst', 'üstü', 'üstünde', 'üzerinde']

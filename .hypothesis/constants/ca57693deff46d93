@@ -1,4 +1,0 @@
-# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\scoring\confidence.py
-# hypothesis_version: 6.138.2
-
-[0.0, 0.001, 0.1, 0.15, 0.2, 0.25, 0.3, 0.4, 0.5, 0.6, 0.7, 0.75, 0.8, 0.9, 1.0, 2.0, '_', 'coverage_score', 'extracted_fields', 'fallback', 'feature_quality', 'high', 'hybrid', 'low', 'match_score', 'medium', 'method_used', 'ml', 'ml_breakdown', 'ml_fallback', 'ml_model_confidence', 'ml_only', 'ml_primary', 'ml_secondary', 'model_confidence', 'normalized_address', 'overall', 'pattern', 'pattern_breakdown', 'pattern_coverage', 'pattern_fallback', 'pattern_match_score', 'pattern_only', 'pattern_primary', 'pattern_quality', 'pattern_secondary', 'pattern_specificity', 'prediction_entropy', 'specificity', 'training_similarity', 'unknown', 'very_high', 'very_low']

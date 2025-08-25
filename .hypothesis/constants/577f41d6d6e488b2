@@ -1,4 +1,0 @@
-# file: C:\Users\Meren\PycharmProjects\PreprocessingV2.0\src\addrnorm\preprocess\core.py
-# hypothesis_version: 6.138.2
-
-['(?=\\s|$)', '.', ':', ':(?=\\s|\\w|$)', 'I', 'NFC', 'NFD', '\\b', '\\s+', 'abbreviation_mapping', 'clean_punctuation', 'expand_abbreviations', 'i', 'i̇', 'normalize_case', 'normalize_unicode', 'r', 'text', 'tokens', 'utf-8', '|', 'Ç', 'Ö', 'Ü', 'ç', 'ö', 'ü', 'Ğ', 'ğ', 'İ', 'ı', 'ı̇', 'Ş', 'ş']

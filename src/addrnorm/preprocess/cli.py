@@ -127,6 +127,40 @@ def process_single_address(address: str, enhanced_output: bool = False, use_hybr
         return result.model_dump()
 
 
+def _add_processing_args(parser):
+    """Add processing arguments to a parser"""
+    parser.add_argument("--input", "-i", help="Input file containing raw addresses (one per line)")
+    parser.add_argument("--output", "-o", help="Output JSON file (default: stdout)")
+    parser.add_argument("--stdin", action="store_true", help="Read from stdin instead of file")
+    parser.add_argument("--text", "-t", help="Process a single text string")
+    parser.add_argument("--hybrid", action="store_true", help="Use hybrid ML + pattern processing (default: pattern only)")
+    parser.add_argument(
+        "--enhanced-output", action="store_true", help="Use enhanced output format with confidence scores and quality metrics"
+    )
+    parser.add_argument("--format", choices=["json", "compact"], default="json", help="Output format (default: json)")
+
+
+def _handle_monitoring_commands(args):
+    """Handle monitoring-related commands"""
+    try:
+        if args.command == "monitor":
+            from ..cli.monitoring import cmd_monitor
+
+            cmd_monitor(args)
+        elif args.command == "analytics":
+            from ..cli.monitoring import cmd_analytics
+
+            cmd_analytics(args)
+    except ImportError as e:
+        print(f"Error: Monitoring functionality not available: {e}")
+        print("Make sure all monitoring dependencies are installed.")
+        return False
+    except Exception as e:
+        print(f"Error in monitoring command: {e}")
+        return False
+    return True
+
+
 def main():
     """Main CLI function."""
     parser = argparse.ArgumentParser(
@@ -145,27 +179,43 @@ Examples:
 
   # Read from stdin with compact output
   echo "İstanbul Kadıköy Moda Mah." | %(prog)s --stdin --hybrid
+
+  # Monitoring commands
+  %(prog)s monitor --live              # Real-time dashboard
+  %(prog)s analytics --period 30d     # Analytics report
+  %(prog)s analytics --optimize-thresholds  # Threshold optimization
         """,
     )
 
-    parser.add_argument("--input", "-i", help="Input file containing raw addresses (one per line)")
+    subparsers = parser.add_subparsers(dest="command", help="Available commands")
 
-    parser.add_argument("--output", "-o", help="Output JSON file (default: stdout)")
+    # Main processing command (default)
+    process_parser = subparsers.add_parser("process", help="Process addresses (default)")
+    _add_processing_args(process_parser)
 
-    parser.add_argument("--stdin", action="store_true", help="Read from stdin instead of file")
+    # Monitoring commands
+    monitor_parser = subparsers.add_parser("monitor", help="Real-time monitoring dashboard")
+    monitor_parser.add_argument("--live", action="store_true", help="Enable live monitoring mode")
 
-    parser.add_argument("--text", "-t", help="Process a single text string")
-
-    parser.add_argument("--hybrid", action="store_true", help="Use hybrid ML + pattern processing (default: pattern only)")
-
-    parser.add_argument(
-        "--enhanced-output", action="store_true", help="Use enhanced output format with confidence scores and quality metrics"
+    analytics_parser = subparsers.add_parser("analytics", help="Generate analytics reports")
+    analytics_parser.add_argument("--period", help="Analysis period (e.g., 30d, 24h)", default="30d")
+    analytics_parser.add_argument("--output", help="Output file path (JSON or HTML)")
+    analytics_parser.add_argument("--pattern-id", help="Specific pattern to analyze")
+    analytics_parser.add_argument("--detailed", action="store_true", help="Include detailed metrics")
+    analytics_parser.add_argument(
+        "--optimize-thresholds", action="store_true", help="Include threshold optimization recommendations"
     )
 
-    parser.add_argument("--format", choices=["json", "compact"], default="json", help="Output format (default: json)")
+    # Legacy direct arguments (for backward compatibility)
+    _add_processing_args(parser)
 
     args = parser.parse_args()
 
+    # Handle monitoring commands
+    if args.command in ["monitor", "analytics"]:
+        return _handle_monitoring_commands(args)
+
+    # Handle processing (original functionality)
     if args.text:
         # Process single text
         result = process_single_address(args.text, args.enhanced_output, args.hybrid)
